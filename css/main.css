@@ -109,12 +109,19 @@ img {
 
 	/*Coverpage*/
 	.cover {
-		padding-top: 5rem;
+    margin-top:7rem;
 	}
 
 	#coverpage {
 		height: 100vh;
 	}
+
+  .page {
+      margin-top:0.2rem;
+	}
+  	#page {
+  		height: 100vh;
+  	}
 
 
   .icon-arrow-down{
@@ -132,6 +139,52 @@ img {
     text-decoration: underline;
 }
 
+
+.fuso-image{
+  height: 60%;
+  width: auto;
+  position: absolute;
+  /* left:var(--mouse-x, 100)*100px;
+  top:var(--mouse-x, 100)*100px; */
+}
+
+.image-project{
+  margin-top:0.6%;
+  height: 50%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.main-title{
+  /* font-size: 12em;
+  line-height: 1.25em;
+  font-weight: 500; */
+  margin-top:1.5rem;
+}
+
+.main-subtitle{
+  margin-top:0.2rem;
+  font-size: 2em;
+  line-height: 1.25em;
+  font-weight: 500;
+}
+
+
+.margin-fifty {
+	/* margin-left: 50px; */
+	/* margin-right: 50px; */
+}
+
+.margin-hundred {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
 /* -------------------- */
 /* Navigation */
 /* -------------------- */
@@ -143,7 +196,7 @@ img {
   width: 100%;
   line-height: 1em;
   padding: .5em 1em .2em;
-  border-bottom: 2px solid black;
+  border-bottom: 1.5px solid black;
 }
 
 .main-nav .left {
@@ -164,11 +217,18 @@ img {
   float:right;
 }
 
+.fixed-posit{
+ overflow: hidden;
+ background-color: #FFF;
+ position: fixed; /* Set the navbar to fixed position */
+ top: 0; /* Position the navbar at the top of the page */
+ width: 100%; /* Full width */
+  z-index: 100;
+}
 
 .bar-menu {
   /* border-right: 1.5px solid black; */
   padding-top: 20px;
-  padding-bottom: 15px;
   text-align: left;
 
 }
@@ -179,30 +239,33 @@ img {
   padding-top: 20px;
   padding-bottom: 15px;
   text-align: left;
-}
+  }
 
-.bar-menu-contact{
-  padding-top: 20px;
-  padding-bottom: 15px;
-  text-align: left;
-}
+  .bar-menu-contact {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+  }
 
-.padding-zero{
-  padding-right: 0px;
-  padding-left: 0px;
-}
+  .bar-about {
+    padding-top: 20px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    border-right: 1.5px solid black;
+    text-transform: uppercase;
+  }
 
-.main-title{
-  font-size: 12em;
-  line-height: 1.25em;
-  font-weight: 500;
-}
+  .bar-about-right {
+    padding-top: 20px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    text-transform: uppercase;
+  }
 
-.main-subtitle{
-  font-size: 1em;
-  line-height: 1.25em;
-  font-weight: 500;
-}
+  .padding-zero {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 
 
 /* -------------------- */

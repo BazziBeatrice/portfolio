@@ -1,87 +1,46 @@
 // JavaScript Document
 
+ $('#fuso').hide();
 
-// navbar background color change on scroll
-$(window).scroll(
-        function(){
-                        var scroll = $(window).scrollTop();
-                        if (scroll < 1300) {$('.nav-bar-transition').css('background','none'); }
-                        else {  $('.nav-bar-transition').css('background','black');}
-                  }
-)
+         $(document).on('mouseenter mouseleave', '#project02', function(){
+    // By giving this function two triggers, the same action is performed for each trigger
+    $('#fuso').toggle();
+});
 
-//variables
 
 $(document).ready(function(){
 
-        pageName= location.pathname.substring(location.pathname.lastIndexOf("/")+1);
-        pageName= pageName.substring(0,pageName.lastIndexOf("."))
-        // console.log(pageName);
+  //this function makes the category image appear on hover
+  // $('.fuso-image').hide();
 
-                // CheckCartIcon();
-                // FillCart();
-
-
-
-
-        //add to cart btn unhides elements
-                $("#addCartbtn").click(
-                        function() {
-                                    localStorage.setItem(pageName, "true");
-                                    CheckCartIcon();
-                                    FillCart();
-                                  }
-                );
+         //  $('#project02').hover(function() {
+         //    $('#fuso').show();
+         // },function() {
+         //   $('#fuso').hide();
+         // });
 
 
-        //this function makes the category image appear on hover
-
-                $("#MAKE").hover(
-                        function(){     if (windWidth>1100 && windWidth<2000) {
-                                                $("#CategoryContainer").addClass("CategoryImgFadeIn");
-                                                $("#CategoryContainer").css("background-image", "url('assets/images/category01.jpg')")
-                                        }
-                                  },
-
-                        function(){      if (windWidth>1100 && windWidth<2000) {
-                                                $("#CategoryContainer").removeClass("CategoryImgFadeIn");
-                                                $("#CategoryContainer").css("background-image", "none")
-                                        }
-                                  }
-                );
-
-                 $("#LEAVE").hover(
-                        function(){
-                                        if (windWidth>1100 && windWidth<2000) {
-                                                $("#CategoryContainer").addClass("CategoryImgFadeIn");
-                                                $("#CategoryContainer").css("background-image", "url('assets/images/category02.jpg')")
-                                        }
-                                  },
-
-                        function(){      if (windWidth>1100 && windWidth<2000) {
-                                                $("#CategoryContainer").removeClass("CategoryImgFadeIn");
-                                                $("#CategoryContainer").css("background-image", "none")
-                                        }
-                                  }
-                );
-
+         // $("#project02").hover(
+         //       function(){ $(this).css("opacity", "0");
+         //             $(".fuso-image").css("opacity", "1");
+         //             },
+         //       function(){ $(this).css("opacity", "1");
+         //             $(".fuso-image").css("opacity", "0");
+         //             }
+         // );
 
 
 
         //about--------------------------------------------//
 
-                $("#makeyourpresence").hover(
-                      function(){ $(this).css("opacity", "0");
-                            $("#makeyourpresence_hover").css("opacity", "1");
-                            },
-                      function(){ $(this).css("opacity", "1");
-                            $("#makeyourpresence_hover").css("opacity", "0");
-                            }
-                );
+                // $("#makeyourpresence").hover(
+                //       function(){ $(this).css("opacity", "0");
+                //             $("#makeyourpresence_hover").css("opacity", "1");
+                //             },
+                //       function(){ $(this).css("opacity", "1");
+                //             $("#makeyourpresence_hover").css("opacity", "0");
+                //             }
+                // );
 
 
-
-//LOADER
-
-var loader = document.getElementById("loader");
 })
