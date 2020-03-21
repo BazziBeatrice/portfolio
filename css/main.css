@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "neue-haas-grotesk-display", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -43,6 +43,7 @@
   -webkit-font-smoothing: antialiased !important;
   outline: none;
 }
+/* html, body, .container{ height: 100%; margin: 0; padding: 0; } */
 
 body {
   padding: 0;
@@ -58,11 +59,33 @@ html {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "MAZIUSREVIEW20.09-Regular", serif;
+h1{
+  font-family: "MAZIUSREVIEW20.09-Regular", sans-serif;
   font-size: 2.5rem;
   line-height: 4.75rem;
   font-weight: 400;
+}
+
+h2{
+  font-family: "MAZIUSREVIEW20.09-Regular", sans-serif;
+  font-size: 2.3rem;
+  line-height: 4.50rem;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "MAZIUSREVIEW20.09-Regular", sans-serif;
+}
+
+.description{
+  font-family:"neue-haas-grotesk-display", serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+.description-down{
+  margin-top:4rem;
+  vertical-align: bottom;
 }
 
 p {
@@ -87,6 +110,7 @@ img {
 
 .page {
   width: 100%;
+  margin-top:0.2rem;
 }
 .flex {
   display: flex;
@@ -116,13 +140,15 @@ img {
 		height: 100vh;
 	}
 
-  .page {
-      margin-top:0.2rem;
-	}
   	#page {
   		height: 100vh;
   	}
-
+.footer{
+  position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+}
 
   .icon-arrow-down{
     margin-top:5rem;
@@ -155,7 +181,50 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
 
+.image-project-2{
+  margin-top:0.6%;
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.image-project-3 {
+  width: 33%;
+  display: inline-block;
+  padding-left: 15px;
+}
+.image-project-4 {
+  width: 49.5%;
+  height: auto;
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.image-project-5 {
+  margin-top:0.6%;
+  height: auto;
+  width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-project-6 {
+  width: 24.75%;
+  height: auto;
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.image-physicalinternet{
+  margin-top:0.6%;
+  height: 15%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -268,6 +337,42 @@ img {
   }
 
 
+  /* -------------------- */
+  /* Images grid */
+  /* -------------------- */
+
+
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-columns: 500px 500px 500px; */
+  }
+
+  .box {
+    /* padding: 20px; */
+    font-size: 150%;
+  }
+
+  .a {
+    grid-column: 1 /3;
+    grid-row:  1 / 2;
+  }
+
+  .b {
+    grid-column: 3;
+    grid-row: 1 /3 ;
+  }
+
+  .c {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .d {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
 /* -------------------- */
 /* Project list */
 /* -------------------- */
@@ -347,6 +452,13 @@ img {
 /* About */
 /* -------------------- */
 
+.about{
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 #about {
   z-index: 1;
   width: 100%;
@@ -366,6 +478,7 @@ img {
 }
 
 #about.active {
+  position:absolute;
   bottom: 0;
 }
 
