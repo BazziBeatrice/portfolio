@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 @font-face {
   font-family: "neue-haas-grotesk-display", sans-serif;
@@ -61,8 +62,8 @@ html {
 
 h1{
   font-family: "MAZIUSREVIEW20.09-Regular", sans-serif;
-  font-size: 2.5rem;
-  line-height: 4.75rem;
+  font-size: 2.7rem;
+  line-height: 5rem;
   font-weight: 400;
 }
 
@@ -254,6 +255,28 @@ width: 100%;
 }
 
 
+
+/* -------------------- */
+/* sections home page for scrolling */
+/* -------------------- */
+
+#section1 {
+  height: 600px;
+  /* background-color: pink; */
+}
+
+#section2 {
+  height: 600px;
+  /* background-color: yellow; */
+}
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
 /* -------------------- */
 /* Navigation */
 /* -------------------- */
