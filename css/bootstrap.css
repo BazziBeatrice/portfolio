@@ -33,7 +33,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "SuisseIntl", "neue-haas-grotesk-display";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --font-family-serif:"MAZIUSREVIEW20.09-Regular" ;
+  --font-family-serif:"maziusDisplay" ;
 }
 
 *,
@@ -75,7 +75,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "MAZIUSREVIEW20.09-Regular", serif;
+  font-family: "maziusDisplay", serif;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }

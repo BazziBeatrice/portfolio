@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 @font-face {
   font-family: "neue-haas-grotesk-display", sans-serif;
@@ -8,21 +8,37 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "MAZIUSREVIEW20.09-Regular", serif;
   font-weight: 400;
   font-style: normal;
     src: url("assets/fonts/MAZIUSREVIEW2009-Regular.eot") format('embedded-opentype'),
-      url("assets/fonts/MAZIUSREVIEW2009-Regular.ttf") format('truetype'),
+         url("assets/fonts/MAZIUSREVIEW2009-Regular.ttf") format('truetype'),
          url("assets/fonts/MAZIUSREVIEW2009-Regular.woff") format('woff'),
-}
+} */
 
-/* @font-face {
-  font-family: 'MAZIUS REVIEW 20.09';
+@font-face {
+  font-family: "maziusDisplay";
+  font-weight: 400;
+  font-style: normal;
+  /* font-stretch: normal; */
+  src: local('MAZIUSREVIEW20.09-Regular'), local('MAZIUSREVIEW20.09-Regular'), url(http://collletttivo.it/assets/fonts/MaziusDisplayRegular.woff2) format('woff2');
+http://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2
+}
+@font-face {
+  font-family: "maziusDisplay";
   font-weight: 400;
   font-style: italic;
-  src: url("./assets/fonts/MAZIUSREVIEW20.09-Italic.otf");
-} */
+  /* font-stretch: normal; */
+  src: local('MAZIUSREVIEW20.09-Italic'), local('MAZIUSREVIEW20.09-Italic'), url(http://collletttivo.it/assets/fonts/MaziusDisplayItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: "maziusDisplay";
+  font-weight: 300;
+  font-style: italic;
+  /* font-stretch: normal; */
+  src: local('MAZIUSREVIEW20.09-Extra-Italic'), local('MAZIUSREVIEW20.09-Extra-Italic'), url(http://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2) format('woff2');
+}
 
 
 :root {
@@ -61,21 +77,21 @@ html {
 
 
 h1{
-  font-family: "MAZIUSREVIEW20.09-Regular", sans-serif;
+  font-family: "maziusDisplay", serif;
   font-size: 2.7rem;
   line-height: 5rem;
   font-weight: 400;
 }
 
 h2{
-  font-family: "MAZIUSREVIEW20.09-Regular", sans-serif;
+  font-family: "maziusDisplay", serif;
   font-size: 2.3rem;
   line-height: 4.50rem;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "MAZIUSREVIEW20.09-Regular", sans-serif;
+  font-family: "maziusDisplay", serif;
 }
 
 .description{
@@ -84,10 +100,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 2.4rem;
   font-weight: 400;
 }
+
 .description-down{
   margin-top:4rem;
   vertical-align: bottom;
 }
+
+
+
 
 p {
   line-height: 1.25em;
@@ -160,9 +180,24 @@ width: 100%;
     margin-right: auto;
   }
 
+  .closing-x{
+    height: 2.3%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    margin-top:20px;
+  }
+
 
 .text-hover a:hover{
     color: black;
+    text-decoration: underline;
+}
+
+.text-hover-white a:hover{
+    color: white;
     text-decoration: underline;
 }
 
@@ -193,12 +228,13 @@ width: 100%;
 
 .image-project-3 {
   width: 33%;
+  height: 33%;
   display: inline-block;
   padding-left: 15px;
 }
 .image-project-4 {
   width: 49.5%;
-  height: auto;
+  height: 49.5%;
   display: inline-block;
   padding-left: 15px;
   padding-top: 15px;
@@ -213,7 +249,7 @@ width: 100%;
 }
 .image-project-6 {
   width: 24.75%;
-  height: auto;
+  height: 24.75%;
   display: inline-block;
   padding-left: 15px;
   padding-top: 15px;
@@ -235,6 +271,9 @@ width: 100%;
   font-weight: 500; */
   margin-top:1.5rem;
 }
+.curriculum-description{
+    margin-top:0.5rem;
+}
 
 .main-subtitle{
   margin-top:0.2rem;
@@ -250,11 +289,17 @@ width: 100%;
 }
 
 .margin-hundred {
-	margin-left: 100px;
-	margin-right: 100px;
+	/* margin-left: 100px;
+	margin-right: 100px; */
 }
 
+/* -------------------- */
+/* home page */
+/* -------------------- */
 
+#image-when-hovering-text{
+  z-index:10;
+}
 
 /* -------------------- */
 /* sections home page for scrolling */
@@ -269,14 +314,15 @@ width: 100%;
   height: 600px;
   /* background-color: yellow; */
 }
-[aos="fade"] {
+
+/* [aos="fade"] {
   opacity: 0;
   transition-property: opacity;
 }
 
 [aos="fade"].aos-animate {
   opacity: 1;
-}
+} */
 /* -------------------- */
 /* Navigation */
 /* -------------------- */
@@ -358,6 +404,25 @@ width: 100%;
     padding-right: 0px;
     padding-left: 0px;
   }
+
+
+  /* -------------------- */
+  /* curriculum */
+  /* -------------------- */
+
+  .curriculum-bg{
+    background-color: #078843;
+  }
+
+  .curriculum-description{
+  font-family:"neue-haas-grotesk-display", serif;
+    font-size: 1.7rem;
+    line-height: 2.50rem;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+  }
+
 
 
   /* -------------------- */

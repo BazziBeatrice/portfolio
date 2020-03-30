@@ -1,5 +1,10 @@
 // JavaScript Document
+AOS.init({
+ duration: 1200
+});
+
 $(document).ready(function(){
+
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -45,9 +50,7 @@ $(document).ready(function(){
 });
 
 
-AOS.init({
-  duration: 1200,
-})
+
 //
 //  $('#fuso').hide();
 //
