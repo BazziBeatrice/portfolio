@@ -184,10 +184,10 @@ width: 100%;
     height: 2.3%;
     width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     position: fixed;
-    margin-top:20px;
+    margin-top: 25px;
   }
 
 
@@ -263,6 +263,51 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+.image-contratempo{
+  margin-top:0.6%;
+  height: 14%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-outforia{
+  margin-top:0.6%;
+  height: 20%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-setjettersunited{
+  margin-top:0.6%;
+  height: 32.5%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-atavola{
+  margin-top:0.6%;
+  height: 4.7%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-placemaking{
+  margin-top:0.6%;
+  height: 60%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 .main-title{
@@ -359,6 +404,15 @@ width: 100%;
  overflow: hidden;
  background-color: #FFF;
  position: fixed; /* Set the navbar to fixed position */
+ top: 0; /* Position the navbar at the top of the page */
+ width: 100%; /* Full width */
+  z-index: 100;
+}
+
+.non-fixed-posit{
+ /* overflow: hidden; */
+ background-color: #FFF;
+ position: absolute;; /* Set the navbar to fixed position */
  top: 0; /* Position the navbar at the top of the page */
  width: 100%; /* Full width */
   z-index: 100;
