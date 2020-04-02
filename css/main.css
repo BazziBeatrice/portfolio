@@ -81,6 +81,7 @@ h1{
   font-size: 2.7rem;
   line-height: 5rem;
   font-weight: 400;
+  text-align: center;
 }
 
 h2{
@@ -88,10 +89,12 @@ h2{
   font-size: 2.3rem;
   line-height: 4.50rem;
   font-weight: 400;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "maziusDisplay", serif;
+    text-align: center;
 }
 
 .description{
@@ -302,6 +305,15 @@ width: 100%;
 .image-placemaking{
   margin-top:0.6%;
   height: 60%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-fuso{
+  margin-top:0.6%;
+  height: 100%;
   width: auto;
   display: block;
   margin-left: auto;
@@ -705,6 +717,43 @@ width: 100%;
 #overview.arr-back, .project-content.arr-back {
   cursor: url("./assets/images/arrow-left.png") 32 32, auto;
 } */
+
+
+/* -------------------- */
+/* CAROSELLO A TAVOLA*/
+/* -------------------- */
+
+
+/*Carousel*/
+.image-carousel{
+    height:auto;
+    width: 40%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.freccia {
+	width: 20px;
+	display: block;
+  vertical-align: middle;
+}
+
+.hidden-arrow-desktop {
+    display: none;
+}
+
+p.orangebold {
+	color: #F39200;
+	font-weight: 500;
+}
+
+p.orangep {color:#F39200; }
+
+.titles {margin-bottom: 50px;
+font-weight: 600;}
+
+
+
 
 
 
