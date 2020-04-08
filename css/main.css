@@ -42,8 +42,7 @@ http://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2
 
 
 :root {
-  /* Font variables */
-  /* --txt-normal:     1.5rem; */
+  /* --txt-normal:  1.5rem; */
   --txt-normal:     1.1rem;
   --txt-medium:     1.875rem;
   --txt-big:        2.25rem;
@@ -108,8 +107,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top:4rem;
   vertical-align: bottom;
 }
-
-
 
 
 p {
@@ -355,9 +352,27 @@ width: 100%;
 /* home page */
 /* -------------------- */
 
-#image-when-hovering-text{
-  z-index:10;
+/* #image-when-hovering-text{
+  position:absolute;
+
 }
+
+#image-when-hovering-text2 {
+  display: none; }
+
+  #project01:hover #image-when-hovering-text2 {
+    display: inline;
+    top: "calc(var(--mouse-x, 0) * 100%)";
+    left:"calc(var(--mouse-y, 0) * 100%)";
+  overflow: visible;
+}
+
+#btn {
+  position:absolute;
+    display:none;
+} */
+
+
 
 /* -------------------- */
 /* sections home page for scrolling */
@@ -754,9 +769,30 @@ p.orangep {color:#F39200; }
 font-weight: 600;}
 
 
+/* -------------------- */
+/* INDEX PROVA HOVER*/
+/* -------------------- */
 
 
+/* top: '--mouse-x';
+left:'--mouse-y'; */
 
+/* .cover-img{
+
+visibility: hidden;
+}
+
+#project01:hover .cover-img {
+    visibility: visible;
+    width: 150px;
+  height: 150px;
+  position: absolute;
+  display: block;
+  z-index: 100;
+} */
+
+/*
+(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), yellow, green)  */
 
 /* -------------------- */
 /* Media Queries */

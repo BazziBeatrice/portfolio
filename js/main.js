@@ -1,7 +1,26 @@
 // JavaScript Document
+
+
+//get mouse position--------------------------------------------//
+const root = document.documentElement;
+
+document.addEventListener('mousemove', evt => {
+    let x = evt.clientX / innerWidth;
+    let y = evt.clientY / innerHeight;
+
+    root.style.setProperty('--mouse-x', x);
+    root.style.setProperty('--mouse-y', y);
+});
+//get mouse position--------------------------------------------//
+
+
+//aos animation--------------------------------------------//
+// var AOS = require('aos');
 AOS.init({
  duration: 1200
 });
+//aos animation--------------------------------------------//
+
 
 $(document).ready(function(){
 
@@ -25,27 +44,83 @@ $(document).ready(function(){
   });
 
 
+    //
+    //
+    // var yOff = 15;
+    // var xOff = -20;
+    //
+    // $(".text-hover-image").hover(function (e) {
+    //     $("body").append("<h1 id='image-when-hovering-text'><img src='./assets/images/spleen-1.png'/></h1>");
+    //     $("#image-when-hovering-text")
+    //         .css("position", "absolute")
+    //         .css("top", (e.pageY - yOff))
+    //         .css("left", (e.pageX + xOff))
+    //         // .fadeIn("fast");
+    //         console.log("ok");
+    // }, function () {
+    //    $("#image-when-hovering-text").remove();
+    // });
+    //
+    // $(".text-hover-image").mousemove(function (e) {
+    //     $("#image-when-hovering-text")
+    //         .css("top", ('--mouse-y'))
+    //         .css("left", ('--mouse-x'));
+    // });
+    //
+    // $(".text-hover-image2").hover(function (e) {
+    //     $("body").append("<h1 id='image-when-hovering-text'><img src='./assets/images/outforia-1.jpg'/></h1>");
+    //     $("#image-when-hovering-text")
+    //         .css("position", "absolute")
+    //
+    //         // .fadeIn("fast");
+    //         console.log("ok");
+    // }, function () {
+    //    $("#image-when-hovering-text").remove();
+    // });
+    //
+    // $(".text-hover-image2").mousemove(function (e) {
+    //     $("#image-when-hovering-text")
+    //
+    // });
 
 
-    var yOff = 15;
-    var xOff = -20;
 
-    $(".text-hover-image").hover(function (e) {
-        $("body").append("<h1 id='image-when-hovering-text'><img src='./assets/images/spleen-1.png'/></h1>");
-        $("#image-when-hovering-text")
-            .css("position", "absolute")
-            .css("top", (e.pageY - yOff))
-            .css("left", (e.pageX + xOff))
-            // .fadeIn("fast");
-    }, function () {
-       $("#image-when-hovering-text").remove();
-    });
+//     $('#project03').hover(
+//     function() {
+//         $('#btn').fadeIn('slow');;
+//         console.log("ok");
+//     },function() {
+//         $('#btn').fadeOut('slow');
+//     }
+// );
 
-    $(".text-hover-image").mousemove(function (e) {
-        $("#image-when-hovering-text")
-            .css("top", (e.pageY - yOff))
-            .css("left", (e.pageX + xOff));
-    });
+
+// $("#project03").mouseover(function() {
+//   $("#btn").show();
+//   console.log();
+// });
+// $("#project03").mouseout(function() {
+//   $("#btn").hide();
+// });
+//
+// $(".text-hover-image").hover(function(e) {
+//   $("body").append("<h1 id='image-when-hovering-text'><img src='../assets/images/spleen-1.png'/></h1>");
+//   $("#image-when-hovering-text")
+//     .css("position", "absolute")
+//     .css("top", (e.pageY - yOff))
+//     .css("left", (e.pageX + xOff))
+//   // .fadeIn("fast");
+//   console.log("ok");
+// }, function() {
+//   $("#image-when-hovering-text").remove();
+// });
+//
+// $(".text-hover-image").mousemove(function(e) {
+//   $("#image-when-hovering-text")
+//     .css("top", ('--mouse-y'))
+//     .css("left", ('--mouse-x'));
+// });
+
 
 
 
@@ -92,7 +167,7 @@ $(document).ready(function(){
                 //             $("#makeyourpresence_hover").css("opacity", "0");
                 //             }
                 // );
-                
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
