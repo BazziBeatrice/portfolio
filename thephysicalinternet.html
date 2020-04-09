@@ -27,12 +27,14 @@
 
 	<!-- link to Bootstrap css -->
 	<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
 	<!-- Link to css files -->
 	<link href="./css/main.css" rel="stylesheet" type="text/css" />
 	<link href="./css/mediaqueries.css" rel="stylesheet" type="text/css" />
-
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="./css/aos.css" rel="stylesheet">
 	<!-- link to fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/erv0ple.css">
@@ -125,20 +127,57 @@
 		</section>
 
 		<!--Coverpage-->
-		<section id="page" class="container-fluid">
-		<article class="page">
+<section id="page" class="container-fluid">
+	<article class="page">
 
-			<div class="row">
-				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-					<img src="assets/images/physicalinternet-legend.png" class="image-physicalinternet" alt="Fuso" id="fuso" >
-	<img src="assets/images/physicalinternet-legend2.png" class="image-physicalinternet" alt="Fuso" id="fuso" >
-		<img src="assets/images/physicalinternet-legend3.png" class="image-physicalinternet" alt="Fuso" id="fuso" >
-		<img src="assets/images/physicalinternet-legend4.png" class="image-physicalinternet" alt="Fuso" id="fuso" >
+		<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+				<div id="physicalinternet-description1" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+					<p class="text-hover description-physicalinternet">
+						Colors and visual style<br><br>
+						The object of two rectangles represent the number of infrastructures in a country.
+						The blue one, on the top, is indicating the number of IXPs, i.e. internet exchange points, while the orange one is indicating the number of Data Centers.
+						When there is not any IXPs or Data Centers in a country the objects are shown with the outline. </p>
 				</div>
-					</div>
 
-		</article>
-		</section>
+				<div id="physicalinternet-description2" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+					<p class="text-hover description-physicalinternet">
+						Dimensions of Data Centers and IXP<br><br>
+						The dimensions are scaled in a range of seven different sizes, each one proportional to a different amount of IXPs and data centers.
+						Only the United States are represented out of scale with a dimension proportional to its number of Data Centers (1752) and IXPs (241).
+						In the legend there are just three dimensions (lowest, middle and the highest values) for clarity reasons.
+				</div>
+
+				<div id="physicalinternet-description3" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+					<p class="text-hover description-physicalinternet">
+						Thickness of the lines<br><br>
+						The cables are drawn as lines, whose thickness is proportional to the real number of cables.
+						The countries which are connected with just one submarine cable are presented with the thinnest line while the country with the biggest number (USA – 54 submarine cables) is presented with the thickest line.
+				</div>
+
+				<div id="physicalinternet-description4" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+					<p class="text-hover description-physicalinternet">
+						Background color <br><br>
+						In the background map of the continents are differentiated from the oceans using a darker hue of the visualization base colour.
+				</div>
+
+
+				<img src="assets/images/physicalinternet-legend.png" class="image-physicalinternet" alt="Fuso" id="physicalinternet-image1" >
+				<img src="assets/images/physicalinternet-legend2.png" class="image-physicalinternet" alt="Fuso" id="physicalinternet-image2">
+				<img src="assets/images/physicalinternet-legend3.png" class="image-physicalinternet" alt="Fuso" id="physicalinternet-image3">
+				<img src="assets/images/physicalinternet-legend4.png" class="image-physicalinternet" alt="Fuso" id="physicalinternet-image4">
+	
+
+			</div>
+
+
+		</div>
+		</div>
+
+
+	</article>
+</section>
 
 		<!--Coverpage-->
 		<section id="page" class="container-fluid">
@@ -163,21 +202,6 @@
 		<!--Coverpage-->
 	<section id="page" class="container-fluid">
 		<article class="page" style="margin-top:200px; margin-bottom:200px;">
-
-			<!-- <div class="wrapper">
-				<div class="box a">
-					<img src="assets/images/physicalinternet-upperside.jpg" class="image-project-5" style="width:100%" alt="Fuso" id="fuso" >
-				</div>
-				<div class="box b">
-					<img src="assets/images/physicalinternet-africa.jpg" class="image-project-5" style="width:100%" alt="Fuso" id="fuso" >
-				</div>
-				<div class="box c">
-					<img src="assets/images/physicalinternet-northkorea.jpg" class="image-project-5" style="width:100%" alt="Fuso" id="fuso" >
-				</div>
-				<div class="box d">
-					<img src="assets/images/physicalinternet-upperside.jpg" class="image-project-5" style="width:100%" alt="Fuso" id="fuso" >
-				</div>
-			</div> -->
 
 						<div class="row">
 
@@ -231,14 +255,26 @@
 	</footer>
 
 	<!-- links to Javascript files -->
-	<script type="./js/javascript" src="./js/jquery-3.4.1.min.js"></script>
-	<script type="./js/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script type="./js/javascript" src="./js/bootstrap.min.js"></script>
-	<script type="./js/javascript" src="./js/main.js"></script>
-	<script src="./js/p5/p5.min.js"></script>
-	<script src="./js/p5/sketch.js"></script>
+	<!-- <script type="./js/javascript" src="./js/jquery-3.4.1.min.js"></script> -->
+	<!-- <script src="js/https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script type="./js/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/custom-scripts2.js"></script>
+		<!-- <script src="./js/main.js"></script> -->
+	<!-- <script src="./js/p5/p5.min.js"></script>
+	<script src="./js/p5/sketch.js"></script> -->
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="./js/aos.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	<!-- link to FontAwesome -->
-	<!-- <script src="https://kit.fontawesome.com/fe7d3f2655.js" crossorigin="anonymous"></script> -->
+			<!-- <script src="https://kit.fontawesome.com/fe7d3f2655.js" crossorigin="anonymous"></script> -->
 
 </body>
 

@@ -1,14 +1,17 @@
 var provaHover;
 var mouseIsOvering = false;
-
 let img;
 
 
 function preload(){}
 
 function setup() {
-  createCanvas(windowWidth,windowHeight)
-  img = loadImage(".../assets/images/fuso-tv.gif");
+  let canvas = createCanvas(windowWidth,windowHeight);
+// canvas.position(0, 0);
+  // createCanvas(windowWidth,windowHeight)
+  // img = loadImage(".../assets/images/fuso-tv.gif");
+    img = loadImage("https://i.imgur.com/uv8wnM7.gifv");
+
   provaHover = select("#prova")
 // let a = select('#project02');
 }

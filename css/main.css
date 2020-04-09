@@ -103,6 +103,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+.description-physicalinternet{
+  font-family:"neue-haas-grotesk-display", serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  position:absolute;
+  top:0px;
+}
+
 .description-down{
   margin-top:4rem;
   vertical-align: bottom;
@@ -293,7 +302,7 @@ width: 100%;
 
 .image-atavola{
   margin-top:0.6%;
-  height: 4.7%;
+  height: 92%;
   width: auto;
   display: block;
   margin-left: auto;
