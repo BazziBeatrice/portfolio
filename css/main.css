@@ -22,7 +22,7 @@
   font-weight: 400;
   font-style: normal;
   /* font-stretch: normal; */
-  src: local('MAZIUSREVIEW20.09-Regular'), local('MAZIUSREVIEW20.09-Regular'), url(http://collletttivo.it/assets/fonts/MaziusDisplayRegular.woff2) format('woff2');
+  src: local('MAZIUSREVIEW20.09-Regular'), local('MAZIUSREVIEW20.09-Regular'), url(https://collletttivo.it/assets/fonts/MaziusDisplayRegular.woff2) format('woff2');
 http://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2
 }
 @font-face {
@@ -30,14 +30,14 @@ http://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2
   font-weight: 400;
   font-style: italic;
   /* font-stretch: normal; */
-  src: local('MAZIUSREVIEW20.09-Italic'), local('MAZIUSREVIEW20.09-Italic'), url(http://collletttivo.it/assets/fonts/MaziusDisplayItalic.woff2) format('woff2');
+  src: local('MAZIUSREVIEW20.09-Italic'), local('MAZIUSREVIEW20.09-Italic'), url(https://collletttivo.it/assets/fonts/MaziusDisplayItalic.woff2) format('woff2');
 }
 @font-face {
   font-family: "maziusDisplay";
   font-weight: 300;
   font-style: italic;
   /* font-stretch: normal; */
-  src: local('MAZIUSREVIEW20.09-Extra-Italic'), local('MAZIUSREVIEW20.09-Extra-Italic'), url(http://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2) format('woff2');
+  src: local('MAZIUSREVIEW20.09-Extra-Italic'), local('MAZIUSREVIEW20.09-Extra-Italic'), url(https://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2) format('woff2');
 }
 
 
