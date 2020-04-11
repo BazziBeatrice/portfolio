@@ -778,29 +778,57 @@ font-weight: 600;}
 
 
 /* -------------------- */
-/* INDEX PROVA HOVER*/
+/*SPLEEN*/
 /* -------------------- */
 
-
-/* top: '--mouse-x';
-left:'--mouse-y'; */
-
-/* .cover-img{
-
-visibility: hidden;
+.carousel-margin-about {
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+.arrowabouttext{
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    width:80%;
 }
 
-#project01:hover .cover-img {
-    visibility: visible;
-    width: 150px;
-  height: 150px;
-  position: absolute;
-  display: block;
-  z-index: 100;
+.arrowabout:hover {
+    text-decoration: none;
+    margin-right: value;
+    padding: 0;
+    margin: 0;
+}
+.rect-arrow-about {
+    padding-top: 1px;
+	width: 36.5px;
+	height: 36.5px;
+	border: 1px solid #000000;
+}
+.arrowabout{
+    /* font-size: 18px; */
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rect-caption-about {
+    padding: 4px 10px;
+	border: 1px solid #000000;
+    width: 170px;
+}
+
+/* .row-arrow-about {
+    position:absolute;
+    top: 92%;
+    left: 83.5%;
 } */
 
-/*
-(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), yellow, green)  */
+.carousel-image-about{
+  height:auto;
+  width: 80%;
+}
+
 
 /* -------------------- */
 /* Media Queries */

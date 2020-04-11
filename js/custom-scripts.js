@@ -12,7 +12,7 @@ $("#sfondo_3 #setjetting2").hide();
 $("#sfondo_3 #seichijunrei2").hide();
 $("#sfondo_3 #all2").hide();
 
-
+  $("#editorial").hide();
 //  // $("element").hover(mouseEntering, mouseLeaving)
 //  $("#immagini #img1").hover(function() {
 //    $("#specchietto #african_queen").show();
