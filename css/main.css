@@ -308,6 +308,14 @@ width: 100%;
   margin-right: auto;
 }
 
+
+.image-thelostfeatures{
+  margin-top:0.6%;
+  width: 80%;
+  display: block;
+}
+
+
 .image-placemaking{
   margin-top:0.6%;
   height: 60%;
@@ -787,7 +795,6 @@ font-weight: 600;}
     margin-top: 50px;
 }
 .arrowabouttext{
-    text-align: center;
     vertical-align: middle;
     margin: auto;
     width:80%;
@@ -801,32 +808,43 @@ font-weight: 600;}
 }
 .rect-arrow-about {
     padding-top: 1px;
-	width: 36.5px;
-	height: 36.5px;
-	border: 1px solid #000000;
+	width: 45px;
+	height: 45px;
+	border: 1.5px solid #000000;
 }
 .arrowabout{
-    /* font-size: 18px; */
+    font-size: 30px;
     margin: auto;
     text-align: center;
     vertical-align: middle;
 }
 
-.rect-caption-about {
-    padding: 4px 10px;
-	border: 1px solid #000000;
-    width: 170px;
+.arrowabout-category{
+    font-size: 30px;
+    margin: auto;
+    vertical-align: middle;
 }
 
-/* .row-arrow-about {
+
+.row-arrow-about {
     position:absolute;
-    top: 92%;
-    left: 83.5%;
-} */
+    top: 92.5%;
+    left: 68.4%;
+}
+
+.arrowabout-prev{
+  position:absolute;
+}
+
+
+.arrowabout-next{
+  position:absolute;
+  left: 43px;
+}
 
 .carousel-image-about{
   height:auto;
-  width: 80%;
+  width: 100%;
 }
 
 
