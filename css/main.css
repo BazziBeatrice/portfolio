@@ -100,6 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 400;
+  color:black;
 }
 
 .description-physicalinternet{
@@ -264,6 +265,16 @@ width: 100%;
   padding-top: 15px;
 }
 
+.image-project-7{
+  margin-top:0.6%;
+  height:120%;
+  width: auto;
+  display: block;
+  margin-left: 100px;
+  /* margin-right: auto; */
+}
+
+
 .image-physicalinternet{
   margin-top:0.6%;
   height: 15%;
@@ -389,6 +400,11 @@ width: 100%;
 } */
 
 
+.project06img{
+  position:absolute;
+}
+
+
 
 /* -------------------- */
 /* sections home page for scrolling */
@@ -404,15 +420,15 @@ width: 100%;
   /* background-color: yellow; */
 }
 
-/* [aos="fade"] {
-  opacity: 0;
+ /* [aos="fade"] {
+  opacity: 0.4;
   transition-property: opacity;
 }
 
 [aos="fade"].aos-animate {
   opacity: 1;
-} */
-/* -------------------- */
+}
+/* -------------------- */ */
 /* Navigation */
 /* -------------------- */
 

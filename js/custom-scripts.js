@@ -1,6 +1,3 @@
-// This is Javascript code to make the example in question02 work, feel free to remove this when you start working on your project
-
-// This is Javascript code to make the example in question02 work, feel free to remove this when you start working on your project
 $(document).ready(function () {
 
 //$("#specchietto > g").hide();
@@ -41,18 +38,6 @@ $("#sfondo_3 #all2").hide();
   $("#sfondo_3 #all2").hide();
   $("#immagini>").hide();
   $("#sfondo_3 .setj").show();
-  // $("#Cick_here").hide();
-  // $(this).css("opacity", 1);
-  // $("#immagini >").css("opacity", 0.4);
-  // $("#immagini .setjet").css("opacity", 1);
-  // }, function() {
-  //   $("#sfondo_3 #setjetting2").hide();
-  //   $("#sfondo_3 #setjetting").show();
-
-  // $("#focus-recreating #african_queen").hide();
-  // $("#Cick_here").show();
-  // $(this).css("opacity", 0);
-  // $("#immagini >").css("opacity", 1);
   });
 
   // ---- seichijunrei
@@ -66,16 +51,6 @@ $("#sfondo_3 #all2").hide();
      $("#sfondo_3 #all2").hide();
      $("#immagini>").hide();
      $("#sfondo_3 .seichi").show();
-   // $("#focus-recreating #african_queen").toggle();
-   // $("#Cick_here").hide();
-   // $(this).css("opacity", 1);
-   // $("#immagini >").css("opacity", 0.4);
-   // $("#immagini #img99_3_").css("opacity", 1);
-   // }, function() {
-   // $("#focus-recreating #african_queen").hide();
-   // $("#Cick_here").show();
-   // $(this).css("opacity", 0);
-   // $("#immagini >").css("opacity", 1);
    });
 
    // ---- seichijunrei
@@ -88,16 +63,6 @@ $("#sfondo_3 #all2").hide();
       $("#sfondo_3 #seichijunrei").show();
       $("#sfondo_3 #seichijunrei2").hide();
       $("#immagini>").show();
-    // $("#focus-recreating #african_queen").toggle();
-    // $("#Cick_here").hide();
-    // $(this).css("opacity", 1);
-    // $("#immagini >").css("opacity", 0.4);
-    // $("#immagini #img99_3_").css("opacity", 1);
-    // }, function() {
-    // $("#focus-recreating #african_queen").hide();
-    // $("#Cick_here").show();
-    // $(this).css("opacity", 0);
-    // $("#immagini >").css("opacity", 1);
     });
 
 // -----------------------------------------RECREATING THE SCENE

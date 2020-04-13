@@ -17,12 +17,13 @@ document.addEventListener('mousemove', evt => {
 //aos animation--------------------------------------------//
 // var AOS = require('aos');
 AOS.init({
- duration: 1200
+ duration: 12
 });
 //aos animation--------------------------------------------//
 
 
 $(document).ready(function(){
+
 
 
 
