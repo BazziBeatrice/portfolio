@@ -203,10 +203,10 @@ $("#physicalinternet-description4").hide();
 
 
 
-    $('a#project06').mouseover(function() {
-     $('#project06img').attr ("src", './assets/images/fuso-tv.gif');
-     console.log("ok")
-  })
+  //   $('a#project06').mouseover(function() {
+  //    $('#project06img').attr ("src", './assets/images/fuso-tv.gif');
+  //    console.log("ok")
+  // })
 
 //   $( "a#project05" ).hover(function() {
 //     $('#project05img').append( $( "src", './assets/images/fuso-tv.gif', height="100"  ) );
@@ -218,17 +218,19 @@ $("#physicalinternet-description4").hide();
 
 
 });
-$(document).mousemove(function(e){
-    $("#project06img").css({left:e.pageX+50, top:e.pageY+50});
-});
 
-document.onmousemove=function(e){
-  var x, y;
-  if (e) {x=e.clientX; y=e.clientY;}
-  else {x=event.clientX;y=event.clientY;}
 
-var ship=document.getElementById('ship');
-ship.style.top=y+'px';
-ship.style.left=x+'px';
-
-}
+// $(document).mousemove(function(e){
+//     $("#project06img").css({left:e.pageX+50, top:e.pageY+50});
+// });
+//
+// document.onmousemove=function(e){
+//   var x, y;
+//   if (e) {x=e.clientX; y=e.clientY;}
+//   else {x=event.clientX;y=event.clientY;}
+//
+// var ship=document.getElementById('ship');
+// ship.style.top=y+'px';
+// ship.style.left=x+'px';
+//
+// }
