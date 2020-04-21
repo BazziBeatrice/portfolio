@@ -217,20 +217,65 @@ $("#physicalinternet-description4").hide();
 
 
 
+
+$(".p08").hover(function(){
+  $(this).attr('src','https://i.imgur.com/uv8wnM7.gif');
+  console.log("ok");
+  }, function(){
+  $(this).attr('src','');
 });
 
+$(".p09").hover(function() {
+      $("#imageBox").html($("<img>").attr("src", 'https://i.imgur.com/uv8wnM7.gif'));
+  console.log("ok1");
+  }, function(){
+  $(this).attr('src','');
+});
 
-// $(document).mousemove(function(e){
-//     $("#project06img").css({left:e.pageX+50, top:e.pageY+50});
-// });
-//
-// document.onmousemove=function(e){
-//   var x, y;
-//   if (e) {x=e.clientX; y=e.clientY;}
-//   else {x=event.clientX;y=event.clientY;}
-//
-// var ship=document.getElementById('ship');
-// ship.style.top=y+'px';
-// ship.style.left=x+'px';
-//
+$(".p07").hover(function() {
+  $(".image-hover-maybe").css("left", event.clientX + 'px');
+  $(".image-hover-maybe").show();
+
+}, function() {
+  $(".image-hover-maybe").hide();
+
+  // document.onmouseover = animateCircles;
+  // function animateCircles(event){
+  //   var image7 = document.createElement("img");
+  //   image7.setAttribute("class", "image-hover-maybe");
+  //   document.body.appendChild(image7);
+  //
+  //   image7.style.left = event.clientX + 'px';
+  //   image7.style.top = event.clientY + 'px';
+  // }
+//   var example = document.getElementById('.image-hover-maybe');
+// example.onmousemove = function(e) {
+//     var x = e.pageX - this.offsetLeft;
+//     var y = e.pageY - this.offsetTop;
+//     example.style.left = event.clientX + 'px';
+//   example.style.top = event.clientY + 'px';
 // }
+
+});
+
+// document.onmousemove = animateCircles;
+
+// function animateCircles(event){
+//   var circle = document.createElement("div");
+//   circle.setAttribute("class", "circle");
+//   document.body.appendChild(circle);
+//
+//   circle.style.left = event.clientX + 'px';
+//   circle.style.top = event.clientY + 'px';
+// }
+
+// function animateCircles(event){
+//   var image7 = document.createElement("img");
+//   image7.setAttribute("class", "image-hover-maybe");
+//   document.body.appendChild(image7);
+//
+//   image7.style.left = event.clientX + 'px';
+//   image7.style.top = event.clientY + 'px';
+// }
+
+});

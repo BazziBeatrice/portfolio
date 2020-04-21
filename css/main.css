@@ -39,6 +39,7 @@
   src: local('MAZIUSREVIEW20.09-Extra-Italic'), local('MAZIUSREVIEW20.09-Extra-Italic'), url(https://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2) format('woff2');
 }
 
+$animate: all 0.2s ease-in-out;
 
 :root {
   /* --txt-normal:  1.5rem; */
@@ -99,6 +100,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family:"neue-haas-grotesk-display", serif;
   font-size: 1.4rem;
   line-height: 2.4rem;
+  font-weight: 400;
+  color:black;
+}
+
+.description-main{
+  font-family:"neue-haas-grotesk-display", serif;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
   font-weight: 400;
   color:black;
 }
@@ -359,6 +368,15 @@ width: 100%;
   margin-right: auto;
 }
 
+.image-setjettersunited{
+  margin-top:0.6%;
+  height: 30.5%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .image-atavola{
   margin-top:0.6%;
   height: 92%;
@@ -392,6 +410,13 @@ width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.image-fuso2{
+  margin-top:0.6%;
+  height: 20%;
+  width: auto;
+  display: block;
 }
 
 
@@ -505,7 +530,19 @@ width: 100%;
   position:absolute;
     display:none;
 } */
-
+.image-hover-maybe{
+  width:200px;
+  height:200px;
+  position:absolute;
+display: none;
+}
+.circle{
+width:20px;
+height:20px;
+border:1px solid #000000;
+position:absolute;
+border-radius:15px;
+}
 
 canvas{
 pointer-events: none;
@@ -535,16 +572,90 @@ pointer-events: none;
   /* background-color: yellow; */
 }
 
- /* [aos="fade"] {opacity: 0.4;
+  /* [aos="fade"] {opacity: 0;
   transition-property: opacity;
 }
 
 [aos="fade"].aos-animate {
   opacity: 1;
-}
-/* -------------------- */ */
+} */
+
+/* -------------------- */
 /* Navigation */
 /* -------------------- */
+
+/* .hover-nav{
+
+} */
+
+.hover-nav{
+  position: relative;
+}
+
+.hover-nav:after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  display: block;
+  margin-top: 1px;
+  right: 2;
+  background: #000000;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+.hover-nav:hover:after{
+  width: 37.8%;
+  left: -4;
+  background:  #000000;
+}
+
+.hover-nav2{
+  position: relative;
+}
+
+.hover-nav2:after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  display: block;
+  margin-top: 1px;
+  right: 2;
+  background: #000000;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+.hover-nav2:hover:after{
+  width: 33%;
+  left: -4;
+  background:  #000000;
+}
+
+.hover-nav3{
+  position: relative;
+}
+
+.hover-nav3:after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  display: block;
+  margin-top: 1px;
+  right: 2;
+  background: #000000;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+.hover-nav3:hover:after{
+  width: 30.5%;
+  left: -4;
+  background:  #000000;
+}
 
 .main-nav {
   display: flex;
@@ -640,7 +751,8 @@ pointer-events: none;
 
   .curriculum-bg{
     /* background-color: #078843; */
-	background: radial-gradient(#F2F2F2,#CECECE);
+        background-color: #000000;
+	/* background: radial-gradient(#F2F2F2,#CECECE); */
       /* background: linear-gradient(#FFFFFF, #078843) */
   }
 
@@ -932,13 +1044,19 @@ font-weight: 600;}
     width:80%;
 color:black;
 }
+.arrowabouttext-white{
+    vertical-align: middle;
+    margin: auto;
+    width:80%;
+color:#EFEFEF;
+}
+
 
 .arrowabout:hover {
     text-decoration: none;
     margin-right: value;
     padding: 0;
     margin: 0;
-
 }
 .rect-arrow-about {
     padding-top: 1px;
@@ -966,6 +1084,13 @@ color:black;
     vertical-align: middle;
      color:#EFEFEF;
 }
+.arrowabout-white:hover {
+    text-decoration: none;
+    margin-right: value;
+    padding: 0;
+    margin: 0;
+    color:#EFEFEF;
+}
 
 .arrowabout-category{
     font-size: 30px;
@@ -987,6 +1112,11 @@ color:black;
 
 
 .arrowabout-next{
+  position:absolute;
+  left: 43px;
+}
+
+.arrowabout-next-white{
   position:absolute;
   left: 43px;
 }

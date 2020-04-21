@@ -34,6 +34,10 @@
 	<link href="../css/main.css" rel="stylesheet" type="text/css" />
 	<link href="../css/mediaqueries.css" rel="stylesheet" type="text/css" />
 
+	<!-- Link to aos css files -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="../css/aos.css" rel="stylesheet">
+
 	<!-- link to fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/erv0ple.css">
@@ -108,12 +112,12 @@
 
 
 			<!--Coverpage-->
-		<section id="page" class="container-fluid">
-			<article class="page" aos="fade">
+		<section id="page" class="container-fluid" data-aos="fade-up">
+			<article class="page">
 
 				<div class="row"  >
 					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 " >
-						<p class=" text-hover description" >
+						<p class=" text-hover description-main" >
 			Data driven poster generator about Art Theft, made with OPENRNDR and Density Design in Kotlin language. The paintings showned have been stolen and then lost for some time now.
 				It’s possible to see only a small portion of the unrecovered paintings, that is inversely proportional to the time passed since their theft. 
 				</p>
@@ -130,7 +134,7 @@
 
 
 		<!--Coverpage-->
-		<section id="page" class="container-fluid">
+		<section id="page" class="container-fluid" data-aos="fade-up">
 		<article class="page">
 
 		<div class="row">
@@ -142,7 +146,7 @@
 		</section>
 
 		<!--Coverpage-->
-		<section id="page" class="container-fluid">
+		<section id="page" class="container-fluid" data-aos="fade-up">
 		<article class="page">
 
 		<div class="row">
@@ -154,7 +158,7 @@
 		</section>
 
 		<!--Coverpage-->
-		<section id="page" class="container-fluid">
+		<section id="page" class="container-fluid" data-aos="fade-up">
 		<article class="page">
 
 		<div class="row">
@@ -179,7 +183,7 @@
 
 
 <!--Carousel-->
-<section class="carousel-margin-about">
+<section class="carousel-margin-about" data-aos="fade-up">
 <div class="container-fluid">
 
 	<div class="row">
@@ -324,7 +328,7 @@
 </section>
 
 <!--- SOURCES ----------------->
-	<section  class="container-fluid">
+	<section  class="container-fluid" data-aos="fade-up">
 
 		<div class="row">
 			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 ">
@@ -382,6 +386,10 @@
 	<script type="../js/javascript" src="../js/main.js"></script>
 	<!-- <script src="../js/p5/p5.min.js"></script>
 	<script src="../js/p5/sketch.js"></script> -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="../js/aos.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>AOS.init();</script>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
