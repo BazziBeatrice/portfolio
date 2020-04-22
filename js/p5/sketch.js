@@ -58,10 +58,11 @@ function setup() {
   img2 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/thelostgallery-intro.jpg");
   p2Hover = select("#p02")
 
-  img3 = loadImage("https://i.imgur.com/ze5cSt5.png");
+  img3 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/physicalinternet-intro.jpg");
   p3Hover = select("#p03")
 
-  img4 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
+  // img4 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
+  img4 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/placemaking-intro.jpg");
   p4Hover = select("#p04")
 
   img5 = loadImage("https://i.imgur.com/ze5cSt5.png");
@@ -79,7 +80,7 @@ function setup() {
   img9 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/ihavegotnothingtowear-intro.jpg");
   p9Hover = select("#p09")
 
-  img10 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  img10 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/atavola-intro.jpg");
   p10Hover = select("#p10")
 
   img11 = loadImage("https://i.imgur.com/uv8wnM7.gif");
@@ -168,10 +169,10 @@ function mostraImmagine2() {
   image(img2, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine3() {
-  image(img3, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
+  image(img3, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine4() {
-  image(img4, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
+  image(img4, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine5() {
   image(img5, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
