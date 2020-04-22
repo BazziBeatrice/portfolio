@@ -49,9 +49,10 @@ let img12;
 function preload() {}
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  // let canvas = createCanvas(windowWidth, windowHeight);
+    let canvas = createCanvas(windowWidth, 1600);
   canvas.position(0, 0);
-  img = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  img = loadImage("https://i.imgur.com/NiZiYUz.gif");
   provaHover = select("#p01")
 
   img2 = loadImage("https://i.imgur.com/ze5cSt5.png");
@@ -69,7 +70,7 @@ function setup() {
   img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
   p6Hover = select("#p06")
 
-  img7 = loadImage("https://imgur.com/a/ScIrrZS");
+  img7 = loadImage("https://i.imgur.com/uv8wnM7.gif");
   p7Hover = select("#p07")
 
   img8 = loadImage("https://i.imgur.com/uv8wnM7.gif");
@@ -81,7 +82,7 @@ function setup() {
   img10 = loadImage("https://i.imgur.com/uv8wnM7.gif");
   p10Hover = select("#p10")
 
-  img11 = loadImage("https://imgur.com/a/ScIrrZS");
+  img11 = loadImage("https://i.imgur.com/uv8wnM7.gif");
   p11Hover = select("#p11")
 
   img12 = loadImage("https://i.imgur.com/uv8wnM7.gif");
@@ -160,39 +161,39 @@ function mouseStatus12(status) {
 
 function mostraImmagine() {
   // image(img, mouseX - (img.width / 2),(img.height / 2));
-  image(img, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine2() {
   // image(img, mouseX - (img.width / 2),(img.height / 2));
-  image(img2, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img2, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine3() {
-  image(img3, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img3, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine4() {
-  image(img4, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img4, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine5() {
-  image(img5, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img5, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine6() {
-  image(img6, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img6, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine7() {
-  image(img7, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img7, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine8() {
-  image(img8, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img8, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine9() {
-  image(img9, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img9, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine10() {
-  image(img10, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img10, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine11() {
-  image(img11, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img11, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine12() {
-  image(img12, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+  image(img12, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
 }
