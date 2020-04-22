@@ -219,7 +219,7 @@ width: 100%;
 }
 
   .icon-arrow-down{
-    margin-top:5rem;
+    margin-top:3.3rem;
     height: 2.3%;
     width: auto;
     display: block;
@@ -238,9 +238,21 @@ width: 100%;
   }
 
 
+
+  .text-hover{
+      z-index:0;
+  }
+  .text-over{
+    display:none;
+    color:#FFFFFF;
+    z-index:50;
+
+  }
+
 .text-hover a:hover{
     color: black;
     text-decoration: underline;
+    z-index:50;
 }
 
 .text-hover-white a:hover{
@@ -422,10 +434,7 @@ width: 100%;
 
 
 .main-title{
-  /* font-size: 12em;
-  line-height: 1.25em;
-  font-weight: 500; */
-  margin-top:1.5rem;
+  margin-top:0.5rem;
 }
 .curriculum-description{
     margin-top:0.5rem;

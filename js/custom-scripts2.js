@@ -218,26 +218,26 @@ $("#physicalinternet-description4").hide();
 
 
 
-$(".p08").hover(function(){
-  $(this).attr('src','https://i.imgur.com/uv8wnM7.gif');
-  console.log("ok");
-  }, function(){
-  $(this).attr('src','');
-});
+// $(".p08").hover(function(){
+//   $(this).attr('src','https://i.imgur.com/uv8wnM7.gif');
+//   console.log("ok");
+//   }, function(){
+//   $(this).attr('src','');
+// });
 
-$(".p09").hover(function() {
-      $("#imageBox").html($("<img>").attr("src", 'https://i.imgur.com/uv8wnM7.gif'));
-  console.log("ok1");
-  }, function(){
-  $(this).attr('src','');
-});
-
-$(".p07").hover(function() {
-  $(".image-hover-maybe").css("left", event.clientX + 'px');
-  $(".image-hover-maybe").show();
-
-}, function() {
-  $(".image-hover-maybe").hide();
+// $(".p09").hover(function() {
+//       $("#imageBox").html($("<img>").attr("src", 'https://i.imgur.com/uv8wnM7.gif'));
+//   console.log("ok1");
+//   }, function(){
+//   $(this).attr('src','');
+// });
+//
+// $(".p07").hover(function() {
+//   $(".image-hover-maybe").css("left", event.clientX + 'px');
+//   $(".image-hover-maybe").show();
+//
+// }, function() {
+//   $(".image-hover-maybe").hide();
 
   // document.onmouseover = animateCircles;
   // function animateCircles(event){
@@ -255,9 +255,14 @@ $(".p07").hover(function() {
 //     example.style.left = event.clientX + 'px';
 //   example.style.top = event.clientY + 'px';
 // }
+//
+// });
 
+$(".p01").hover(function() {
+  $(".text-over").show();
+}, function() {
+  $(".text-over").hide();
 });
-
 // document.onmousemove = animateCircles;
 
 // function animateCircles(event){
