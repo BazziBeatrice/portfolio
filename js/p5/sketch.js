@@ -26,6 +26,26 @@ var p7Hover;
 var mouseIsOvering7 = false;
 let img7;
 
+var p8Hover;
+var mouseIsOvering8 = false;
+let img8;
+
+var p9Hover;
+var mouseIsOvering9 = false;
+let img9;
+
+var p10Hover;
+var mouseIsOvering10 = false;
+let img10;
+
+var p11Hover;
+var mouseIsOvering11 = false;
+let img11;
+
+var p12Hover;
+var mouseIsOvering12 = false;
+let img12;
+
 function preload() {}
 
 function setup() {
@@ -37,9 +57,6 @@ function setup() {
   img2 = loadImage("https://i.imgur.com/ze5cSt5.png");
   p2Hover = select("#p02")
 
-  img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
-  p6Hover = select("#p06")
-
   img3 = loadImage("https://i.imgur.com/ze5cSt5.png");
   p3Hover = select("#p03")
 
@@ -49,8 +66,26 @@ function setup() {
   img5 = loadImage("https://i.imgur.com/ze5cSt5.png");
   p5Hover = select("#p05")
 
-  img7 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
+  img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
+  p6Hover = select("#p06")
+
+  img7 = loadImage("https://imgur.com/a/ScIrrZS");
   p7Hover = select("#p07")
+
+  img8 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  p8Hover = select("#p08")
+
+  img9 = loadImage("https://imgur.com/a/ScIrrZS");
+  p9Hover = select("#p09")
+
+  img10 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  p10Hover = select("#p10")
+
+  img11 = loadImage("https://imgur.com/a/ScIrrZS");
+  p11Hover = select("#p11")
+
+  img12 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  p12Hover = select("#p12")
 
 }
 
@@ -59,21 +94,28 @@ function draw() {
   if (mouseIsOvering == true) {
     mostraImmagine();
   } else if (mouseIsOvering2 == true) {
-      mostraImmagine2();
-    }
-    else if (mouseIsOvering3 == true) {
-        mostraImmagine3();
-      }  else if (mouseIsOvering4 == true) {
-            mostraImmagine4();
-          }else if (mouseIsOvering5 == true) {
-                mostraImmagine5();
-              }
-      else if (mouseIsOvering6 == true) {
-        mostraImmagine6();
-      }  else if (mouseIsOvering7 == true) {
-          mostraImmagine7();
-        }
-    else {
+    mostraImmagine2();
+  } else if (mouseIsOvering3 == true) {
+    mostraImmagine3();
+  } else if (mouseIsOvering4 == true) {
+    mostraImmagine4();
+  } else if (mouseIsOvering5 == true) {
+    mostraImmagine5();
+  } else if (mouseIsOvering6 == true) {
+    mostraImmagine6();
+  } else if (mouseIsOvering7 == true) {
+    mostraImmagine7();
+  } else if (mouseIsOvering8 == true) {
+  mostraImmagine8();
+} else if (mouseIsOvering9 == true) {
+  mostraImmagine9();
+} else if (mouseIsOvering10 == true) {
+  mostraImmagine10();
+} else if (mouseIsOvering11 == true) {
+  mostraImmagine11();
+} else if (mouseIsOvering12 == true) {
+  mostraImmagine12();
+} else {
     clear();
   }
   // console.log(mouseIsOvering);
@@ -100,6 +142,21 @@ function mouseStatus6(status) {
 function mouseStatus7(status) {
   mouseIsOvering7 = status;
 }
+function mouseStatus8(status) {
+  mouseIsOvering8 = status;
+}
+function mouseStatus9(status) {
+  mouseIsOvering9 = status;
+}
+function mouseStatus10(status) {
+  mouseIsOvering10 = status;
+}
+function mouseStatus11(status) {
+  mouseIsOvering11 = status;
+}
+function mouseStatus12(status) {
+  mouseIsOvering12 = status;
+}
 
 function mostraImmagine() {
   // image(img, mouseX - (img.width / 2),(img.height / 2));
@@ -123,4 +180,19 @@ function mostraImmagine6() {
 }
 function mostraImmagine7() {
   image(img7, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+}
+function mostraImmagine8() {
+  image(img8, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+}
+function mostraImmagine9() {
+  image(img9, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+}
+function mostraImmagine10() {
+  image(img10, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+}
+function mostraImmagine11() {
+  image(img11, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
+}
+function mostraImmagine12() {
+  image(img12, mouseX, mouseY + 20, (img.width / 2), (img.height / 2))
 }
