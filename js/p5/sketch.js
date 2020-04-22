@@ -169,10 +169,10 @@ function mostraImmagine2() {
   image(img2, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine3() {
-  image(img3, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img3, mouseX, mouseY + 20, (img.width / 4), (img.height / 7))
 }
 function mostraImmagine4() {
-  image(img4, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img4, mouseX, mouseY + 20, (img.width / 4), (img.height / 5))
 }
 function mostraImmagine5() {
   image(img5, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
