@@ -75,7 +75,7 @@ function setup() {
   img8 = loadImage("https://i.imgur.com/uv8wnM7.gif");
   p8Hover = select("#p08")
 
-  img9 = loadImage("https://imgur.com/a/ScIrrZS");
+  img9 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/ihavegotnothingtowear-intro.jpg");
   p9Hover = select("#p09")
 
   img10 = loadImage("https://i.imgur.com/uv8wnM7.gif");
