@@ -55,7 +55,7 @@ function setup() {
   img = loadImage("https://i.imgur.com/NiZiYUz.gif");
   provaHover = select("#p01")
 
-  img2 = loadImage("https://i.imgur.com/ze5cSt5.png");
+  img2 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/thelostgallery-intro.jpg");
   p2Hover = select("#p02")
 
   img3 = loadImage("https://i.imgur.com/ze5cSt5.png");
@@ -67,7 +67,7 @@ function setup() {
   img5 = loadImage("https://i.imgur.com/ze5cSt5.png");
   p5Hover = select("#p05")
 
-  img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
+  img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/contratempo-intro.gif");
   p6Hover = select("#p06")
 
   img7 = loadImage("https://i.imgur.com/uv8wnM7.gif");
@@ -165,28 +165,28 @@ function mostraImmagine() {
 }
 function mostraImmagine2() {
   // image(img, mouseX - (img.width / 2),(img.height / 2));
-  image(img2, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img2, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine3() {
-  image(img3, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img3, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine4() {
-  image(img4, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img4, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine5() {
-  image(img5, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img5, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine6() {
-  image(img6, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img6, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine7() {
-  image(img7, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img7, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine8() {
-  image(img8, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img8, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine9() {
-  image(img9, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img9, mouseX, mouseY + 20, (img.width / 4), (img.height / 5))
 }
 function mostraImmagine10() {
   image(img10, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
