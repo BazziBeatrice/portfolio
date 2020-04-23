@@ -72,13 +72,15 @@ body {
 html {
   font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","neue-haas-grotesk-display";
+
+  scroll-behavior: smooth;
 }
 
 
 h1{
   font-family: "maziusDisplay", serif;
   font-size: 2.7rem;
-  line-height: 5rem;
+  line-height: 4.5rem;
   font-weight: 400;
   text-align: center;
 }
@@ -199,18 +201,18 @@ img {
 
 /*Sections Area*/
 
-	/*Coverpage*/
-	.cover {
-    margin-top:7rem;
-	}
+/*Coverpage*/
+.cover {
+  margin-top:7rem;
+}
 
-	#coverpage {
-		height: 100vh;
-	}
+#coverpage {
+  height: 100vh;
+}
 
-  	#page {
-  		height: 100vh;
-  	}
+  #page {
+    height: 100vh;
+  }
 .footer{
   position: absolute;
 bottom: 0;
@@ -223,6 +225,14 @@ width: 100%;
     height: 2.3%;
     width: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon-arrow-up{
+    /* margin-top:3.3rem; */
+    height: 20px;
+    width: auto;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -242,6 +252,9 @@ width: 100%;
   .text-hover{
       z-index:0;
   }
+  .text-hover-main{
+      z-index:0;
+  }
   .text-over{
     display:none;
     color:#FFFFFF;
@@ -254,6 +267,13 @@ width: 100%;
     text-decoration: underline;
     z-index:50;
 }
+
+.text-hover:hover{
+    color: black;
+    text-decoration: underline;
+    z-index:50 !important;
+}
+
 
 .text-hover-white a:hover{
     color: white;
@@ -580,6 +600,7 @@ pointer-events: none;
   height: 600px;
   /* background-color: yellow; */
 }
+
 
   /* [aos="fade"] {opacity: 0;
   transition-property: opacity;
