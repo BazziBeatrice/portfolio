@@ -270,7 +270,7 @@ width: 100%;
 
 .text-hover:hover{
     color: black;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     z-index:50 !important;
 }
 
@@ -367,8 +367,8 @@ width: 100%;
 
 .image-physicalinternet{
   margin-top:0.6%;
-  height: 15%;
-  width: auto;
+  height: auto;
+  width: 25%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -656,7 +656,7 @@ pointer-events: none;
 }
 
 .hover-nav:hover:after{
-  width: 37.8%;
+  width: 38.8%;
   left: -4;
   background:  #000000;
 }
@@ -684,6 +684,30 @@ pointer-events: none;
   background:  #000000;
 }
 
+
+.hover-nav4{
+  position: relative;
+}
+
+.hover-nav4:after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  display: block;
+  margin-top: 1px;
+  right: 2;
+  background: #000000;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+.hover-nav4:hover:after{
+  width: 20%;
+  left: -4;
+  background:  #000000;
+}
+
 .hover-nav3{
   position: relative;
 }
@@ -702,7 +726,7 @@ pointer-events: none;
 }
 
 .hover-nav3:hover:after{
-  width: 30.5%;
+  width: 31.0%;
   left: -4;
   background:  #000000;
 }
@@ -1176,6 +1200,49 @@ color:#EFEFEF;
   width: 100%;
 }
 
+
+/* -------------------- */
+/* GRID ON OVERVIEW */
+/* -------------------- */
+.row-grid {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-grid {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-grid img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 /* -------------------- */
 /* Media Queries */
