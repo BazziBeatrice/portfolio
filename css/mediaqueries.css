@@ -4,173 +4,32 @@
 
 /*VIDEO TOUR X TUTTO-------------------------------------------------------------------------------*/
 @media (min-width: 300px) and (max-width: 3840px){
-    
+
     .videotourresponsive {
-        width: 100%; 
-    }    
+        width: 100%;
+    }
 }
-
-
-
-/*CART PROJECTOR-------------------------------------------------------------------------------*/
-@media (min-width: 1025px)and (max-width: 1280px){
-
-    .address-cart {
-		font-size: smaller;
-    }
-    
-	.dropdown-content-calendar-cart {
-		width: 110%;    	
-    }
-    
-    a.purchasebtn {
-    	margin-top:30px; 	
-    }
-
-}
-
-
-
-/* CART IPAD PRO-------------------------------------------------------------------------------*/
-@media (min-width: 768px)and (max-width: 1024px){
-    
-	a.purchasebtn, a.purchasebtn:hover {
-    	margin-top:30px;  	
-    }
-    
-    .dropdown-content-calendar-cart {
-        margin-left:  4.2%;
-    }
-   
-}
-
-
-
-/* CART PHONE-------------------------------------------------------------------------------*/
-@media (max-width: 767px) {
-    
-	.cartelement{
-        padding-bottom: 70px;
-    }
-    
-	.crop-img-top {
-		object-fit: cover;
-    	object-position: 50% 15%;
-    	height: 120px;
-    	width: 100%;
-	}
-    
-	.crop-img-mid {
-		object-fit: cover;
-    	object-position: 50% 55%;
-    	height: 120px;
-    	width: 100%;
-	}
-    
-	.crop-img-bottom {
-		object-fit: cover;
-    	object-position: 50% 85%;
-    	height: 120px;
-    	width: 100%;
-	}
-
-	.crop-img-div {
-		height: 120px;
-		overflow: hidden;
-	}
-    
-	.title-cart-el {
-		margin-top: 20px;
-	}
-    
-	.address-cart {
-		font-size: smaller;
-    }
-    
-	.btn-detail-cart {
-		padding-right: 0px;
-	}	
-    
-	.detail-margin {
-		margin-top: 0px;
-    }
-    
-	.price {
-		font-size: medium;
-		padding-left: 0px;
-    }
-    
-	.dropbtn-calendar-cart {
-		height: 100%
-    }
-    
-	.dropbtn-cart {
-		height: fit-content;
-		width: fit-content;		
-	}
-    
-	.dropdown-content-cart{
-		width: 53%;
-		margin-bottom: 20px;
-	}
-    
-	.dropdown-content-calendar-cart {
-    	width: 121%;
-    	margin-left: 6.4%;
-    	margin-bottom: 20px;
-        font-size: initial;
-	}
-
-	.quantity-label {
-        margin-left: 7px;
-    }
-    
-	.Qty {
-        font-size: medium!important;
-	}
-    
-	a.purchasebtn {
-		margin-right: 0px;
-		margin-left: 0px;
-		margin-top: 20px;
-		margin-bottom: 84%;
-	}
-    
-	a.purchasebtn:hover {
-		margin-right: 0px;
-		margin-left: 0px;
-		margin-top: 20px;
-		margin-bottom: 84%;
-	}
-}
-
-
 
 /*MORALIST PAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
-	
+
 	.cartcontent {
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	
 	.sidemoral h4 {
 		font-size: 20px;
 	}
-	
-	
+
 	/*The X btn*/
 	a.closebtn {
 		padding-left: 30px;
 	}
-	
-	
 	/*Behind the scene btn*/
 	a.moralbtn {
 		margin-right: 5%;
-		margin-left: 5%;	
+		margin-left: 5%;
 	}
-
 	a.moralbtn:hover {
 		margin-left: 5%;
 		margin-right: 5%;
@@ -178,33 +37,25 @@
 		border: solid 4px black;
 		color: #000;
 	}
-	
 }
-
-
 
 /*MORALIST PAGE TABLET----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px){
-	
+
 	.cartcontent {
 		padding-left: 20px;
 		padding-right: 20px;
 		padding-top: 25px;
 	}
-	
-	
 	/*The X btn*/
 	a.closebtn {
 		padding-left: 40px;
 	}
-	
-	
 	/*Behind the scene btn*/
 	a.moralbtn {
 		margin-right: 31%;
-		margin-left: 31%;	
+		margin-left: 31%;
 	}
-
 	a.moralbtn:hover {
 		margin-left: 31%;
 		margin-right: 31%;
@@ -212,18 +63,15 @@
 		border: solid 4px black;
 		color: #000;
 	}
-	
 }
-
-
 
 /*MORALIST PAGE TABLET IPAD-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px){
-	
+
 	/*Behind the scene btn*/
 	a.moralbtn {
 		margin-right: 30%;
-		margin-left: 30%;	
+		margin-left: 30%;
 	}
 
 	a.moralbtn:hover {
@@ -233,293 +81,143 @@
 		border: solid 4px black;
 		color: #000;
 	}
-	
 }
-
-
 
 /*HOMEPAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
-	
+
+  h1{
+    font-family: "maziusDisplay", serif;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  h2{
+    font-family: "maziusDisplay", serif;
+    font-size: 1.3rem;
+    line-height: 3.50rem;
+    font-weight: 400;
+    text-align: center;
+  }
 	.margin-fifty {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-	
+
 	.margin-hundred {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-	
+
 	/*barra navigazione*/
-	.bar-menu {
+	/* .bar-menu {
 		margin-top: 0rem;
 		padding-right: 0.2rem;
 		font-size: 14px;
-	}
-	
+	} */
+
 	#set-jetters-logo {
 	width: 100px;
 }
-	
+
 	.textbar {
 		display: none;
 	}
-	
-	#icon-backpack {
+
+	/* #icon-backpack {
 		padding-right: 10px;
-	}
-	
-		
+	} */
+
 	/*cover video*/
 	.cover {
-		padding-top: 11rem;
+		padding-top: 0.7rem;
 	}
-	
-	#main-title {
-		font-size: 50px;
-		line-height: 4rem;
-	}
+  #coverpage {
+    height: 100vh;
+  }
+  .page {
+    padding-top: 0.7rem;
+  }
 
+	#main-title {
+    	font-size: 38px;
+	}
 	#main-subtitle {
 		font-size: 28px;
 	}
-	
-	
-	/*category*/
-	.section-title {
-		font-size: 24px;
-	}
-	
-	#CategoryContainer {
-		padding-top: 100px;
-		height: auto;
-		padding-bottom: 100px;
-	}
 
-	.whiteHover{
-		border: none!important;
-	}
-	
-	.categoryBt {
-		font-size: 35px;
-		font-weight: 400;
-		width: 100%;
-		height: 170px;
-		/*margin-top: 2rem;*/
-		line-height: 45px;
-		color: #fff;
-		border: none;
-		padding: 15px 15px 15px 15px;
-	}
-	
-	.makeimg {
-		background-image:
-		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
-		url('../assets/images/category01small.jpg');
-	}
-	
-	.leaveimg {
-		background-image:
-		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
-		url('../assets/images/category02small.jpg');
-	}
-	
-	.swimimg {
-		background-image:
-		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
-		url('../assets/images/category03small.jpg');
-	}
-	
-	.feelimg{
-		background-image:
-		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
-		url('../assets/images/category04small.jpg');
-	}
-	
-	.categoryDiv{
-		margin-top: 2rem;
-		width: 100%;
-		position: relative;
-		color: #fff;
-		border: none;
-	}
-	
-	.categoryDescr {	
-		display: none;
-		width: 100%;
-		margin-top: 0rem;
-		
-	}	
-	
-	.dropdownTxt {
-		font-size: 15px;
-		opacity: 1;
-		display: none;
-		
-	}
-	
-	
-	/*principles*/
-	.principle-text {
-		margin-top: 0rem;
-		font-size: 15px;
-		line-height: 22px;
-	}
-	
-	.icon-principle {
-		height: 60px;
-	}
-	
-	.single-principle {
-		margin-top: 3rem;
-	}
-	
-	
-	/*most loved tours*/
-	.activitiycard {
-		margin-bottom: 30px;
-	}
-	
-	
+  .image-project-5 {
+    margin-top:0.3%;
+    margin-bottom:0.6%;
+    height: auto;
+    width: 100%;
+  }
+  .image-placemaking{
+    margin-top:0.6%;
+    height: 30%;
+  }
+
 	/*footer*/
 	.about {
 		margin-bottom: 2rem;
 	}
-	
+
 	.contact {
 		margin-bottom: 3rem;
 	}
-	
+
 	.newsletter {
 		margin-bottom: 0rem;
 	}
-	
-	#subscribe {
-		margin-left: 0rem;
-		margin-top: 0.5rem;
-	}
-	
+
+
 }
 
 
 
 /*HOMEPAGE TABLET----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px){
-	
-	.margin-hundred {
+
+	/* .margin-hundred {
 		margin-left: 25px;
 		margin-right: 25px;
-	}
-	
-	.margin-fifty {
+	} */
+
+	/* .margin-fifty {
 		margin-left: 25px;
 		margin-right: 25px;
-	}
-	
-	
+	} */
+
+
 	/*barra navigazione*/
-	#set-jetters-logo {
+	/* #set-jetters-logo {
 		width: 100px;
-	}
-	
-	
-	/*cover video*/
-	.cover {
-		padding-top: 45%;
-	}
-	
+	} *
+
+
 	#main-title {
 		font-size: 80px;
 		line-height: 6rem;
 	}
-
 	#main-subtitle {
 		font-size: 45px;
 	}
-	
-	
+
 	/*category*/
-	#CategoryContainer {
+	/* #CategoryContainer {
 		padding-top: 130px;
 		padding-bottom: 150px;
 		height: auto;
-	}
+	} */
 
-	.whiteHover{
-		border: none!important;
-	}
-	
-	.categoryBt {
-		font-size: 35px;
-		font-weight: 400;
-		width: 100%;
-		height: 250px;
-		/*margin-top: 2rem;*/
-		line-height: 45px;
-		color: #fff;
-		border: none;
-		padding: 25px 25px 25px 25px;
-	}
-	
-	.makeimg {
-		background-image:
-		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
-		url('../assets/images/category01small.jpg');
-	}
-	
-	.leaveimg {
-		background-image:
-		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
-		url('../assets/images/category02small.jpg');
-	}
-	
-	.swimimg {
-		background-image:
-		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
-		url('../assets/images/category03small.jpg');
-	}
-	
-	.feelimg{
-		background-image:
-		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
-		url('../assets/images/category04small.jpg');
-	}
-	
-	.categoryDiv{
-		margin-top: 2rem;
-		width: 100%;
-		position: relative;
-		color: #fff;
-		border: none;
-	}
-	
-	.categoryDescr {	
-		display: none;
-		width: 100%;
-		margin-top: 0rem;
-		
-	}
-	
-	
-	/*most loved tours*/
-	.activitiycard {
-		margin-bottom: 30px;
-	}
-	
-	
-	/*footer*/
-	#subscribe {
-		margin-left: 0rem;
-		margin-top: 0.5rem;
-	}
 }
 
 
 
 /*HOMEPAGE TABLET IPAD-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px){
-	
+
 	/*footer*/
 	.newsletter {
 		margin-top: 1rem;
@@ -530,7 +228,7 @@
 
 /*VIDEO HOME PAGE PHONE----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
-    
+
 	.margin-botton-audio {
         top: 10%;
         padding-right: 0%;
@@ -541,7 +239,7 @@
 
 /*VIDEO HOME PAGE TABLET----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px){
-    
+
 	.margin-botton-audio {
         top: 30%;
         padding-right: 0%;
@@ -552,7 +250,7 @@
 
 /*VIDEO HOME PAGE TABLET IPAD----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px){
-    
+
 	.margin-botton-audio {
         /* margin-top: 190px; */
         top: 20%;
@@ -564,7 +262,7 @@
 
 /*VIDEO HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1400px) {
-    
+
 	.margin-botton-audio {
         /* margin-top: 190px; */
         top: 25%;
@@ -582,30 +280,30 @@
     	overflow: hidden;
     	object-position: 30%;
 	}
-    
+
     #full-img-phone {
         display: block;
     }
-    
+
     #full-img-desktop {
         display: none;
     }
-    
+
 	/*left-side*/
 	.category-title {
 		font-size: 45px;
 		line-height: 3.5rem;
 	}
-	
-	.category-text {	
+
+	.category-text {
 		font-size: 16px;
 	}
-	
+
 	.category-choose a {
 		font-size: 16px;
 	}
-	
-	
+
+
 	/*cards*/
 	.margincards {
 		margin-bottom: 0px;
@@ -631,30 +329,30 @@
     	overflow: hidden;
     	object-position: 45%;
 	}
-    
+
     #full-img-tablet {
         display: block;
     }
-    
+
     #full-img-desktop {
         display: none;
     }
-    
-	
+
+
 	/*left-side*/
 	.category-title {
 		font-size: 45px;
 		line-height: 3.5rem;
 	}
-	
-	.category-text {	
+
+	.category-text {
 		font-size: 16px;
 	}
-	
+
 	.category-choose a {
 		font-size: 14px;
 	}
-	
+
 	.margincards {
 		margin-bottom: 0px;
 	}
@@ -662,33 +360,33 @@
 	.category-change-btn:hover {
 		transition: background 0s;
 	}
-	
+
 }
 
 
 
 /*CATEGORY PROIETTORE----------------------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1400px) {
-	
+
     p.price{
 		float: left;
 		display: block;
-		text-align: right;	
+		text-align: right;
 		padding-right: 0px;
 		margin-bottom: 0px;
 		font-weight: 500;
 	}
-	
-	
+
+
 	.serietitle {
 		display: block;
 		margin-bottom: 7px;
 	}
-	
+
 	h5 {
 		font-size: 17px;
 	}
-	
+
 }
 
 /*CATEGORY MEGA SCERMO-----------------------------------------------------------------------------*/
@@ -702,20 +400,20 @@
 
 /*SINGLE TOUR PAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
-    
+
     /*Change category btn*/
     .menucategory {
         padding: 3px 7px;
     }
-    
+
     .currentcategory {
         padding: 3px 7px;
     }
-    
+
     p:hover .extra {
         display: none;
     }
-    
+
 
     /*Text description*/
     #tot-price {
@@ -723,39 +421,39 @@
         float: none;
         margin-top: 1.5rem;
     }
-    
+
     .btn-detail {
         display: inline-block;
         margin-top: 1rem;
     }
-    
-    
+
+
         /*Add to cart btn*/
         .addcart-btn {
             margin-top: 2rem;
             margin-left: 0px;
         }
-    
-    
+
+
         /*Calendar*/
         .dropbtn-calendar {
             width: 155px;
         }
-    
+
         .dropdown-content-calendar {
             width: 330px;
         }
-    
+
         .weekdays li {
             width: 12.5%;
             font-size: 20px;
         }
-    
+
         .days li {
             width: 12.5%;
         }
-    
-    
+
+
         /*Tour quantity*/
         .dropbtn {
             width: 60px;
@@ -764,71 +462,71 @@
         .dropdown-content {
             width: 60px;
         }
-    
-    
+
+
     /*Images*/
     .tour-cards {
         margin-top: 3rem;
     }
-    
+
     .margincards-singletour {
         margin-bottom: 2rem;
     }
-    
+
     .category-all {
         margin-bottom: 5rem; /*5rem = 80px*/
     }
-    
-    
+
+
     /*Reviews*/
     #reviews {
         margin-bottom: 5rem; /*5rem = 80px*/
     }
-    
+
     .marginbottom-review {
         margin-bottom: 2rem;
     }
-	
+
 	.hideContent {
         height: 17.4em;   /* 20.4em*/ /* 18.9em*/
     }
-    
-    
+
+
     /*Carousel*/
     .carousel {
         margin-bottom: 70px;
     }
-    
+
     .carousel-margin-phone {
         margin-top: 2rem;
         margin-right: 30px;
-        margin-left: 30px;      
+        margin-left: 30px;
     }
-    
+
     .hide-text-cards p, .hide-text-cards i {
         display: none !important;
     }
-    
+
     .freccia {
         margin-top: 0.5rem;
         width: 15px;
     }
-    
+
     .hidden-arrow-desktop {
         display: block;
     }
-    
+
     .hidden-arrow-mobile {
         display: none;
     }
-    
+
 }
 
 
 
 /*SINGLE TOUR PAGE TABLET-----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px){
-    
+
     /*Calendar*/
     .dropdown-content-calendar {
         width: 330px;
@@ -838,29 +536,29 @@
         width: 12.5%;
         font-size: 20px;
     }
-    
+
     .days li {
         width: 12.5%;
-    } 
-    
-    
+    }
+
+
     /*Add to cart btn*/
     .addcart-btn {
         margin-left: 46px;
     }
-    
-    
-    /*Reviews*/    
+
+
+    /*Reviews*/
     .hideContent {
         height: 17.2em;   /* 20.4em*/ /* 18.9em*/
     }
-      
-    
+
+
     /*Carousel*/
     .carousel {
         margin-bottom: 50px;
     }
-    
+
     .freccia {
         margin-top: 120px;
     }
@@ -870,25 +568,25 @@
 
 /*SINGLE TOUR PAGE TABLET IPAD-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px){
-	
+
 	/*Carousel*/
      .freccia {
          margin-top: 430px;
     }
-    
-    
+
+
     /*Reviews*/
     .marginbottom-review {
         margin-bottom: 2rem;
     }
-    
+
 }
 
 
 
 /*SINGLE TOUR PAGE PROIETTORE----------------------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1400px) {
-	
+
 	/*Reviews*/
 	.hideContent {
         height: 17.2em;   /* 20.4em*/ /* 18.9em*/
@@ -936,7 +634,7 @@
         line-height: 22px;
         font-weight: 300;
 	}
-    
+
     .carousel-margin-about {
         margin-left: 0px;
         margin-right: 0px;
@@ -1017,11 +715,11 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
     .category-cardsorange-mobile {
         display: block;
     }
-    
+
     .category-cardsorange {
         display: none;
     }
@@ -1075,7 +773,7 @@
         /* margin-right:  0.2rem; */
         /* margin-left:  0.3rem; */
     }
-    
+
     .list-faculty {
         margin-bottom: 1rem;
         padding-left:  0.3rem;
@@ -1083,7 +781,7 @@
         /* margin-right:  0.2rem;
         margin-left:  0.2rem; */
     }
-    
+
     .list-assistants {
         margin-bottom: 1rem;
         padding-left:  1rem;
@@ -1099,7 +797,7 @@
         margin-left:  0.2rem;
         margin-bottom: 1rem; */
     }
-    
+
     .ul-b{
         font-weight: 800;
     }
@@ -1110,7 +808,7 @@
 
 /*ABOUT TABLET-----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px){
-    
+
     .margin-fifty {
         margin-left: 25px;
         margin-right: 25px;
@@ -1148,13 +846,13 @@
         margin-right: 0px;
         margin-top: 50px;
     }
-    
+
 	.row-arrow-about {
         position:absolute;
         top:92.5%;
         left:85.5%;
 	}
-    
+
 	.centeredtextabout {
         position: absolute;
         top: 60%;
@@ -1190,7 +888,7 @@
 	   margin-right: 0rem;
 	   margin-left: 0rem;
     }
-    
+
     .ul-b{
         font-weight: 800;
     }
@@ -1217,7 +915,7 @@
         font-weight: 300;
         /* text-align: right; */
     }
-    
+
     .textabout-margin-subtitle {
         margin-top: 50px;
     }
@@ -1267,7 +965,7 @@
 
 /*ABOUT PROIETTORE-----------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1400px){
-    
+
     .row-arrow-about {
         position: absolute;
         top: 92.5%;
@@ -1326,7 +1024,7 @@
 		font-size: 65px;
 	}
 
-	.sidenav a.cartelement-x {    
+	.sidenav a.cartelement-x {
     	font-size: 120px;
 	}
 
@@ -1361,9 +1059,9 @@
     .dropdown-content-calendar {
     	height: 800%;
     	width: 290%;
-    	margin-left: 0.1%;  
+    	margin-left: 0.1%;
     	font-size: 50px!important;
-    	border: 4px solid;  	
+    	border: 4px solid;
     }
     .dropdown-content-calendar-cart {
     	height: 800%;
@@ -1391,14 +1089,14 @@
     	border: 4px solid;
 	}
 
-	a.purchasebtn {    
+	a.purchasebtn {
     	margin-top: 100px;
     	margin-bottom: 28%;
     	font-size: 70px;
 	}
 
-	a.purchasebtn:hover {  
-		margin-top: 100px; 
+	a.purchasebtn:hover {
+		margin-top: 100px;
     	margin-bottom: 34%;
     	font-size: 70px;
     	border: 5px solid;
@@ -1414,14 +1112,14 @@
 
 /* MORALIST PAGE MEGASCHERMO--------------------------------------------------------------------------------*/
 @media (min-width: 3500px){
-    
+
     .margintop-moralist-info {
         margin-top: 5rem;
     }
 
 	.sidemoral .closebtn {
 		font-size: 140px;
-		padding-left: 100px;			
+		padding-left: 100px;
 	}
 
 	.cartcontent-moral{
@@ -1453,7 +1151,7 @@
 
 	a.moralbtn {
         margin-right: 27%;
-		margin-left: 27%;     
+		margin-left: 27%;
 	}
 
 	a.moralbtn:hover {
@@ -1470,8 +1168,8 @@
 
 /*MEGA SCHERMO HOME----------------------------------------------------------------------------*/
 @media (min-width: 3500px) {
-    
- /*barra navigazione*/ 
+
+ /*barra navigazione*/
     #loader {
         width: 3840px;
         height: 2700px;
@@ -1480,51 +1178,51 @@
         top: 45%;
         left: 50%;
         transform: translate(-50%,-50%);
-        z-index: 9999; 
+        z-index: 9999;
     }
-    
+
     .margin-fifty {
 		margin-left: 100px;
 		margin-right: 100px;
 	}
-	
+
 	.margin-hundred {
 		margin-left: 200px;
 		margin-right: 200px;
 	}
-    
+
     #margin-bigscreen {
 		margin-left: 200px;
 		margin-right: 30px;
 	}
-    
+
     .nav-bar {
         padding-top: 55px;
         height: 200px;
     }
-    
+
     #set-jetters-logo {
 	   width: 250px;
     }
-    
+
    #icon-behindscene {
         height: 80px;
         margin-left: 3rem;
-    } 
-    
+    }
+
     #icon-backpack {
         height: 80px;
         margin-left: 3rem;
-    } 
-    
+    }
+
     .bar-menu {
 	margin-top: 0.5rem;
 	font-size: 40px;
 	font-weight: 500;
 }
-    
-    
-/*cover video*/ 
+
+
+/*cover video*/
     #main-title {
 		font-size: 200px;
 		font-weight: 800;
@@ -1536,33 +1234,33 @@
 		font-weight: 800;
 		color: #F39200;
 	}
-    
+
     .cover {
 		padding-top: 47rem;
 	}
-    
-    
+
+
 /*Audio button*/
     .icon-muto-yes {
         height: 80px;
         float:left;
-    }    
-    
-    
-/*category section*/ 
+    }
+
+
+/*category section*/
     #CategoryContainer {
         margin-top: 0px;
         padding-top: 600px;
         background-image: url("../assets/images/cover-bigscreen.jpg");
         background-size: cover;
     }
-    
+
     .section-title {
 		font-size: 80px;
 		font-weight: 600;
         margin-bottom: 150px;
 	}
-    
+
     .categoryBt {
 		font-size: 70px;
 		font-weight: 500;
@@ -1573,7 +1271,7 @@
 		color: #FFFFFF;
 		border: 5px solid #FFFFFF;
 	}
-    
+
     .dropdownTxt {
 		font-size: 50px;
 		font-weight: 500;
@@ -1582,51 +1280,51 @@
 		opacity: 1;
 		color: #FFFFFF;
 	}
-    
-    .categoryDescr {		
+
+    .categoryDescr {
 		width: 700px;
 		margin-top: 0rem;
-		padding: 30px 50px 30px 50px;		
+		padding: 30px 50px 30px 50px;
 		color: #FFFFFF;
 		border: 5px solid #FFFFFF;
 		border-top: none;
-		transform: scaleY(1);	
+		transform: scaleY(1);
 	}
-    
+
     div:hover ~ div.categoryDescr{
 		border: 5px solid white;
 		border-top: none;
 	}
-    
-    
- /*principles*/    
+
+
+ /*principles*/
     .principles {
 		padding-top: 300px;
 		color: #000000;
 	}
-    
+
     .icon-principle {
 		height: 200px;
 		width: auto;
 	}
-    
+
     .principle-text {
 		margin-top: 10rem;
 		font-size: 50px;
 		line-height: 70px;
 	}
-    
-/*carosello*/   
+
+/*carosello*/
     .mostLoved {
 		margin-top: 30rem;
 		padding-bottom: 300px;
 	}
-    
+
     .activitiycard {
         padding-left: 50px;
         padding-right: 50px;
     }
-    
+
     .textabove {
         width: 84%;
         padding-left: 80px;
@@ -1636,45 +1334,45 @@
         right: 15px;
         left: 15px;
      }
-    
+
     .textabove p {
-      font-size: 38px;  
+      font-size: 38px;
     }
-    
+
     .textabove h5 {
         font-size: 49px;
         padding-bottom: 10px;
     }
-    
- /*footer*/   
+
+ /*footer*/
     footer {
         padding-top: 150px;
         padding-bottom: 150px;
     }
-    
+
     #footer h6 {
         font-size: 40px;
-    } 
-    
+    }
+
     #footer p {
         font-size: 35px;
     }
-    
+
     .newsletter {
         padding-left: 200px;
     }
-    
+
     #icon-fb, #icon-ig, #icon-twitter {
         width: auto;
         height: 70px;
         margin-top: 30px;
         margin-right: 3rem;
     }
-    
+
     #enter-email, #subscribe {
         font-size: 35px;
     }
-    
+
     #enter-email {
         border: 4px solid white;
         border-radius: 0;
@@ -1682,7 +1380,7 @@
         height: 100px;
         width: 600px;
     }
-    
+
     #subscribe {
         font-weight: 500;
         border: 4px solid white;
@@ -1692,15 +1390,15 @@
         margin-left: 2rem;
         height: 100px;
     }
-    
+
     #footer a {
         pointer-events: none;
     }
-    
+
     .footer-about a {
         pointer-events: none;
     }
-     
+
 }
 
 
@@ -1708,26 +1406,26 @@
 /*MEGA SCHERMO CATEGORY----------------------------------------------------------------------------*/
 @media (min-width: 3500px) {
 
-/*category left side*/ 
+/*category left side*/
     .category-text {
         margin-top: 18rem;
         font-size: 60px;
     }
-    
+
     .category-cards {
         margin-top: 21rem;
     }
-    
+
     .category-title {
         font-size: 150px;
         line-height: 11rem;
         margin-bottom: 80px;
     }
-    
+
     .category-choose {
         margin-top: 6rem;
     }
-    
+
     .category-choose p{
         margin-bottom: 3rem;
     }
@@ -1740,16 +1438,16 @@
         padding-bottom: 10px;
         border: 4px solid #F39200;
     }
-    
-/*category right side*/     
+
+/*category right side*/
     .margincards {margin-bottom: 100px;}
-    
+
     .sticky {
         position: sticky;
         position: -webkit-sticky;
         top: 300px;
     }
-    
+
     .category-all {
         margin-bottom: 250px;
     }
@@ -1759,35 +1457,35 @@
 
 /*MEGA SCHERMO SINGLE TOUR----------------------------------------------------------------------------*/
 @media (min-width: 3500px) {
-        
+
 /*single page left side*/
-    
+
     .tour-cards {
         margin-top: 18rem;
     }
-    
+
     .tour-info p {
 	   font-size: 40px;
     }
-    
+
     .tour-info i {
         font-size: 40px;
         line-height: 60px;
     }
-    
+
     .text-description {
         font-size: 40px;
         line-height: 60px;
         margin-top: 3rem;
     }
-    
+
      .text-description h6 {
         font-size: 40px;
         line-height: 60px;
         margin-top: 3rem;
 	    margin-bottom: 1rem;
     }
-    
+
      .tour-title {
         font-weight: 800;
         font-size: 150px;
@@ -1795,11 +1493,11 @@
         margin-bottom: 20px;
         margin-top: 30px;
     }
-    
+
     .btn-detail {
         margin-top: 50px;
     }
-    
+
     #tot-price {
         font-size: 50px;
         font-weight: 600;
@@ -1809,7 +1507,7 @@
         margin-left: 200px;
         margin-right: 200px;
     }
-    
+
     .menucategory {
         border: solid 4px #F39200;
         padding: 5px 15px;
@@ -1830,55 +1528,55 @@
         padding-right: 15px;
         font-size: 40px;
     }
-    
+
     .tag-title {
         font-size: 40px;
-        margin-bottom: 1rem; 
+        margin-bottom: 1rem;
     }
-    
+
     .bordertop-film {
         border-top: 12px solid #F39200;
     }
 
-    .bordertop {	
+    .bordertop {
         border-top: 12px solid #FFFFFF;
     }
-    
+
     .margincards-singletour {
         margin-bottom: 50px;
     }
-    
-/*single page left side*/ 
+
+/*single page left side*/
     div.text-container {
         border: solid 4px white;
         padding: 50px;
     }
-    
+
     .text-container p{
         font-size: 40px;
     }
-    
+
     .text-container a  {
         font-size: 40px;
     }
-    
+
     .text-container h5 {
         font-size: 50px;
     }
-    
+
     .orangep {
         margin-bottom: 50px;
     }
-    
+
     .hideContent {
         overflow: hidden;
-        height: 42.5em;   /* 20.4em*/ /* 18.9em*/	
+        height: 42.5em;   /* 20.4em*/ /* 18.9em*/
     }
-    
+
      .marginbottom-review {
         margin-bottom: 10rem;
     }
-    
+
     .freccia {
         width: 50px;
         display: block;
@@ -1887,118 +1585,118 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
 }
 
 
 
 /*MEGA SCHERMO ABOUT----------------------------------------------------------------------------*/
 @media (min-width: 3500px) {
-    
+
     /*about title*/
     .category-text-about {
         margin-top: 30rem;
     }
-    
+
     .category-title-about {
         font-size: 150px;
         line-height: 12rem;
     }
-    
+
     .category-subtitle-about {
         font-size: 80px;
     }
-    
-    
+
+
     /*about text*/
     .about-margin-top {
         margin-top: 30rem;
     }
-    
+
     .about-top-distance {
         margin-top: 150px;
     }
-    
+
     .textabout-margin-subtitle {
-        margin-top: 100px; 
+        margin-top: 100px;
     }
 
     .about-top-distance-section {
         margin-top: 100px;
     }
-    
+
     .about-distance-protocol {
         margin-right: 150px;
     }
-    
+
     .carousel-margin-about {
         margin-top: 100px;
     }
-    
+
     .titleabout {
         font-size: 3rem;
         line-height: 60px;
         padding-top: 18px;
         font-weight: 600;
     }
-    
+
     .textabout {
         font-size: 45px;
         line-height: 70px;
     }
-    
+
     .textabout2 {
         font-size: 70px;
         line-height: 80px;
     }
-    
+
     .textabout3 {
         font-size: 45px;
         line-height: 60px;
         font-weight: 700;
     }
-    
+
     .centeredtextabout3 {
         top: 90%;
         left: 30%;
     }
-    
+
     .descriptionabout {
         font-size: 30px;
         line-height: 3rem;
     }
-    
+
     .margin-bottom-sources {
         margin-bottom: 25rem;
     }
-    
-    
+
+
     /*carousel*/
     .carousel-image-about {
         border: 6px solid #F39200;
     }
-    
+
     .rect-caption-about {
         padding: 5px 10px;
         border: 6px solid #F39200;
         width: 70%;
         height: 100%;
     }
-    
-    .arrowabout{  
+
+    .arrowabout{
         font-size: 45px;
     }
-    
+
     .about-rect-slideshow {
         padding-top: 40px;
     }
-    
+
     .row-arrow-about {
         position: absolute;
         top: 93%;
         left: 84.8%;
     }
-    
+
     .rect-arrow-about {
         padding-top: 1px;
         width: 80px;
@@ -2006,7 +1704,7 @@
         border: 6px solid #F39200;
     }
 
-    
+
     /*about footer*/
     .logo-images {
         margin-top: 6rem;
@@ -2021,29 +1719,18 @@
     #logopoli {
         width: 445px;
     }
-    
+
     .lists {
         margin-top: 6rem;
         margin-bottom: 4rem;
     }
-    
+
     ul {
         font-size: 40px;
     }
-    
+
     li.ul-b {
         margin-bottom: 2rem;
     }
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-

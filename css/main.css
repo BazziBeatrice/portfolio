@@ -98,6 +98,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.cap-letter {
+float: left;
+line-height: 1;
+font-size: 3em;
+margin-right: 0.1em;
+font-weight: bold;
+}
+
 .description{
   font-family:"neue-haas-grotesk-display", serif;
   font-size: 1.4rem;
@@ -646,6 +654,77 @@ pointer-events: none;
   opacity: 1;
 } */
 
+/* -------------------- */
+/* MARGINS */
+/* -------------------- */
+
+.marginonehundred{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.marginonehundred-bottom{
+  margin-bottom:100px;
+}
+.marginonehundred-top{
+  margin-top:100px;
+}
+.marginonehundred-top-minus{
+margin-top:-100px;
+}
+
+.marginonehundredhalf-top{
+margin-top:150px;
+}
+.marginonehundredhalf-top-minus{
+margin-top:-150px;
+}
+
+.margintwohundred{
+  margin-top:200px;
+}
+.margintwohundred-bottom{
+  margin-bottom:200px;
+}
+.margintwohundred-both{
+  margin-top:200px;
+  margin-bottom:200px;
+}
+.marginfifteen{
+  margin-top:15px;
+}
+
+.margintwohundredminus{
+  margin-top:-200px;
+}
+
+.paddingzero{
+  padding-right:0%;
+  padding-left:0%;
+}
+.paddingzeropx{
+padding-left:0px;
+padding-right:0px;
+}
+.marginzero{
+margin-left:0px;
+margin-right:0px;
+}
+
+.paddingzeroall{
+padding: 0% 0% 0% 0%
+}
+
+.paddingthelostgallery{
+padding-left:0px;
+padding-right:20.5px;
+}
+.paddingfuso{
+padding-left:30px
+}
+.pageheightmax{
+height:600px;
+}
 /* -------------------- */
 /* Navigation */
 /* -------------------- */
@@ -1319,12 +1398,12 @@ color:#EFEFEF;
   .desktop-only {
     display: none;
   }
-  .project.active .project-content {
+  /* .project.active .project-content {
     height: 45vh;
   }
   .project .project-info {
     height: 1.9em;
-  }
+  } */
   #about {
     font-size: var(--txt-normal);
     padding: 4.5em 1.5em 2em;
