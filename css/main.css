@@ -364,18 +364,27 @@ width: 100%;
   /* margin-right: auto; */
 }
 
-.image-project-8{
-    margin-top:-16rem;
-  height: 100%;
+.image-project-protocol2{
+  margin-top:0.6%;
+  height:30%;
   width: auto;
   display: block;
+  margin-left: 100px;
+  /* margin-right: auto; */
 }
 
-.image-project-9{
-    margin-top:-16rem;
-  height: 100%;
-  width: auto;
-  display: block;
+.image-project-8 {
+margin-top: -10rem;
+height: 10%;
+width: auto;
+display: block;
+}
+
+.image-project-9 {
+margin-top: -16rem;
+height: 12.6%;
+width: auto;
+display: block;
 }
 
 
@@ -404,10 +413,26 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+.image-outforia-page{
+  margin-top:0.6%;
+  height: 20%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .image-setjettersunited{
   margin-top:0.6%;
   height: 32.5%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-outforia-screen{
+  margin-top:0.6%;
+  height: 30.5%;
   width: auto;
   display: block;
   margin-left: auto;
@@ -458,6 +483,15 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+.image-fuso-page{
+  margin-top:0.6%;
+  height: 60%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .image-fuso{
   margin-top:0.6%;
@@ -722,8 +756,16 @@ padding-right:20.5px;
 .paddingfuso{
 padding-left:30px
 }
+.paddingnavbar{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
 .pageheightmax{
 height:600px;
+    /* height: -webkit-fill-available; */
 }
 /* -------------------- */
 /* Navigation */
@@ -1274,6 +1316,11 @@ color:#EFEFEF;
     top: 92.5%;
     left: 68.4%;
 }
+.row-arrow-about-spleen{
+    position:absolute;
+    top: 92.5%;
+    left: 68.4%;
+}
 
 .arrowabout-prev{
   position:absolute;
@@ -1293,6 +1340,21 @@ color:#EFEFEF;
 .carousel-image-about{
   height:auto;
   width: 100%;
+}
+/* -------------------- */
+/*SETJETTERS UNITED*/
+/* -------------------- */
+.driveyourcart-position{
+  left:0%;
+}
+.anything-position{
+  top:400px;
+  left:-80%;
+}
+.description-setjettersunited{
+  position:absolute;
+  top:0px;
+  left:40%;
 }
 
 
