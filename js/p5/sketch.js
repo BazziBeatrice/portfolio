@@ -184,13 +184,13 @@ function mostraImmagine7() {
   image(img7, mouseX, mouseY -50, (img.width / 4), (img.height / 4))
 }
 function mostraImmagine8() {
-  image(img8, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img8, mouseX, mouseY + 20, (img.width / 4.5), (img.height / 5))
 }
 function mostraImmagine9() {
-  image(img9, mouseX, mouseY + 20, (img.width / 4), (img.height / 5))
+  image(img9, mouseX, mouseY + 20, (img.width / 3), (img.height / 4))
 }
 function mostraImmagine10() {
-  image(img10, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img10, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine11() {
   image(img11, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
