@@ -71,7 +71,7 @@ function setup() {
   img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
   p6Hover = select("#p06")
 
-  img7 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  img7 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/outforia_intro.gif");
   p7Hover = select("#p07")
 
   img8 = loadImage("https://i.imgur.com/uv8wnM7.gif");
@@ -83,10 +83,10 @@ function setup() {
   img10 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/atavola-intro.jpg");
   p10Hover = select("#p10")
 
-  img11 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  img11 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/lineunit-intro.jpg");
   p11Hover = select("#p11")
 
-  img12 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  img12 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/thekingof-intro.gif");
   p12Hover = select("#p12")
 
 }
@@ -181,7 +181,7 @@ function mostraImmagine6() {
   image(img6, mouseX, mouseY -40, (img.width / 4), (img.height / 5))
 }
 function mostraImmagine7() {
-  image(img7, mouseX, mouseY -50, (img.width / 4), (img.height / 4))
+  image(img7, mouseX, mouseY -50, (img.width / 5.5), (img.height / 4))
 }
 function mostraImmagine8() {
   image(img8, mouseX, mouseY + 20, (img.width / 4.5), (img.height / 5))
@@ -193,8 +193,8 @@ function mostraImmagine10() {
   image(img10, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine11() {
-  image(img11, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img11, mouseX, mouseY + 20, (img.width / 5), (img.height / 4))
 }
 function mostraImmagine12() {
-  image(img12, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))
+  image(img12, mouseX, mouseY + 20, (img.width / 4), (img.height / 4.5))
 }
