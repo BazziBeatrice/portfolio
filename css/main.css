@@ -9,35 +9,41 @@
 }
 
 /* @font-face {
-  font-family: "MAZIUSREVIEW20.09-Regular", serif;
-  font-weight: 400;
-  font-style: normal;
-    src: url("assets/fonts/MAZIUSREVIEW2009-Regular.eot") format('embedded-opentype'),
-         url("assets/fonts/MAZIUSREVIEW2009-Regular.ttf") format('truetype'),
-         url("assets/fonts/MAZIUSREVIEW2009-Regular.woff") format('woff'),
-} */
-
-@font-face {
   font-family: "maziusDisplay";
   font-weight: 400;
   font-style: normal;
-  /* font-stretch: normal; */
   src: local('MAZIUSREVIEW20.09-Regular'), local('MAZIUSREVIEW20.09-Regular'), url(https://collletttivo.it/assets/fonts/MaziusDisplayRegular.woff2) format('woff2');
+} */
+@font-face {
+  font-family: 'maziusDisplay';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../assets/fonts/MAZIUSREVIEW20.09-Regular.woff2') format('woff2'), url('../assets/fonts/MAZIUSREVIEW20.09-Regular.woff') format('woff');
 }
 @font-face {
+  font-family: 'maziusDisplay';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../assets/fonts/MAZIUSREVIEW20.09-Italic.woff2') format('woff2'), url('../assets/fonts/MAZIUSREVIEW20.09-Italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'maziusDisplay';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../assets/fonts/MAZIUSREVIEW20.09-Extraitalic.woff2') format('woff2'), url('../assets/fonts/MAZIUSREVIEW20.09-Extraitalic.woff') format('woff');
+}
+/* @font-face {
   font-family: "maziusDisplay";
   font-weight: 400;
   font-style: italic;
-  /* font-stretch: normal; */
   src: local('MAZIUSREVIEW20.09-Italic'), local('MAZIUSREVIEW20.09-Italic'), url(https://collletttivo.it/assets/fonts/MaziusDisplayItalic.woff2) format('woff2');
 }
 @font-face {
   font-family: "maziusDisplay";
   font-weight: 300;
   font-style: italic;
-  /* font-stretch: normal; */
   src: local('MAZIUSREVIEW20.09-Extra-Italic'), local('MAZIUSREVIEW20.09-Extra-Italic'), url(https://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2) format('woff2');
-}
+} */
 
 $animate: all 0.2s ease-in-out;
 
@@ -124,8 +130,8 @@ font-weight: bold;
 
 .side-description{
   font-family:"neue-haas-grotesk-display", serif;
-  font-size: 1.7rem;
-  line-height: 2.7rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
   font-weight: 400;
   color:black;
   position:absolute;
@@ -135,8 +141,8 @@ font-weight: bold;
 
 .side-description2{
   font-family:"neue-haas-grotesk-display", serif;
-  font-size: 1.7rem;
-  line-height: 2.7rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
   font-weight: 400;
   color:black;
   position:absolute;
@@ -456,6 +462,21 @@ display: block;
   margin-left: auto;
   margin-right: auto;
 }
+.image-thekingofmiami{
+  margin-top:0.6%;
+  height: auto;
+  width: 120%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-thekingofmiami-home{
+  height: auto;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .image-atavola{
@@ -473,6 +494,7 @@ display: block;
   width: 80%;
   display: block;
 }
+
 
 
 .image-placemaking{
