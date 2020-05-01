@@ -911,7 +911,10 @@ height:600px;
 
 .bar{
   border-bottom: 1.5px solid black;
+}
 
+.bordered{
+  border: 2px solid black;
 }
 
 .menu-right{
@@ -1310,6 +1313,13 @@ color:#EFEFEF;
     vertical-align: middle;
      color:#00000;
 }
+.arrowabout-setjettersunited{
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+     color:#00000;
+}
 .arrowabout-white{
     font-size: 30px;
     margin: auto;
@@ -1342,6 +1352,15 @@ color:#EFEFEF;
     position:absolute;
     top: 92.5%;
     left: 68.4%;
+}
+
+.row-arrow-about-setjettersunited{
+    position:absolute;
+    top: 92%;
+    left: 54.8%;
+}
+.margintop3{
+  margin-top:3%
 }
 
 .arrowabout-prev{
@@ -1389,7 +1408,6 @@ color:#EFEFEF;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
-
 }
 
 /* Create four equal columns that sits next to each other */

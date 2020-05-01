@@ -181,7 +181,7 @@ function mostraImmagine6() {
   image(img6, mouseX, mouseY -40, (img.width / 4), (img.height / 5))
 }
 function mostraImmagine7() {
-  image(img7, mouseX, mouseY -50, (img.width / 5.5), (img.height / 4))
+  image(img7, mouseX, mouseY -100, (img.width / 6), (img.height / 4))
 }
 function mostraImmagine8() {
   image(img8, mouseX, mouseY + 20, (img.width / 4.5), (img.height / 5))
