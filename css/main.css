@@ -113,7 +113,7 @@ font-weight: bold;
 }
 
 .description{
-  font-family:"neue-haas-grotesk-display", serif;
+  font-family:"neue-haas-grotesk-display";
   font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 400;
@@ -121,7 +121,7 @@ font-weight: bold;
 }
 
 .description-main{
-  font-family:"neue-haas-grotesk-display", serif;
+  font-family:"neue-haas-grotesk-display";
   font-size: 1.7rem;
   line-height: 2.7rem;
   font-weight: 400;
@@ -1441,6 +1441,183 @@ color:#EFEFEF;
     max-width: 100%;
   }
 }
+
+
+/* -------------------- */
+/* Video ihavegotnothingtowear */
+/* -------------------- */
+/* .c-video{
+  position:relative;
+}
+.controls{
+  display:flex;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  flex-wrap: wrap;
+  background: rgba(0,0,0,0.7);
+}
+.buttons button{
+  background:none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.buttons button:before{
+  content:"\f144";
+  font-family: "Font Awesome 5 Free";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 28px;
+  color:white;
+  -webkit-fontsmoothing: antialiased;
+} */
+
+
+#video-container {
+	/* width: 640px;
+	height: 365px; */
+	position: relative;
+}
+
+#video-controls {
+	/* position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px; */
+	opacity: 0;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+}
+
+/* #video-controls {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	opacity: 0;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+
+}
+#video-controls2 {
+	position: absolute;
+	bottom: 93%;
+	right: 2%;
+	padding: 5px;
+  opacity: 0;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+} */
+
+#video-controls1 {
+	position: absolute;
+	bottom: 2%;
+	left: 2%;
+	right: 0;
+	padding: 5px;
+}
+#video-controls2 {
+	position: absolute;
+	bottom: 93%;
+	right: 2%;
+	padding: 5px;
+}
+
+/*
+#video-controls2 {
+    position: absolute;
+    bottom: 93%;
+    right: 2%;
+    padding: 5px;
+    opacity: 0; */
+
+#video-container:hover #video-controls {
+	opacity: .9;
+}
+
+button {
+	background-color: transparent;
+	/* font-family: "maziusDisplay"; */
+    font-family:"neue-haas-grotesk-display";
+	font-size: 1.2rem;
+	text-transform: lowercase;
+	vertical-align: top;
+	    /* text-transform: uppercase; */
+	/* background: rgba(0,0,0,.5); */
+	border: 0;
+	/* color: #EEE; */
+	color: #000000;
+	/* -webkit-border-radius: 3px; */
+	/* -moz-border-radius: 3px; */
+	/* -o-border-radius: 3px; */
+	/* border-radius: 3px; */+
+
+}
+
+button:hover {
+	cursor: pointer;
+/* text-decoration: underline; */
+}
+
+.slider {
+	margin-bottom:3px;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 3px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  /* transition: opacity .2s; */
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 5px;
+  height: 5px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+
+#seek-bar {
+	/* width: 565px; */
+  	width: 75%;
+}
+
+#volume-bar {
+	/* width: 100px; */
+  	width: 10%;
+}
+#full-screen{
+	/* position:absolute;
+  /* bottom:590px;
+  right:20px; */
+  /* bottom:1200%; */
+  /* right:5%;  */
+}
+
 
 /* -------------------- */
 /* Media Queries */
