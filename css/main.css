@@ -45,6 +45,13 @@
   src: local('MAZIUSREVIEW20.09-Extra-Italic'), local('MAZIUSREVIEW20.09-Extra-Italic'), url(https://collletttivo.it/assets/fonts/MaziusDisplayExtraItalic.woff2) format('woff2');
 } */
 
+.default {
+  cursor: url('../assets/images/cursor/defaultcursor.svg'), default;
+}
+.pointer {
+  cursor: url('../assets/images/cursor/pressingcursor.svg'), pointer;
+}
+
 $animate: all 0.2s ease-in-out;
 
 :root {
