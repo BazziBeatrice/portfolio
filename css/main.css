@@ -588,7 +588,10 @@ display: block;
 	transform: translate(-50%,-50%);
 	z-index: 9999;
 }
-
+.loader-img{
+  width:10%;
+  height:auto;
+}
 #loader img {
 	position: absolute;
 	top: 50%;
@@ -654,25 +657,6 @@ display: block;
 /* home page */
 /* -------------------- */
 
-/* #image-when-hovering-text{
-  position:absolute;
-
-}
-
-#image-when-hovering-text2 {
-  display: none; }
-
-  #project01:hover #image-when-hovering-text2 {
-    display: inline;
-    top: "calc(var(--mouse-x, 0) * 100%)";
-    left:"calc(var(--mouse-y, 0) * 100%)";
-  overflow: visible;
-}
-
-#btn {
-  position:absolute;
-    display:none;
-} */
 .image-hover-maybe{
   width:200px;
   height:200px;
