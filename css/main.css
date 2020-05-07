@@ -232,7 +232,7 @@ img {
 }
 
   #page {
-    height: 100vh;
+    height: 100%;
   }
 .footer{
   position: absolute;
@@ -726,6 +726,10 @@ pointer-events: none;
 .marginonehundred-top-minus{
 margin-top:-100px;
 }
+.marginninety-minus{
+margin-top:-90%;
+}
+
 
 .marginonehundredhalf-top{
 margin-top:150px;
@@ -746,6 +750,12 @@ margin-top:-150px;
 }
 .marginfifteen{
   margin-top:15px;
+}
+.margintwenty{
+  margin-top:20%;
+}
+.margineighty{
+  margin-top:80%;
 }
 
 .margintwohundredminus{
@@ -1267,11 +1277,11 @@ font-weight: 600;}
 /*SPLEEN*/
 /* -------------------- */
 
-.carousel-margin-about {
+/* .carousel-margin-about {
     margin-left: 50px;
     margin-right: 0px;
     margin-top: 50px;
-}
+} */
 .arrowabouttext{
     vertical-align: middle;
     margin: auto;

@@ -151,11 +151,27 @@
 	.cover {
 		padding-top: 0.7rem;
 	}
-  #coverpage {
+  /* #coverpage {
     height: 100vh;
-  }
-  .page {
+  } */
+  /* .page {
     padding-top: 0.7rem;
+  } */
+
+  .margintwohundred{
+    margin-top:50px;
+  }
+  .image-carousel {
+      height: auto;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .margin-top{
+    margin-top:-130%
+  }
+  .margin-top2{
+    margin-top:-170%
   }
 
 	#main-title {
