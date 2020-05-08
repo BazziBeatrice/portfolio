@@ -288,6 +288,11 @@ width: 100%;
     text-decoration: underline;
     z-index:50;
 }
+.text-hover-white a:hover{
+    color: white;
+    text-decoration: underline;
+    z-index:50;
+}
 
 .text-hover:hover{
     color: black;
@@ -317,6 +322,55 @@ width: 100%;
   top:var(--mouse-x, 100)*100px; */
 }
 
+.image-first-page{
+  margin-top:0.6%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-thelost22{
+  margin-top:0.6%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-thelost-home{
+  margin-top:0.6%;
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-thelost-1{
+  margin-top:0.6%;
+  width: 52%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-thekingof-home{
+  margin-top:0.6%;
+  width: 38%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-lineunit{
+  margin-top:0.6%;
+  width: 35%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .image-project{
   margin-top:0.6%;
   height: 50%;
@@ -341,13 +395,13 @@ width: 100%;
 }
 .image-project-3 {
   width: 33%;
-  height: 33%;
+  height: auto;
   display: inline-block;
   padding-left: 15px;
 }
 .image-project-4 {
   width: 49.5%;
-  height: 49.5%;
+  height: auto;
   display: inline-block;
   padding-left: 15px;
   padding-top: 15px;
@@ -362,43 +416,37 @@ width: 100%;
 }
 .image-project-6 {
   width: 24.75%;
-  height: 24.75%;
+  height: auto;
   display: inline-block;
   padding-left: 15px;
   padding-top: 15px;
 }
-
-.image-project-7{
+/* .image-project-7{
   margin-top:0.6%;
   height:120%;
   width: auto;
   display: block;
   margin-left: 100px;
-  /* margin-right: auto; */
-}
-
+} */
 .image-project-protocol2{
   margin-top:0.6%;
-  height:30%;
-  width: auto;
+  height:auto;
+  width: 100%;
   display: block;
   margin-left: 100px;
-  /* margin-right: auto; */
 }
-
-.image-project-8 {
+/* .image-project-8 {
 margin-top: -10rem;
 height: 10%;
 width: auto;
 display: block;
 }
-
 .image-project-9 {
 margin-top: -16rem;
 height: 12.6%;
 width: auto;
 display: block;
-}
+} */
 .image-project-10 {
 margin-top: -9rem;
 display: block;
@@ -409,8 +457,8 @@ display: block;
 }
 .image-ihavegotnothingtowear-home{
   margin-top:0.6%;
-  height: 66%;
-  width: auto;
+  height: auto;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -426,60 +474,64 @@ display: block;
 }
 .image-contratempo{
   margin-top:0.6%;
-  height: 14%;
-  width: auto;
+  height: auto;
+  width: 58%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .image-outforia{
   margin-top:0.6%;
-  height: 20%;
-  width: auto;
+  height: auto;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .image-outforia-page{
   margin-top:0.6%;
-  height: 20%;
-  width: auto;
+  height: auto;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-.image-setjettersunited{
+/* .image-setjettersunited{
   margin-top:0.6%;
   height: 32.5%;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 .image-outforia-screen{
   margin-top:0.6%;
-  height: 30.5%;
-  width: auto;
+  width:70%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-.image-setjettersunited{
+.image-outforia-screen2{
+  margin-top:0.6%;
+  width:70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .image-setjettersunited{
   margin-top:0.6%;
   height: 30.5%;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
+} */
 .image-setjettersunited3{
   margin-top:0.6%;
-  height: 73.5%;
-  width: auto;
+  height: auto;
+  width: 73.5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -499,60 +551,42 @@ display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-
-.image-atavola{
-  margin-top:0.6%;
-  height: 38%;
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 .image-thelostfeatures{
   margin-top:0.6%;
   width: 80%;
+  height: auto;
   display: block;
 }
-
-
-
 .image-placemaking{
   margin-top:0.6%;
-  height: 60%;
-  width: auto;
+  height: auto;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.image-fuso-page{
+.image-spleen-page{
   margin-top:0.6%;
-  height: 60%;
-  width: auto;
+  height: auto;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-
 .image-fuso{
   margin-top:0.6%;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-.image-fuso2{
+/* .image-fuso2{
   margin-top:0.6%;
   height: 20%;
   width: auto;
   display: block;
-}
-
+} */
 
 
 .main-title{
@@ -771,6 +805,10 @@ margin-top:-150px;
 }
 .margineighty{
   margin-top:80%;
+}
+
+.marginforty{
+  margin-top:40%;
 }
 
 .margintwohundredminus{
@@ -1282,6 +1320,7 @@ height:600px;
 
 .freccia {
     width: 20px;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -173,6 +173,12 @@
   .margin-top2{
     margin-top:-170%
   }
+  .margin-top3{
+    margin-top:40%
+  }
+  .margin-top4{
+    margin-top:-260%
+  }
 
 	#main-title {
     	font-size: 38px;
@@ -254,6 +260,14 @@
   margin-left: -430%;
   z-index: 1;
 }
+
+.image-project-protocol2{
+  margin-top:0.6%;
+  height:auto;
+  width:100%;
+  display: block;
+  margin-left: 0%;
+}
 .text-hover{
     z-index: 5;
 }
@@ -312,8 +326,8 @@
 
   .row-arrow-about-spleen {
     position: absolute;
-    top: 68%;
-    left: 67%;
+    top: 76%;
+    left: 72.5%;
   }
 
   .nopadding{
@@ -329,6 +343,15 @@
     border-bottom: 0px solid black;
   }
 
+  .freccia {
+      /* width: 20px;
+      height:auto; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50%;
+      vertical-align: middle;
+  }
 
 	/* .contact {
 		margin-bottom: 3rem;
@@ -636,7 +659,7 @@
     }
 
     .freccia {
-        margin-top: 0.5rem;
+        margin-top: 0.9rem;
         width: 15px;
     }
 
@@ -1699,14 +1722,6 @@
         margin-bottom: 10rem;
     }
 
-    .freccia {
-        width: 50px;
-        display: block;
-        margin: auto;
-        margin-top: 450px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
 
 }
 
