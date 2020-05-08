@@ -737,6 +737,13 @@ margin-top:-100px;
 .marginninety-minus{
 margin-top:-90%;
 }
+.margintwenty-minus{
+margin-top:-20%;
+}
+.marginthirty-minus{
+margin-top:-70%;
+}
+
 
 
 .marginonehundredhalf-top{
@@ -789,7 +796,8 @@ padding: 0% 0% 0% 0%
 
 .paddingthelostgallery{
 padding-left:0px;
-padding-right:20.5px;
+/* padding-right:20.5px; */
+padding-right:0px;
 }
 .paddingfuso{
 padding-left:30px
@@ -1266,10 +1274,19 @@ height:600px;
     margin-right: auto;
 }
 
-.freccia {
+/* .freccia {
 	width: 20px;
 	display: block;
   vertical-align: middle;
+} */
+
+.freccia {
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    vertical-align: middle;
 }
 
 .hidden-arrow-desktop {
