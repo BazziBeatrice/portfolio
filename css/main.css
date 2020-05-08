@@ -399,6 +399,14 @@ height: 12.6%;
 width: auto;
 display: block;
 }
+.image-project-10 {
+margin-top: -9rem;
+display: block;
+}
+.image-project-11 {
+margin-top: -9rem;
+display: block;
+}
 .image-ihavegotnothingtowear-home{
   margin-top:0.6%;
   height: 66%;
@@ -495,7 +503,7 @@ display: block;
 
 .image-atavola{
   margin-top:0.6%;
-  height: 92%;
+  height: 38%;
   width: auto;
   display: block;
   margin-left: auto;
@@ -1248,6 +1256,12 @@ height:600px;
 .image-carousel{
     height:auto;
     width: 40%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.image-carousel2{
+    height:auto;
+    width: 60%;
     margin-left:auto;
     margin-right: auto;
 }
