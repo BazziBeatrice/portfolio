@@ -330,6 +330,14 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+.image-atavola-page{
+  margin-top:0.6%;
+  width: 28%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .image-thelost22{
   margin-top:0.6%;
   width: 100%;
@@ -394,13 +402,13 @@ width: 100%;
 }
 .image-project-3 {
   width: 33%;
-  height: auto;
+  height: 33%;
   display: inline-block;
   padding-left: 15px;
 }
 .image-project-4 {
   width: 49.5%;
-  height: auto;
+  height: 49.5%;
   display: inline-block;
   padding-left: 15px;
   padding-top: 15px;
@@ -415,7 +423,7 @@ width: 100%;
 }
 .image-project-6 {
   width: 24.75%;
-  height: auto;
+  height: 24.75%;
   display: inline-block;
   padding-left: 15px;
   padding-top: 15px;
@@ -457,7 +465,7 @@ display: block;
 .image-ihavegotnothingtowear-home{
   margin-top:0.6%;
   height: auto;
-  width: 60%;
+  width: 55%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -809,6 +817,9 @@ margin-top:-150px;
 .margintwohundred{
   margin-top:200px;
 } */
+.margintwohundred{
+  margin-top:25%;
+}
 .margintwohundred-bottom{
   margin-bottom:200px;
 }
@@ -827,7 +838,7 @@ margin-top:-150px;
   margin-top:20%;
 }
 .margineighty{
-  margin-top:80%;
+  margin-top:100%;
 }
 
 .marginforty{
@@ -849,6 +860,10 @@ padding-right:0px;
 .marginzero{
 margin-left:0px;
 margin-right:0px;
+}
+.margin-atavola{
+margin-top: 43.4%;
+margin-left:-5%;
 }
 
 .paddingzeroall{
