@@ -379,6 +379,7 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+
 .image-project-2{
   margin-top:0.6%;
   height: auto;
@@ -526,18 +527,6 @@ display: block;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.image-lineunit{
-  margin-top:0.6%;
-  height: auto;
-  width: 35%;
-  display: block;
-}
-.image-lineunit2{
-  margin-top:0.6%;
-  height: auto;
-  width: 85%;
-  display: block;
 }
 /* .image-setjettersunited{
   margin-top:0.6%;
