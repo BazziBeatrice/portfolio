@@ -167,7 +167,7 @@
       margin-left: auto;
       margin-right: auto;
   }
-  .margin-top{
+  /* .margin-top{
     margin-top:-130%
   }
   .margin-top2{
@@ -178,6 +178,13 @@
   }
   .margin-top4{
     margin-top:-260%
+  } */
+
+  .margin-top3{
+    margin-top:40%
+  }
+  .margin-top-phone{
+    margin-top:50%
   }
 
 	#main-title {
@@ -186,8 +193,135 @@
 	#main-subtitle {
 		font-size: 28px;
 	}
-
-  .image-project-5 {
+/* spleen */
+.image-spleen-page {
+      margin-top: 0.6%;
+      height: auto;
+      width: 100%;}
+/* the lost gallery */
+.image-thelost-home{
+  margin-top: 0.6%;
+width: 72%;
+height: auto;
+}
+.image-outforia {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
+.image-thelost22 {
+    margin-top: 0.6%;
+    width: 90%;
+    height: auto;
+  }
+.image-thelost-1 {
+  display:none;
+}
+/* the physical internet */
+.image-project-5 {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;}
+.image-physicalinternet{
+      margin-top:0.6%;
+      margin-right:0.6%;
+      height: auto;
+      width: 55%;
+    }
+/* digital place making */
+.image-project-protocol2{
+      margin-top:0.6%;
+      height:auto;
+      width:100%;
+      display: block;
+      margin-left: 0%;
+    }
+.image-placemaking{
+      margin-top:0.6%;
+      height: auto%;
+      width: 100%;  }
+/* setjetters united */
+.image-setjettersunited3 {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;}
+.margineighty {
+  margin-top: 200%;}
+.row-arrow-about-setjettersunited {
+      position: absolute;
+      top: 83.4%;
+      left: 74.5%;}
+.arrowabout-setjettersunited {
+      font-size: 29.2px;}
+/* contratempo */
+.image-contratempo {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;}
+.image-project-11 {
+      margin-top: -5%;
+    height: auto;
+    width: 500%;
+      display: block;}
+.image-project-10 {
+  margin-top: 1.6%;
+  margin-left: -300%;
+  height: auto;
+  width:500%;
+  display: block;
+}
+/* outforia */
+.image-outforia-page {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;}
+.image-outforia-screen{
+  margin-top:0.6%;
+  margin-left:0px;
+  padding-left:0px;}
+.image-outforia-screen1{
+  margin-top:0.6%;
+  margin-left:60px;
+  padding-left:10px;}
+/* fuso */
+.image-fuso {
+      margin-top: 0.6%;
+      height: auto;
+      width: 100%;}
+.image-fuso-book {
+margin-top: 0.6%;
+height: auto;
+width: 100%;}
+.image-fuso-book1 {
+margin-top: 0.6%;
+height: auto;
+width: 90%;}
+/* ihavegotnothingtowear */
+.image-ihavegotnothingtowear-home {
+  margin-top: 0.6%;
+  height: auto;
+  width: 100%;}
+#seek-bar {
+width: 70%;}
+#full-screen {
+bottom: 100%;
+right: 5%;
+}
+/* atavola */
+.image-first-page {
+  margin-top: 0.6%;
+  width: 80%;
+  height: auto;}
+.image-carousel2 {
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;}
+.image-lineunit {
+  margin-top: 0.6%;
+  width: 100%;
+  height: auto;}
+  /* .image-project-5 {
     margin-top:0.3%;
     margin-bottom:0.6%;
     height: auto;
@@ -201,10 +335,6 @@
     margin-top:0.6%;
     height: 35%;
   }
-  .image-outforia{
-    margin-top:0.6%;
-    height: 10%;
-  }
   .image-outforia-page{
     margin-top:0.6%;
     height: 8%;
@@ -215,36 +345,17 @@
     height: auto;
     width: 55%;
   }
-  .image-placemaking{
-    margin-top:0.6%;
-    height: 20%;
-    width: auto;
-  }
   .image-project-7{
     margin-top:0.6%;
     height:18%;
     width: auto;
     margin-left: 0px;
   }
-  .image-setjettersunited3{
-    margin-top:0.6%;
-    height: 23.5%;
-    width: auto;
-  }
-  .image-outforia-screen{
-    margin-top:0.6%;
-    margin-left:0px;
-    padding-left:0px;
-  }
+
   .image-project-2{
     margin-top:0.6%;
     height: auto;
     width: 100%;
-  }
-  .image-contratempo{
-    margin-top:0.6%;
-    height: 6%;
-    width: auto;
   }
   .image-project-8 {
     margin-top: 1.6%;
@@ -259,15 +370,8 @@
   display: block;
   margin-left: -430%;
   z-index: 1;
-}
+}*/
 
-.image-project-protocol2{
-  margin-top:0.6%;
-  height:auto;
-  width:100%;
-  display: block;
-  margin-left: 0%;
-}
 .text-hover{
     z-index: 5;
 }
@@ -326,7 +430,7 @@
 
   .row-arrow-about-spleen {
     position: absolute;
-    top: 76%;
+    top: 82%;
     left: 72.5%;
   }
 
@@ -789,7 +893,7 @@
     .carousel-margin-about {
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
 	.centeredtextabout {

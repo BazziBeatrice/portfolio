@@ -512,7 +512,7 @@ display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.image-outforia-screen2{
+.image-outforia-screen1{
   margin-top:0.6%;
   width:70%;
   height: auto;
@@ -786,10 +786,10 @@ margin-top:150px;
 .marginonehundredhalf-top-minus{
 margin-top:-150px;
 }
-
+/*
 .margintwohundred{
   margin-top:200px;
-}
+} */
 .margintwohundred-bottom{
   margin-bottom:200px;
 }
@@ -1419,6 +1419,7 @@ color:#EFEFEF;
 
 .arrowabout-category{
     font-size: 30px;
+    line-height: 32px;
     margin: auto;
     vertical-align: middle;
         color:#EFEFEF;
