@@ -118,24 +118,9 @@
     display: none;
   }
 
-  /* .container-fluid{
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-
-} */
-  /*barra navigazione*/
-  /* .bar-menu {
-		margin-top: 0rem;
-		padding-right: 0.2rem;
-		font-size: 14px;
-	} */
   .paddingnavbar {
     padding-right: 0px;
     padding-left: 0px;
-    /* margin-right: auto;
-    margin-left: auto; */
   }
 
   #set-jetters-logo {
@@ -146,20 +131,10 @@
     display: none;
   }
 
-  /* #icon-backpack {
-		padding-right: 10px;
-	} */
-  /*cover video*/
   .cover {
     padding-top: 0.7rem;
   }
 
-  /* #coverpage {
-    height: 100vh;
-  } */
-  /* .page {
-    padding-top: 0.7rem;
-  } */
   .margintwohundred {
     margin-top: 50px;
   }
@@ -171,18 +146,6 @@
     margin-right: auto;
   }
 
-  /* .margin-top{
-    margin-top:-130%
-  }
-  .margin-top2{
-    margin-top:-170%
-  }
-  .margin-top3{
-    margin-top:40%
-  }
-  .margin-top4{
-    margin-top:-260%
-  } */
   .margin-top3 {
     margin-top: 40%
   }
@@ -406,56 +369,6 @@
     width: 100%;
   }
 
-  /* .image-project-5 {
-    margin-top:0.3%;
-    margin-bottom:0.6%;
-    height: auto;
-    width: 100%;
-  }
-  .image-fuso-page{
-    margin-top:0.6%;
-    height: 30%;
-  }
-  .image-project{
-    margin-top:0.6%;
-    height: 35%;
-  }
-  .image-outforia-page{
-    margin-top:0.6%;
-    height: 8%;
-  }
-  .image-physicalinternet{
-    margin-top:0.6%;
-    margin-right:0.6%;
-    height: auto;
-    width: 55%;
-  }
-  .image-project-7{
-    margin-top:0.6%;
-    height:18%;
-    width: auto;
-    margin-left: 0px;
-  }
-
-  .image-project-2{
-    margin-top:0.6%;
-    height: auto;
-    width: 100%;
-  }
-  .image-project-8 {
-    margin-top: 1.6%;
-    height: 5.7%;
-    width: auto;
-    display: block;
-}
-.image-project-9 {
-  margin-top: 1.6%;
-  height: 5.7%;
-  width: auto;
-  display: block;
-  margin-left: -430%;
-  z-index: 1;
-}*/
   .text-hover {
     z-index: 5;
   }
@@ -544,8 +457,6 @@
   }
 
   .freccia {
-    /* width: 20px;
-      height:auto; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -553,30 +464,406 @@
     vertical-align: middle;
   }
 
-  /* .contact {
-		margin-bottom: 3rem;
-	}
-
-	.newsletter {
-		margin-bottom: 0rem;
-	} */
-  /* #loader {
-  	width: 100%;
-  	height: 50%;
-  	background: none repeat scroll 0 0 #000;
-  	position: fixed;
-  	top: 43%;
-  	left: 50%;
-  	transform: translate(-50%,-50%);
-  	z-index: 9999;
-  } */
 }
 
 /*HOMEPAGE TABLET----------------------------------------------------------------------------*/
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .description-main {
+      font-family: "neue-haas-grotesk-display";
+      font-size: 1.3rem;
+      line-height: 2.3rem;
+  }
+
+  h1 {
+    font-family: "maziusDisplay", serif;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "maziusDisplay", serif;
+    font-size: 1.3rem;
+    line-height: 3.50rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .margin-fifty {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .margin-hundred {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  canvas {
+    pointer-events: none;
+    display: none;
+  }
+
+  .paddingnavbar {
+    margin-right: 0px;
+    margin-left: -10px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #set-jetters-logo {
+    width: 100px;
+  }
+
+  .textbar {
+    display: none;
+  }
+
+  .cover {
+    padding-top: 0.7rem;
+  }
+
+  .margintwohundred {
+    margin-top: 50px;
+  }
+
+  .image-carousel {
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* .margin-top3 {
+    margin-top: 40%
+  }
+
+  .margin-top-phone {
+    margin-top: 50%
+  } */
+
+  /* #main-title {
+    font-size: 44px;
+  }
+
+  #main-subtitle {
+    font-size: 34px;
+  } */
+
+}
 
 /*HOMEPAGE TABLET IPAD-----------------------------------------------*/
-@media (min-width: 768px) and (max-width: 992px) {}
+@media (min-width: 768px) and (max-width: 992px) {
+
+/* index */
+  .description-main {
+      font-family: "neue-haas-grotesk-display";
+      font-size: 1.3rem;
+      line-height: 2.3rem;
+  }
+
+  #section2 {
+      height: 800px;
+  }
+    h1 {
+      font-family: "maziusDisplay", serif;
+      font-size: 3.1rem;
+          line-height: 4.9rem;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: "maziusDisplay", serif;
+      font-size: 2.8rem;
+  line-height: 4.7rem;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .margin-fifty {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .margin-hundred {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    canvas {
+      pointer-events: none;
+      display: none;
+    }
+
+    .paddingnavbar {
+      margin-right: -10px;
+      margin-left: -10px;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #set-jetters-logo {
+      width: 100px;
+    }
+
+    .textbar {
+      display: none;
+    }
+
+    .cover {
+      padding-top: 0.7rem;
+    }
+
+    .margintwohundred {
+      margin-top: 50px;
+    }
+
+    .image-carousel {
+      height: auto;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+/*
+    .margin-top3 {
+      margin-top: 40%
+    }
+
+    .margin-top-phone {
+      margin-top: 50%
+    } */
+
+    /* #main-title {
+      font-size: 54px;
+      line-height: 58px;
+    }
+
+    #main-subtitle {
+      font-size: 44px;
+      line-height: 48px;
+    } */
+
+
+      /* spleen */
+      .image-spleen-page {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      /* the lost gallery */
+      .image-thelost-home {
+        margin-top: 0.6%;
+        width: 72%;
+        height: auto;
+      }
+
+      .image-outforia {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      .image-thelost22 {
+        margin-top: 0.6%;
+        width: 90%;
+        height: auto;
+      }
+
+      .image-thelost-1 {
+        display: none;
+      }
+
+      /* the physical internet */
+      .image-project-5 {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      .image-physicalinternet {
+        margin-top: 0.6%;
+        margin-right: 0.6%;
+        height: auto;
+        width: 55%;
+      }
+
+      /* digital place making */
+      .image-project-protocol2 {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+      }
+
+      .image-placemaking {
+        margin-top: 0.6%;
+        height: auto%;
+        width: 100%;
+      }
+
+      /* setjetters united */
+      .image-setjettersunited3 {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      .margineighty {
+        margin-top: 200%;
+      }
+
+      .row-arrow-about-setjettersunited {
+        position: absolute;
+        top: 83.4%;
+        left: 74.5%;
+      }
+
+      .arrowabout-setjettersunited {
+        font-size: 29.2px;
+      }
+
+      /* contratempo */
+      .image-contratempo {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      .image-project-11 {
+        margin-top: -5%;
+        height: auto;
+        width: 500%;
+        display: block;
+      }
+
+      .image-project-10 {
+        margin-top: 1.6%;
+        margin-left: -300%;
+        height: auto;
+        width: 500%;
+        display: block;
+      }
+
+      /* outforia */
+      .image-outforia-page {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      .image-outforia-screen {
+        margin-top: 0.6%;
+        margin-left: 0px;
+        padding-left: 0px;
+      }
+
+      .image-outforia-screen1 {
+        margin-top: 0.6%;
+        margin-left: 60px;
+        padding-left: 10px;
+      }
+
+      /* fuso */
+      .image-fuso {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      .image-fuso-book {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      .image-fuso-book1 {
+        margin-top: 0.6%;
+        height: auto;
+        width: 90%;
+      }
+
+      /* ihavegotnothingtowear */
+      .image-ihavegotnothingtowear-home {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+      #seek-bar {
+        width: 70%;
+      }
+
+      #full-screen {
+        bottom: 100%;
+        right: 5%;
+      }
+
+      /* atavola */
+      .image-first-page {
+        margin-top: 0.6%;
+        width: 80%;
+        height: auto;
+      }
+
+      .image-carousel2 {
+        height: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .image-atavola-page {
+        margin-top: 0.6%;
+        width: 80%;
+        height: auto;
+      }
+
+      .margin-atavola {
+        margin-top: 0%;
+        margin-left: -5%;
+      }
+
+      /* lineunit */
+      .image-lineunit {
+        margin-top: 0.6%;
+        width: 100%;
+        height: auto;
+      }
+
+      /* thekingofmiami */
+      .image-thekingof-home {
+        margin-top: 0.6%;
+        width: 100%;
+        height: auto;
+      }
+
+      .image-outforia-screen2 {
+        margin-top: 0.6%;
+        margin-left: 60px;
+        padding-left: 0px;
+      }
+
+      .image-lineunit {
+        margin-top: 0.6%;
+        height: auto;
+        width: 100%;
+      }
+
+/* spleen */
+      .row-arrow-about-spleen {
+          position: absolute;
+          top: 95.5%;
+          left: 86.6%;
+      }
+      .arrowabout-category {
+    font-size: 26px;  }
+
+}
 
 /*VIDEO HOME PAGE PHONE----------------------------------------------------------------------------*/
 @media (max-width: 576px) {}
@@ -694,7 +981,7 @@
   }
 }
 
-/*CATEGORY MEGA SCERMO-----------------------------------------------------------------------------*/
+/*CATEGORY MEGA SCHERMO-----------------------------------------------------------------------------*/
 @media (min-width: 3500px) {
   .category-change-btn:hover {
     transition: background 0s;
