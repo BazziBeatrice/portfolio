@@ -52,6 +52,19 @@
   cursor: url('../assets/images/cursor/pressingcursor.svg'), pointer;
 }
 
+.image-phone{
+  visibility:none;
+}
+
+.image-phone2{
+  visibility:none;
+}
+
+.image-phone3{
+  visibility:none;
+}
+
+
 $animate: all 0.2s ease-in-out;
 
 :root {
