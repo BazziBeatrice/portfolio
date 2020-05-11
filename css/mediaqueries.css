@@ -6,6 +6,7 @@
   .videotourresponsive {
     width: 100%;
   }
+
 }
 
 /*MORALIST PAGE PHONE-----------------------------------------------------------------------------*/
@@ -85,8 +86,10 @@
   }
 }
 
+
 /*HOMEPAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
+
   h1 {
     font-family: "maziusDisplay", serif;
     font-size: 3rem;
@@ -601,6 +604,18 @@
 /*HOMEPAGE TABLET IPAD-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px) {
 
+  .image-phone{
+    display:none;
+  }
+
+  .image-phone2{
+    display:none;
+  }
+
+  .image-phone3{
+    display:none;
+  }
+
 /* index */
   .description-main {
       font-family: "neue-haas-grotesk-display";
@@ -924,7 +939,33 @@
 @media (min-width: 768px) and (max-width: 992px) {}
 
 /*VIDEO HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
-@media (min-width: 1200px) and (max-width: 1400px) {}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .image-phone{
+    display:none;
+  }
+
+  .image-phone2{
+    display:none;
+  }
+
+  .image-phone3{
+    display:none;
+  }
+}
+/*VIDEO HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
+@media (min-width: 1400px) and (max-width: 3800px) {
+  .image-phone{
+    display:none;
+  }
+
+  .image-phone2{
+    display:none;
+  }
+
+  .image-phone3{
+    display:none;
+  }
+}
 
 /*CATEGORY PAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {

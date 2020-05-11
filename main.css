@@ -51,18 +51,18 @@
 .pointer {
   cursor: url('../assets/images/cursor/pressingcursor.svg'), pointer;
 }
-
+/* 
 .image-phone{
-  visibility:none;
+  display:none;
 }
 
 .image-phone2{
-  visibility:none;
+  display:none;
 }
 
 .image-phone3{
-  visibility:none;
-}
+  display:none;
+} */
 
 
 $animate: all 0.2s ease-in-out;
