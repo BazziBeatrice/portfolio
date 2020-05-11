@@ -321,6 +321,9 @@ width: 100%;
   /* left:var(--mouse-x, 100)*100px;
   top:var(--mouse-x, 100)*100px; */
 }
+.image-phone{
+  display:none;
+}
 
 .image-first-page{
   margin-top:0.6%;

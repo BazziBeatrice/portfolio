@@ -1,6 +1,89 @@
 // JavaScript Document
 
 
+
+$("#image-phone-02").hide();
+$("#image-phone-03").hide();
+$("#image-phone-04").hide();
+$("#image-phone-05").hide();
+$("#image-phone-06").hide();
+$("#image-phone-07").hide();
+
+window.addEventListener('scroll', function() {
+
+       $("#image-phone-01").show();
+       $("#image-phone-02").hide();
+       $("#image-phone-03").hide();
+       $("#image-phone-04").hide();
+       $("#image-phone-05").hide();
+       $("#image-phone-06").hide();
+       $("#image-phone-07").hide();
+
+  if (document.body.scrollTop > 330 || document.documentElement.scrollTop > 330) {
+    $("#image-phone-01").hide();
+    $("#image-phone-02").show();
+    $("#image-phone-03").hide();
+    $("#image-phone-04").hide();
+    $("#image-phone-05").hide();
+    $("#image-phone-06").hide();
+    $("#image-phone-07").hide();
+     }
+      if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+        $("#image-phone-01").hide();
+        $("#image-phone-02").hide();
+        $("#image-phone-03").show();
+        $("#image-phone-04").hide();
+        $("#image-phone-05").hide();
+        $("#image-phone-06").hide();
+        $("#image-phone-07").hide();
+        }
+        if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
+          $("#image-phone-01").hide();
+          $("#image-phone-02").hide();
+          $("#image-phone-03").hide();
+          $("#image-phone-04").show();
+          $("#image-phone-05").hide();
+          $("#image-phone-06").hide();
+          $("#image-phone-07").hide();
+          }
+          if (document.body.scrollTop > 1620 || document.documentElement.scrollTop > 1620) {
+                  $("#image-phone-01").hide();
+                  $("#image-phone-02").hide();
+                  $("#image-phone-03").hide();
+                  $("#image-phone-04").hide();
+                  $("#image-phone-05").show();
+                  $("#image-phone-06").hide();
+                  $("#image-phone-07").hide();
+             }
+              if (document.body.scrollTop > 1900 || document.documentElement.scrollTop > 1900) {
+                $("#image-phone-01").hide();
+                $("#image-phone-02").hide();
+                $("#image-phone-03").hide();
+                $("#image-phone-04").hide();
+                $("#image-phone-05").hide();
+                $("#image-phone-06").show();
+                $("#image-phone-07").hide();
+                }
+                if (document.body.scrollTop > 2400 || document.documentElement.scrollTop > 2400) {
+                       $("#image-phone-01").hide();
+                       $("#image-phone-02").hide();
+                       $("#image-phone-03").hide();
+                       $("#image-phone-04").hide();
+                       $("#image-phone-05").hide();
+                       $("#image-phone-06").hide();
+                     $("#image-phone-07").show();
+                  }
+                  if (document.body.scrollTop > 2900 || document.documentElement.scrollTop > 2900) {
+                    $("#image-phone-01").hide();
+                    $("#image-phone-02").hide();
+                    $("#image-phone-03").hide();
+                    $("#image-phone-04").hide();
+                    $("#image-phone-05").hide();
+                    $("#image-phone-06").hide();
+                    $("#image-phone-07").hide();
+                    }
+});
+
 //get mouse position--------------------------------------------//
 const root = document.documentElement;
 
@@ -12,6 +95,7 @@ document.addEventListener('mousemove', evt => {
     root.style.setProperty('--mouse-y', y);
 });
 //get mouse position--------------------------------------------//
+
 
 
 //aos animation--------------------------------------------//
