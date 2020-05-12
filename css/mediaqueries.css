@@ -595,6 +595,7 @@
   #section2 {
       height: 800px;
   }
+
     h1 {
       font-family: "maziusDisplay", serif;
       font-size: 3.1rem;
@@ -889,9 +890,43 @@
 /*VIDEO HOME PAGE PHONE----------------------------------------------------------------------------*/
 @media (max-width: 576px) {}
 
-/*VIDEO HOME PAGE TABLET----------------------------------------------------------------------------*/
-@media (min-width: 768px) and (max-width: 1024px) {}
+/*HOME PAGE TABLET ipad pro----------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-family: "maziusDisplay", serif;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 3%;
+}
+h2 {
+    font-family: "maziusDisplay", serif;
+    font-size: 3.1rem;
+    line-height: 4.50rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2%;
+}
+.icon-arrow-down {
+  height: 3%;
+}
+/* setjettersunited */
+.row-arrow-about-setjettersunited {
+    position: absolute;
+    top: 90.4%;
+    left: 52%;
+}
 
+#seek-bar {
+    width: 70%;
+}
+.margin-atavola {
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+}
 /*VIDEO HOME PAGE TABLET IPAD----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px) {}
 
