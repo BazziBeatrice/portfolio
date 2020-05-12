@@ -801,15 +801,16 @@ position:relative
 }
 
 .hover-nav:after {
+  margin-left: 20px;
 content:'';
 position:absolute;
 width:0;
 height:1.5px;
 display:block;
 margin-top:1px;
-right:2px;
+right:200px;
 background:#000;
-transition:width .2s ease;
+transition:width .3s ease;
 -webkit-transition:width .2s ease
 }
 
@@ -824,13 +825,14 @@ position:relative
 }
 
 .hover-nav2:after {
+    margin-left: 20px;
 content:'';
 position:absolute;
 width:0;
 height:1.5px;
 display:block;
 margin-top:1px;
-right:2px;
+right:155px;
 background:#000;
 transition:width .2s ease;
 -webkit-transition:width .2s ease
@@ -847,13 +849,14 @@ position:relative
 }
 
 .hover-nav4:after {
+    margin-left: 18px;
 content:'';
 position:absolute;
 width:0;
 height:1.5px;
 display:block;
 margin-top:1px;
-right:2px;
+right:174px;
 background:#000;
 transition:width .2s ease;
 -webkit-transition:width .2s ease
@@ -870,13 +873,14 @@ position:relative
 }
 
 .hover-nav3:after {
+    margin-left: 20px;
 content:'';
 position:absolute;
 width:0;
 height:1.5px;
 display:block;
 margin-top:1px;
-right:2px;
+right:150px;
 background:#000;
 transition:width .2s ease;
 -webkit-transition:width .2s ease
@@ -949,6 +953,12 @@ padding-bottom:15px;
 text-align:left
 }
 
+.bar-menu-contact-index {
+  border-left:1.5px solid #000;
+padding-top:20px;
+padding-bottom:15px;
+text-align:left
+}
 .bar-menu-contact {
 padding-top:20px;
 padding-bottom:15px;

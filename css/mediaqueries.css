@@ -2,89 +2,7 @@
 
 /* CSS Document */
 /*VIDEO TOUR X TUTTO-------------------------------------------------------------------------------*/
-@media (min-width: 300px) and (max-width: 3840px) {
-  .videotourresponsive {
-    width: 100%;
-  }
-
-}
-
-/*MORALIST PAGE PHONE-----------------------------------------------------------------------------*/
-@media (max-width: 576px) {
-  .cartcontent {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .sidemoral h4 {
-    font-size: 20px;
-  }
-
-  /*The X btn*/
-  a.closebtn {
-    padding-left: 30px;
-  }
-
-  /*Behind the scene btn*/
-  a.moralbtn {
-    margin-right: 5%;
-    margin-left: 5%;
-  }
-
-  a.moralbtn:hover {
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #F39200;
-    border: solid 4px black;
-    color: #000;
-  }
-}
-
-/*MORALIST PAGE TABLET----------------------------------------------------------------------------*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  .cartcontent {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 25px;
-  }
-
-  /*The X btn*/
-  a.closebtn {
-    padding-left: 40px;
-  }
-
-  /*Behind the scene btn*/
-  a.moralbtn {
-    margin-right: 31%;
-    margin-left: 31%;
-  }
-
-  a.moralbtn:hover {
-    margin-left: 31%;
-    margin-right: 31%;
-    background-color: #F39200;
-    border: solid 4px black;
-    color: #000;
-  }
-}
-
-/*MORALIST PAGE TABLET IPAD-----------------------------------------------*/
-@media (min-width: 768px) and (max-width: 992px) {
-
-  /*Behind the scene btn*/
-  a.moralbtn {
-    margin-right: 30%;
-    margin-left: 30%;
-  }
-
-  a.moralbtn:hover {
-    margin-left: 30%;
-    margin-right: 30%;
-    background-color: #F39200;
-    border: solid 4px black;
-    color: #000;
-  }
-}
+@media (min-width: 300px) and (max-width: 3840px) {}
 
 
 /*HOMEPAGE PHONE-----------------------------------------------------------------------------*/
@@ -97,25 +15,27 @@
     font-weight: 400;
     text-align: center;
     /* margin-top:40px; */
-   /* mix-blend-mode: exclusion; */
-   text-shadow: 1px 1px 0 #f1f1f1;;
+    /* mix-blend-mode: exclusion; */
+    text-shadow: 1px 1px 0 #f1f1f1;;
     /* text-align: left; */
   }
+
 .margin-index-top{
   margin-top:50%;
-    margin-bottom:50%;
+  margin-bottom:50%;
 }
 
 .margin-index-top2{
   margin-top:2800px;
 }
+
   h2 {
     font-family: "maziusDisplay", serif;
     font-size: 1.3rem;
     line-height: 3.50rem;
     font-weight: 400;
     text-align: center;
-  }
+    }
 
   /* #main-title {
     font-size: 38px;
@@ -124,7 +44,6 @@
   #main-subtitle {
     font-size: 28px;
   }
-
 
   .image-phone{
     z-index: -10;
@@ -207,8 +126,7 @@
   .margin-top-phone {
     margin-top: 50%
   }
-
-
+  
   /* spleen */
   .image-spleen-page {
     margin-top: 0.6%;
@@ -924,8 +842,7 @@
           top: 95.5%;
           left: 86.6%;
       }
-      .arrowabout-category {
-    font-size: 26px;  }
+      .arrowabout-category {font-size: 26px;}
 
 }
 
@@ -938,7 +855,7 @@
 /*VIDEO HOME PAGE TABLET IPAD----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px) {}
 
-/*VIDEO HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
+/*HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1400px) {
   .image-phone{
     display:none;
@@ -952,7 +869,7 @@
     display:none;
   }
 }
-/*VIDEO HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
+/*HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
 @media (min-width: 1400px) and (max-width: 3800px) {
   .image-phone{
     display:none;
@@ -983,32 +900,7 @@
     display: none;
   }
 
-  /*left-side*/
-  .category-title {
-    font-size: 45px;
-    line-height: 3.5rem;
-  }
 
-  .category-text {
-    font-size: 16px;
-  }
-
-  .category-choose a {
-    font-size: 16px;
-  }
-
-  /*cards*/
-  .margincards {
-    margin-bottom: 0px;
-  }
-
-  .category-cards {
-    margin-top: 5rem;
-  }
-
-  .category-change-btn:hover {
-    transition: background 0s;
-  }
 }
 
 /*CATEGORY TABLET----------------------------------------------------------------------------*/
@@ -1027,27 +919,6 @@
     display: none;
   }
 
-  /*left-side*/
-  .category-title {
-    font-size: 45px;
-    line-height: 3.5rem;
-  }
-
-  .category-text {
-    font-size: 16px;
-  }
-
-  .category-choose a {
-    font-size: 14px;
-  }
-
-  .margincards {
-    margin-bottom: 0px;
-  }
-
-  .category-change-btn:hover {
-    transition: background 0s;
-  }
 }
 
 /*CATEGORY PROIETTORE----------------------------------------------------------------------------*/
@@ -1071,103 +942,15 @@
   }
 }
 
-/*CATEGORY MEGA SCHERMO-----------------------------------------------------------------------------*/
-@media (min-width: 3500px) {
-  .category-change-btn:hover {
-    transition: background 0s;
-  }
-}
-
 /*SINGLE TOUR PAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
 
   /*Change category btn*/
-  .menucategory {
-    padding: 3px 7px;
-  }
+  .menucategory {padding: 3px 7px;}
 
-  .currentcategory {
-    padding: 3px 7px;
-  }
+  .currentcategory {padding: 3px 7px;}
 
-  p:hover .extra {
-    display: none;
-  }
-
-  /*Text description*/
-  #tot-price {
-    display: block;
-    float: none;
-    margin-top: 1.5rem;
-  }
-
-  .btn-detail {
-    display: inline-block;
-    margin-top: 1rem;
-  }
-
-  /*Add to cart btn*/
-  .addcart-btn {
-    margin-top: 2rem;
-    margin-left: 0px;
-  }
-
-  /*Calendar*/
-  .dropbtn-calendar {
-    width: 155px;
-  }
-
-  .dropdown-content-calendar {
-    width: 330px;
-  }
-
-  .weekdays li {
-    width: 12.5%;
-    font-size: 20px;
-  }
-
-  .days li {
-    width: 12.5%;
-  }
-
-  /*Tour quantity*/
-  .dropbtn {
-    width: 60px;
-  }
-
-  .dropdown-content {
-    width: 60px;
-  }
-
-  /*Images*/
-  .tour-cards {
-    margin-top: 3rem;
-  }
-
-  .margincards-singletour {
-    margin-bottom: 2rem;
-  }
-
-  .category-all {
-    margin-bottom: 5rem;
-    /*5rem = 80px*/
-  }
-
-  /*Reviews*/
-  #reviews {
-    margin-bottom: 5rem;
-    /*5rem = 80px*/
-  }
-
-  .marginbottom-review {
-    margin-bottom: 2rem;
-  }
-
-  .hideContent {
-    height: 17.4em;
-    /* 20.4em*/
-    /* 18.9em*/
-  }
+  p:hover .extra {display: none;}
 
   /*Carousel*/
   .carousel {
@@ -1201,66 +984,22 @@
 /*SINGLE TOUR PAGE TABLET-----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  /*Calendar*/
-  .dropdown-content-calendar {
-    width: 330px;
-  }
-
-  .weekdays li {
-    width: 12.5%;
-    font-size: 20px;
-  }
-
-  .days li {
-    width: 12.5%;
-  }
-
-  /*Add to cart btn*/
-  .addcart-btn {
-    margin-left: 46px;
-  }
-
-  /*Reviews*/
-  .hideContent {
-    height: 17.2em;
-    /* 20.4em*/
-    /* 18.9em*/
-  }
-
   /*Carousel*/
-  .carousel {
-    margin-bottom: 50px;
-  }
+  .carousel {margin-bottom: 50px;}
 
-  .freccia {
-    margin-top: 120px;
-  }
+  .freccia {margin-top: 120px;}
 }
 
 /*SINGLE TOUR PAGE TABLET IPAD-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px) {
 
   /*Carousel*/
-  .freccia {
-    margin-top: 430px;
-  }
+  .freccia {  margin-top: 430px;}
 
   /*Reviews*/
-  .marginbottom-review {
-    margin-bottom: 2rem;
-  }
+  .marginbottom-review {margin-bottom: 2rem;}
 }
 
-/*SINGLE TOUR PAGE PROIETTORE----------------------------------------------------------------------------*/
-@media (min-width: 1200px) and (max-width: 1400px) {
-
-  /*Reviews*/
-  .hideContent {
-    height: 17.2em;
-    /* 20.4em*/
-    /* 18.9em*/
-  }
-}
 
 /*ABOUT PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
@@ -1268,120 +1007,18 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-
   .margin-hundred {
     margin-left: 10px;
     margin-right: 10px;
   }
-
-  .about-margin {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
   .fixed {
     position: relative;
   }
-
-  .about-margin-top {
-    margin-top: 2.5rem;
-  }
-
-  .titleabout {
-    margin-top: 0rem;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 600;
-  }
-
-  .textabout {
-    margin-top: 0rem;
-    font-size: 15px;
-    line-height: 22px;
-    font-weight: 300;
-  }
-
+/* placemaking - setjettersunited */
   .carousel-margin-about {
     margin-left: 0px;
     margin-right: 0px;
     /* margin-top: 50px; */
-  }
-
-  .centeredtextabout {
-    position: absolute;
-    top: 60%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-  }
-
-  .centeredtextabout2 {
-    position: absolute;
-    top: 80%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-  }
-
-  .centeredtextabout3 {
-    position: absolute;
-    top: 80%;
-    left: 39%;
-    transform: translate(-50%, -50%);
-  }
-
-  .textabout {
-    margin-top: 0rem;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 300;
-  }
-
-  .textabout2 {
-    font-size: 22px;
-    line-height: 25px;
-    font-weight: 700;
-    text-align: right;
-  }
-
-  .textabout3 {
-    font-size: 16px;
-    line-height: 27px;
-    font-weight: 700;
-    text-align: right;
-  }
-
-  #image-about {
-    height: auto;
-    opacity: 1;
-    padding-bottom: 8%;
-  }
-
-  .descriptionabout {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 300;
-    text-align: right;
-  }
-
-  .descriptionabout-margin {
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0%;
-  }
-
-  .about-distance-protocol {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .category-cardsorange-mobile {
-    display: block;
-  }
-
-  .category-cardsorange {
-    display: none;
   }
 }
 
@@ -1390,73 +1027,16 @@
 @media (max-width: 576px) {
 
   /*general*/
-  .mobile-padding {
+  /* .mobile-padding {
     padding-left: 0.3rem;
     padding-right: 0.3rem;
     padding-top: 3rem;
-  }
+  } */
 
   /*Footer Area*/
-  .logo-images {
-    padding-left: 0.3rem;
-    margin-right: 0.3rem;
-    margin-left: 0.3rem;
-    margin-bottom: 1rem;
-  }
-
-  #logodensity {
-    /* width: 70px; */
-    margin-left: 0.3rem;
-    margin-right: 3.1rem;
-    margin-top: 0rem;
-  }
-
-  #logopoli {
-    /* width: 170px; */
-    margin-top: 0rem;
-  }
-
-  .lists {
-    margin-bottom: 3rem;
-    /* margin-right:  0.2rem;
-        margin-left:  0.2rem; */
-  }
-
-  .list-students {
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 0rem;
-    /* margin-right:  0.2rem; */
-    /* margin-left:  0.3rem; */
-  }
-
-  .list-faculty {
-    margin-bottom: 1rem;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-    /* margin-right:  0.2rem;
-        margin-left:  0.2rem; */
-  }
-
-  .list-assistants {
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    /* margin-right:  0.3rem; */
-    /* margin-left:  0.2rem; */
-  }
-
-  ul {
-    list-style: none;
-    font-size: 15px;
-    /* margin-right:  0.2rem;
-        margin-left:  0.2rem;
-        margin-bottom: 1rem; */
-  }
-
-  .ul-b {
-    font-weight: 800;
-  }
+  .lists {margin-bottom: 3rem;}
+  ul {list-style: none;  font-size: 15px;}
+  .ul-b {font-weight: 800;}
 }
 
 /*ABOUT TABLET-----------------------------------------------------------------------------*/
@@ -1465,74 +1045,19 @@
     margin-left: 25px;
     margin-right: 25px;
   }
-
-  .about-margin {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
   .fixed {
     position: relative;
   }
-
-  .about-margin-top {
-    margin-top: 2.5rem;
-  }
-
-  .titleabout {
-    margin-top: 0rem;
-    font-size: 26px;
-    line-height: 36px;
-    font-weight: 600;
-  }
-
-  .textabout {
-    margin-top: 0rem;
-    font-size: 15px;
-    line-height: 22px;
-    font-weight: 300;
-  }
-
   .carousel-margin-about {
     margin-left: 50px;
     margin-right: 0px;
     margin-top: 50px;
   }
-
   .row-arrow-about {
     position: absolute;
     top: 92.5%;
     left: 85.5%;
   }
-
-  .centeredtextabout {
-    position: absolute;
-    top: 60%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-  }
-
-  .centeredtextabout2 {
-    position: absolute;
-    top: 80%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-  }
-
-  .centeredtextabout3 {
-    position: absolute;
-    top: 80%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-  }
-
-  .textabout {
-    margin-top: 0rem;
-    font-size: 26px;
-    line-height: 40px;
-    font-weight: 300;
-  }
-
   ul {
     list-style: none;
     font-size: 20px;
@@ -1540,36 +1065,8 @@
     margin-right: 0rem;
     margin-left: 0rem;
   }
-
   .ul-b {
     font-weight: 800;
-  }
-
-  #image-about {
-    /* width: 500px; */
-    height: 375px;
-    /* margin-right: 1.25rem; */
-    opacity: 1;
-    padding-bottom: 10%;
-  }
-
-  .about-distance-protocol {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .descriptionabout {
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 300;
-    /* text-align: right; */
-  }
-
-  .textabout-margin-subtitle {
-    margin-top: 50px;
   }
 }
 
@@ -1580,33 +1077,10 @@
     margin-right: 0px;
     margin-top: 50px;
   }
-
   .row-arrow-about {
     position: absolute;
     top: 92.5%;
     left: 91.5%;
-  }
-
-  #image-about {
-    /* width: 500px; */
-    height: auto;
-    /* margin-right: 1.25rem; */
-    opacity: 1;
-    padding-bottom: 10%;
-  }
-
-  .centeredtextabout2 {
-    position: absolute;
-    top: 80%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-  }
-
-  .centeredtextabout3 {
-    position: absolute;
-    top: 80%;
-    left: 30%;
-    transform: translate(-50%, -50%);
   }
 }
 
@@ -1617,34 +1091,11 @@
     top: 92.5%;
     left: 82.4%;
   }
-
-  .margin-bottom-about {
-    margin-left: 0px;
-    margin-right: 60px;
-    margin-top: 50px;
-    margin-bottom: 114px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-
-/*CALENDAR MEGA SCHERMO--------------------------*/
-@media (min-width: 3500px) {
-  div.dropdown>span {
-    margin-left: 70px;
-    font-size: 50px !important;
-  }
-
-  .addcart-btn {
-    border: 4px solid;
-    font-size: 50px;
-    width: 28%;
-  }
 }
 
 /* CART MEGA SCHERMO -------------------------------------------------------*/
 @media (min-width: 3500px) {
-  .cartcontent {
+  /* .cartcontent {
     padding-right: 100px;
     padding-left: 100px;
   }
@@ -1750,12 +1201,12 @@
   div.title-cart-el+div {
     font-size: 40px;
     margin-top: 15px;
-  }
+  } */
 }
 
 /* MORALIST PAGE MEGASCHERMO--------------------------------------------------------------------------------*/
 @media (min-width: 3500px) {
-  .margintop-moralist-info {
+  /* .margintop-moralist-info {
     margin-top: 5rem;
   }
 
@@ -1802,7 +1253,7 @@
     color: #000;
     margin-right: 27%;
     margin-left: 27%;
-  }
+  } */
 }
 
 /*MEGA SCHERMO HOME----------------------------------------------------------------------------*/
@@ -2036,261 +1487,20 @@
 }
 
 /*MEGA SCHERMO CATEGORY----------------------------------------------------------------------------*/
-@media (min-width: 3500px) {
-
-  /*category left side*/
-  .category-text {
-    margin-top: 18rem;
-    font-size: 60px;
-  }
-
-  .category-cards {
-    margin-top: 21rem;
-  }
-
-  .category-title {
-    font-size: 150px;
-    line-height: 11rem;
-    margin-bottom: 80px;
-  }
-
-  .category-choose {
-    margin-top: 6rem;
-  }
-
-  .category-choose p {
-    margin-bottom: 3rem;
-  }
-
-  .category-change-btn {
-    font-size: 50px;
-    font-weight: 500;
-    margin-bottom: 2.5rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 4px solid #F39200;
-  }
-
-  /*category right side*/
-  .margincards {
-    margin-bottom: 100px;
-  }
-
-  .sticky {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 300px;
-  }
-
-  .category-all {
-    margin-bottom: 250px;
-  }
-}
+@media (min-width: 3500px) {}
 
 /*MEGA SCHERMO SINGLE TOUR----------------------------------------------------------------------------*/
-@media (min-width: 3500px) {
-
-  /*single page left side*/
-  .tour-cards {
-    margin-top: 18rem;
-  }
-
-  .tour-info p {
-    font-size: 40px;
-  }
-
-  .tour-info i {
-    font-size: 40px;
-    line-height: 60px;
-  }
-
-  .text-description {
-    font-size: 40px;
-    line-height: 60px;
-    margin-top: 3rem;
-  }
-
-  .text-description h6 {
-    font-size: 40px;
-    line-height: 60px;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-  }
-
-  .tour-title {
-    font-weight: 800;
-    font-size: 150px;
-    line-height: 11rem;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-
-  .btn-detail {
-    margin-top: 50px;
-  }
-
-  #tot-price {
-    font-size: 50px;
-    font-weight: 600;
-  }
-
-  .category-all {
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-
-  .menucategory {
-    border: solid 4px #F39200;
-    padding: 5px 15px;
-    width: 20%;
-    font-size: 40px;
-  }
-
-  .menucategory:hover {
-    border: solid 4px #F39200;
-    background-color: #F39200;
-    font-size: 40px;
-  }
-
-  .currentcategory {
-    border: 4px solid #F39200;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 40px;
-  }
-
-  .tag-title {
-    font-size: 40px;
-    margin-bottom: 1rem;
-  }
-
-  .bordertop-film {
-    border-top: 12px solid #F39200;
-  }
-
-  .bordertop {
-    border-top: 12px solid #FFFFFF;
-  }
-
-  .margincards-singletour {
-    margin-bottom: 50px;
-  }
-
-  /*single page left side*/
-  div.text-container {
-    border: solid 4px white;
-    padding: 50px;
-  }
-
-  .text-container p {
-    font-size: 40px;
-  }
-
-  .text-container a {
-    font-size: 40px;
-  }
-
-  .text-container h5 {
-    font-size: 50px;
-  }
-
-  .orangep {
-    margin-bottom: 50px;
-  }
-
-  .hideContent {
-    overflow: hidden;
-    height: 42.5em;
-    /* 20.4em*/
-    /* 18.9em*/
-  }
-
-  .marginbottom-review {
-    margin-bottom: 10rem;
-  }
-}
+@media (min-width: 3500px) {}
 
 /*MEGA SCHERMO ABOUT----------------------------------------------------------------------------*/
 @media (min-width: 3500px) {
 
   /*about title*/
-  .category-text-about {
-    margin-top: 30rem;
-  }
-
-  .category-title-about {
-    font-size: 150px;
-    line-height: 12rem;
-  }
-
-  .category-subtitle-about {
-    font-size: 80px;
-  }
-
-  /*about text*/
-  .about-margin-top {
-    margin-top: 30rem;
-  }
-
-  .about-top-distance {
-    margin-top: 150px;
-  }
-
-  .textabout-margin-subtitle {
-    margin-top: 100px;
-  }
-
-  .about-top-distance-section {
-    margin-top: 100px;
-  }
-
-  .about-distance-protocol {
-    margin-right: 150px;
-  }
-
   .carousel-margin-about {
     margin-top: 100px;
   }
 
-  .titleabout {
-    font-size: 3rem;
-    line-height: 60px;
-    padding-top: 18px;
-    font-weight: 600;
-  }
-
-  .textabout {
-    font-size: 45px;
-    line-height: 70px;
-  }
-
-  .textabout2 {
-    font-size: 70px;
-    line-height: 80px;
-  }
-
-  .textabout3 {
-    font-size: 45px;
-    line-height: 60px;
-    font-weight: 700;
-  }
-
-  .centeredtextabout3 {
-    top: 90%;
-    left: 30%;
-  }
-
-  .descriptionabout {
-    font-size: 30px;
-    line-height: 3rem;
-  }
-
-  .margin-bottom-sources {
-    margin-bottom: 25rem;
-  }
-
-  /*carousel*/
+  /*all carousel*/
   .carousel-image-about {
     border: 6px solid #F39200;
   }
@@ -2305,7 +1515,7 @@
   .arrowabout {
     font-size: 45px;
   }
-
+/*placemaking - setjetters united - spleen*/
   .about-rect-slideshow {
     padding-top: 40px;
   }
@@ -2315,7 +1525,7 @@
     top: 93%;
     left: 84.8%;
   }
-
+  /*atavola - setjetters united - the lost gallery - spleen*/
   .rect-arrow-about {
     padding-top: 1px;
     width: 80px;
@@ -2324,30 +1534,7 @@
   }
 
   /*about footer*/
-  .logo-images {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-  }
-
-  #logodensity {
-    margin-right: 8rem;
-    width: 280px;
-  }
-
-  #logopoli {
-    width: 445px;
-  }
-
-  .lists {
-    margin-top: 6rem;
-    margin-bottom: 4rem;
-  }
-
-  ul {
-    font-size: 40px;
-  }
-
-  li.ul-b {
-    margin-bottom: 2rem;
-  }
+  .lists {margin-top: 6rem;margin-bottom: 4rem;  }
+  ul {font-size: 40px;}
+  li.ul-b {  margin-bottom: 2rem;  }
 }
