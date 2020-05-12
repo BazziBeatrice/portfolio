@@ -126,7 +126,7 @@
   .margin-top-phone {
     margin-top: 50%
   }
-  
+
   /* spleen */
   .image-spleen-page {
     margin-top: 0.6%;
@@ -496,9 +496,12 @@
 
   .image-carousel {
     height: auto;
-    width: 100%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
+  }
+  .margin-top-phone {
+    margin-top: 40%
   }
 
   /* .margin-top3 {
@@ -517,10 +520,58 @@
     font-size: 34px;
   } */
 
+  .image-phone{
+    display:none;
+  }
+
+  .image-phone2{
+    display:none;
+  }
+
+  .image-phone3{
+    display:none;
+  }
+
+  .icon-arrow-down {
+      margin-top: 3.3rem;
+      height: 2.3%;
+      width: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .driveyourcart-position {
+    left: 0%;
+  }
+
+  .anything-position {
+    top: 80px;
+      left: 10%;
+  }
+  .description-setjettersunited {
+    position: absolute;
+    top: 230px;
+    left: 10%;
+  }
+  .row-arrow-about-setjettersunited {
+    position: absolute;
+    top: 91.4%;
+    left: 88%;
+}
+
 }
 
 /*HOMEPAGE TABLET IPAD-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px) {
+
+  .icon-arrow-down {
+      margin-top: 3.3rem;
+      height: 2.3%;
+      width: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
 
   .image-phone{
     display:none;
@@ -609,25 +660,6 @@
       margin-left: auto;
       margin-right: auto;
     }
-/*
-    .margin-top3 {
-      margin-top: 40%
-    }
-
-    .margin-top-phone {
-      margin-top: 50%
-    } */
-
-    /* #main-title {
-      font-size: 54px;
-      line-height: 58px;
-    }
-
-    #main-subtitle {
-      font-size: 44px;
-      line-height: 48px;
-    } */
-
 
       /* spleen */
       .image-spleen-page {
@@ -646,12 +678,12 @@
       .image-outforia {
         margin-top: 0.6%;
         height: auto;
-        width: 100%;
+        width: 70%;
       }
 
       .image-thelost22 {
         margin-top: 0.6%;
-        width: 90%;
+        width: 120%;
         height: auto;
       }
 
@@ -701,9 +733,9 @@
 
       .row-arrow-about-setjettersunited {
         position: absolute;
-        top: 83.4%;
-        left: 74.5%;
-      }
+        top: 91.4%;
+        left: 88%;
+    }
 
       .arrowabout-setjettersunited {
         font-size: 29.2px;
@@ -717,17 +749,17 @@
       }
 
       .image-project-11 {
-        margin-top: -5%;
-        height: auto;
-        width: 500%;
-        display: block;
+          margin-top: -45%;
+          height: auto;
+          width: 200%;
+          display: block;
       }
 
       .image-project-10 {
         margin-top: 1.6%;
-        margin-left: -300%;
+        margin-left: -100%;
         height: auto;
-        width: 500%;
+        width: 200%;
         display: block;
       }
 
@@ -754,7 +786,7 @@
       .image-fuso {
         margin-top: 0.6%;
         height: auto;
-        width: 100%;
+        width: 70%;
       }
 
       .image-fuso-book {
@@ -775,13 +807,22 @@
         height: auto;
         width: 100%;
       }
+      .image-project-2 {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+.marginonehundredhalf-top {
+    margin-top: 0px;
+}
 
       #seek-bar {
-        width: 70%;
+        width: 60%;
       }
 
       #full-screen {
-        bottom: 100%;
+        bottom: 90%;
         right: 5%;
       }
 
@@ -794,14 +835,14 @@
 
       .image-carousel2 {
         height: auto;
-        width: 100%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
       }
 
       .image-atavola-page {
         margin-top: 0.6%;
-        width: 80%;
+        width: 60%;
         height: auto;
       }
 
@@ -813,14 +854,14 @@
       /* lineunit */
       .image-lineunit {
         margin-top: 0.6%;
-        width: 100%;
+        width: 80%;
         height: auto;
       }
 
       /* thekingofmiami */
       .image-thekingof-home {
         margin-top: 0.6%;
-        width: 100%;
+        width: 70%;
         height: auto;
       }
 
@@ -830,11 +871,6 @@
         padding-left: 0px;
       }
 
-      .image-lineunit {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-      }
 
 /* spleen */
       .row-arrow-about-spleen {
@@ -844,6 +880,10 @@
       }
       .arrowabout-category {font-size: 26px;}
 
+      .description-down {
+          margin-top: 0rem;
+          vertical-align: bottom;
+      }
 }
 
 /*VIDEO HOME PAGE PHONE----------------------------------------------------------------------------*/
@@ -987,14 +1027,14 @@
   /*Carousel*/
   .carousel {margin-bottom: 50px;}
 
-  .freccia {margin-top: 120px;}
+  /* .freccia {margin-top: 120px;} */
 }
 
 /*SINGLE TOUR PAGE TABLET IPAD-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px) {
 
   /*Carousel*/
-  .freccia {  margin-top: 430px;}
+  /* .freccia {  margin-top: 430px;} */
 
   /*Reviews*/
   .marginbottom-review {margin-bottom: 2rem;}
