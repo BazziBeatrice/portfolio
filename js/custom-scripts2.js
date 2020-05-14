@@ -1,58 +1,14 @@
 $(document).ready(function () {
 
 //$("#specchietto > g").hide();
-$("#physicalinternet-description1").hide();
-$("#physicalinternet-description2").hide();
-$("#physicalinternet-description3").hide();
-$("#physicalinternet-description4").hide();
+$("#physicalinternet-description1").hide();$("#physicalinternet-description2").hide();
+$("#physicalinternet-description3").hide();$("#physicalinternet-description4").hide();
 
   $("#colors-spleen	> g").hide();
 
-    $("#ed-hover").hide();
-    $("#ind-hover").hide();
-    $("#exp-hover").hide();
-    $("#pers-hover").hide();
-        $("#cal-hover").hide();
-        $("#adv-hover").hide();
-        $("#col-hover").hide();
+    $("#ed-hover").hide();$("#ind-hover").hide();$("#exp-hover").hide();
+    $("#pers-hover").hide();$("#cal-hover").hide();$("#adv-hover").hide();$("#col-hover").hide();
 
-// $("#physicalinternet-description2").hide();
-// $("#physicalinternet-description3").hide();
-// $("#physicalinternet-description4").hide();
-
-
-
-// -----------------------------------------CLICK ON THE HASHTAGS
-
- // ---- setjetting
-  // $("#sfondo_3 #setjetting").click(function() {
-  //   console.log("clicco");
-  // $("#sfondo_3 #setjetting").hide();
-  // $("#sfondo_3 #setjetting2").show();
-  // $("#sfondo_3 #seichijunrei").show();
-  // $("#sfondo_3 #seichijunrei2").hide();
-  // $("#sfondo_3 #all").show();
-  // $("#sfondo_3 #all2").hide();
-  // $("#immagini>").hide();
-  // $("#sfondo_3 .setj").show();
-  // });
-
-
-// -----------------------------------------RECREATING THE SCENE
-
- // ---- AFRICAN QUEEN
-  // $("#immagini #img99_3_").hover(function() {
-  // $("#focus-recreating #african_queen").show();
-  // $("#Cick_here").hide();
-  // $(this).css("opacity", 1);
-  // $("#immagini >").css("opacity", 0.4);
-  // $("#immagini #img99_3_").css("opacity", 1);
-  // }, function() {
-  // $("#focus-recreating #african_queen").hide();
-  // $("#Cick_here").show();
-  // $(this).css("opacity", 0);
-  // $("#immagini >").css("opacity", 1);
-  // });
 
   // ---- PHYSICALINTERNET Shapes
   $("#physicalinternet-image1").hover(function() {
@@ -201,88 +157,11 @@ $("#physicalinternet-description4").hide();
     $("#categories-spleen #col-hover").hide();
   });
 
-
-
-  //   $('a#project06').mouseover(function() {
-  //    $('#project06img').attr ("src", './assets/images/fuso-tv.gif');
-  //    console.log("ok")
-  // })
-
-//   $( "a#project05" ).hover(function() {
-//     $('#project05img').append( $( "src", './assets/images/fuso-tv.gif', height="100"  ) );
-//   }, function() {
-//     $( '#project05img').find( "src", './assets/images/fuso-tv.gif', height="100"  ).last().remove();
-//   }
-// );
-
-
-
-
-// $(".p08").hover(function(){
-//   $(this).attr('src','https://i.imgur.com/uv8wnM7.gif');
-//   console.log("ok");
-//   }, function(){
-//   $(this).attr('src','');
-// });
-
-// $(".p09").hover(function() {
-//       $("#imageBox").html($("<img>").attr("src", 'https://i.imgur.com/uv8wnM7.gif'));
-//   console.log("ok1");
-//   }, function(){
-//   $(this).attr('src','');
-// });
-//
-// $(".p07").hover(function() {
-//   $(".image-hover-maybe").css("left", event.clientX + 'px');
-//   $(".image-hover-maybe").show();
-//
+// $(".p01").hover(function() {
+//   $(".text-over").show();
 // }, function() {
-//   $(".image-hover-maybe").hide();
-
-  // document.onmouseover = animateCircles;
-  // function animateCircles(event){
-  //   var image7 = document.createElement("img");
-  //   image7.setAttribute("class", "image-hover-maybe");
-  //   document.body.appendChild(image7);
-  //
-  //   image7.style.left = event.clientX + 'px';
-  //   image7.style.top = event.clientY + 'px';
-  // }
-//   var example = document.getElementById('.image-hover-maybe');
-// example.onmousemove = function(e) {
-//     var x = e.pageX - this.offsetLeft;
-//     var y = e.pageY - this.offsetTop;
-//     example.style.left = event.clientX + 'px';
-//   example.style.top = event.clientY + 'px';
-// }
-//
+//   $(".text-over").hide();
 // });
-
-$(".p01").hover(function() {
-  $(".text-over").show();
-}, function() {
-  $(".text-over").hide();
-});
-// document.onmousemove = animateCircles;
-
-// function animateCircles(event){
-//   var circle = document.createElement("div");
-//   circle.setAttribute("class", "circle");
-//   document.body.appendChild(circle);
-//
-//   circle.style.left = event.clientX + 'px';
-//   circle.style.top = event.clientY + 'px';
-// }
-
-// function animateCircles(event){
-//   var image7 = document.createElement("img");
-//   image7.setAttribute("class", "image-hover-maybe");
-//   document.body.appendChild(image7);
-//
-//   image7.style.left = event.clientX + 'px';
-//   image7.style.top = event.clientY + 'px';
-// }
-
 });
 
 
@@ -290,8 +169,4 @@ $(".p01").hover(function() {
 
 var loader = document.getElementById("loader");
 
-window.setTimeout(function(){
-    loader.style.height="500px";
-    loader.style.width="500px";
-    loader.style.visibility ="hidden";
-}, 2000);
+window.setTimeout(function(){loader.style.height="500px";loader.style.width="500px";loader.style.visibility ="hidden";}, 2000);
