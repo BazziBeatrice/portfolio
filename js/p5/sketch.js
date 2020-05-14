@@ -52,7 +52,8 @@ function setup() {
   // let canvas = createCanvas(windowWidth, windowHeight);
   let canvas = createCanvas(windowWidth, 1600);
   canvas.position(0, 0);
-  img = loadImage("https://i.imgur.com/NiZiYUz.gif");
+  // img = loadImage("https://i.imgur.com/NiZiYUz.gif");
+  img = loadImage("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro.gif");
   provaHover = select("#p01")
 
   img2 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/thelostgallery-intro.jpg");
@@ -74,7 +75,8 @@ function setup() {
   img7 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/outforia_intro.gif");
   p7Hover = select("#p07")
 
-  img8 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  // img8 = loadImage("https://i.imgur.com/uv8wnM7.gif");
+  img8 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/images/fuso-tv.gif");
   p8Hover = select("#p08")
 
   img9 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/ihavegotnothingtowear-intro.png");
