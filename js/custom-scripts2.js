@@ -3,12 +3,9 @@ $(document).ready(function () {
 //$("#specchietto > g").hide();
 $("#physicalinternet-description1").hide();$("#physicalinternet-description2").hide();
 $("#physicalinternet-description3").hide();$("#physicalinternet-description4").hide();
-
-  $("#colors-spleen	> g").hide();
-
-    $("#ed-hover").hide();$("#ind-hover").hide();$("#exp-hover").hide();
-    $("#pers-hover").hide();$("#cal-hover").hide();$("#adv-hover").hide();$("#col-hover").hide();
-
+$("#colors-spleen	> g").hide();
+$("#ed-hover").hide();$("#ind-hover").hide();$("#exp-hover").hide();
+$("#pers-hover").hide();$("#cal-hover").hide();$("#adv-hover").hide();$("#col-hover").hide();
 
   // ---- PHYSICALINTERNET Shapes
   $("#physicalinternet-image1").hover(function() {
@@ -70,8 +67,6 @@ $("#physicalinternet-description3").hide();$("#physicalinternet-description4").h
     $("#physicalinternet-image2").css("opacity", 1);
     $("#physicalinternet-image3").css("opacity", 1);
   });
-
-
 
   // ---- SPLEEN editorial
   $("#categories-spleen #ed").hover(function() {
@@ -164,9 +159,7 @@ $("#physicalinternet-description3").hide();$("#physicalinternet-description4").h
 // });
 });
 
-
 //LOADER
-
 var loader = document.getElementById("loader");
 
 window.setTimeout(function(){loader.style.height="500px";loader.style.width="500px";loader.style.visibility ="hidden";}, 2000);

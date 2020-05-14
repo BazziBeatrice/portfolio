@@ -1,41 +1,16 @@
 // JavaScript Document
 
-//get mouse position--------------------------------------------//
-
-// const root = document.documentElement;
-//
-// document.addEventListener('mousemove', evt => {
-//     let x = evt.clientX / innerWidth;
-//     let y = evt.clientY / innerHeight;
-//
-//     root.style.setProperty('--mouse-x', x);
-//     root.style.setProperty('--mouse-y', y);
-// });
-
-//get mouse position--------------------------------------------//
-
 // $(document).ready(function(){});
 
 
 // if (matchMedia('only screen and (max-width: 768px)').matches) {
 // if($(window).width() > 768){
-//     $("#image-phone-01").hide();
-//   $("#image-phone-02").hide();
-//   $("#image-phone-03").hide();
-//   $("#image-phone-04").hide();
-//   $("#image-phone-05").hide();
-//   $("#image-phone-06").hide();
-//   $("#image-phone-07").hide();
-// }
-//
+//     $("#image-phone-01").hide();$("#image-phone-02").hide();$("#image-phone-03").hide();$("#image-phone-04").hide();
+//   $("#image-phone-05").hide();$("#image-phone-06").hide();$("#image-phone-07").hide();}
+
 if($(window).width() <= 768){
 
-$("#image-phone-02").hide();
-$("#image-phone-03").hide();
-$("#image-phone-04").hide();
-$("#image-phone-05").hide();
-$("#image-phone-06").hide();
-$("#image-phone-07").hide();
+$("#image-phone-02").hide();$("#image-phone-03").hide();$("#image-phone-04").hide();$("#image-phone-05").hide();$("#image-phone-06").hide();$("#image-phone-07").hide();
 
 window.addEventListener('scroll', function() {
 

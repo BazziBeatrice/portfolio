@@ -2,17 +2,13 @@ $(document).ready(function () {
 
 //$("#specchietto > g").hide();
 $("#focus-recreating > g").hide();$("#focus-posing > g").hide();$("#focus-photo > g").hide();
-
 $("#sfondo_3 #setjetting2").hide();$("#sfondo_3 #seichijunrei2").hide();$("#sfondo_3 #all2").hide();
-
-  $("#editorial").hide();
-
+$("#editorial").hide();
 
 // -----------------------------------------CLICK ON THE HASHTAGS
 
  // ---- setjetting
   $("#sfondo_3 #setjetting").click(function() {
-    console.log("clicco");
   $("#sfondo_3 #setjetting").hide();
   $("#sfondo_3 #setjetting2").show();
   $("#sfondo_3 #seichijunrei").show();
@@ -25,7 +21,6 @@ $("#sfondo_3 #setjetting2").hide();$("#sfondo_3 #seichijunrei2").hide();$("#sfon
 
   // ---- seichijunrei
    $("#sfondo_3 #seichijunrei").click(function() {
-     console.log("clicco");
      $("#sfondo_3 #seichijunrei").hide();
      $("#sfondo_3 #seichijunrei2").show();
      $("#sfondo_3 #setjetting").show();
@@ -38,7 +33,6 @@ $("#sfondo_3 #setjetting2").hide();$("#sfondo_3 #seichijunrei2").hide();$("#sfon
 
    // ---- seichijunrei
     $("#sfondo_3 #all").click(function() {
-      console.log("clicco");
       $("#sfondo_3 #all").hide();
       $("#sfondo_3 #all2").show();
       $("#sfondo_3 #setjetting").show();
@@ -49,7 +43,6 @@ $("#sfondo_3 #setjetting2").hide();$("#sfondo_3 #seichijunrei2").hide();$("#sfon
     });
 
 // -----------------------------------------RECREATING THE SCENE
-
  // ---- AFRICAN QUEEN
   $("#immagini #img99_3_").hover(function() {
   $("#focus-recreating #african_queen").show();
@@ -387,7 +380,6 @@ $("#sfondo_3 #setjetting2").hide();$("#sfondo_3 #seichijunrei2").hide();$("#sfon
   $("#immagini >").css("opacity", 1);
   });
 
-
 // ----strangerthings3
   $("#immagini #img24_4_").hover(function() {
   $("#focus-recreating #strangerthings3").show();
@@ -416,7 +408,6 @@ $("#sfondo_3 #setjetting2").hide();$("#sfondo_3 #seichijunrei2").hide();$("#sfon
   $("#immagini >").css("opacity", 1);
   });
 
-
 // ----strangerthings5
   $("#immagini #img26_5_").hover(function() {
   $("#focus-recreating #strangerthings5").show();
@@ -431,11 +422,7 @@ $("#sfondo_3 #setjetting2").hide();$("#sfondo_3 #seichijunrei2").hide();$("#sfon
   $("#immagini >").css("opacity", 1);
   });
 
-
-
-
 // -----------------------------------------POSING
-
  // ----dracula
   $("#immagini #img27_3_").hover(function() {
   $("#focus-posing #dracula").show();
@@ -688,10 +675,7 @@ $(this).css("opacity", 0);
 $("#immagini >").css("opacity", 1);
 });
 
-
 // -----------------------------------------PHOTO OF LOCATION
-
-
 // ---- A MOST WANTED
   $("#immagini #img98_3_").hover(function() {
   $("#focus-photo #amostwanted").show();
@@ -943,8 +927,6 @@ $("#immagini >").css("opacity", 1);
   $(this).css("opacity", 0);
   $("#immagini >").css("opacity", 1);
   });
-
-
 
 // ---- conan
   $("#immagini #img74_1_").hover(function() {
@@ -1465,7 +1447,6 @@ $("#immagini >").css("opacity", 1);
   });
 
 });
-
 // ------------------------------------------------------------------------------------------ VIZ05
 // function magnify(imgID, zoom) {
 //   var img, glass, w, h, bw;
