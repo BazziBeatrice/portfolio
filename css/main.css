@@ -127,9 +127,17 @@ left:0;
 width:100%
 }
 
-.icon-arrow-down {
+/* .icon-arrow-down {
 margin-top:3.3rem;
 height:2.3%;
+width:auto;
+display:block;
+margin-left:auto;
+margin-right:auto
+} */
+.icon-arrow-down {
+margin-top:3.3rem;
+height:13%;
 width:auto;
 display:block;
 margin-left:auto;
