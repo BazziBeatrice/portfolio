@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
-@font-face {font-family:"neue-haas-grotesk-display",sans-serif;font-weight:400;font-style:normal}
+@font-face {font-family:"neue-haas-grotesk-display",sans-serif;font-weight:400;font-style:normal;font-display: swap;}
 
 @font-face {font-family:'maziusDisplay';font-weight:400;font-style:normal;
-src:url(../assets/fonts/MAZIUSREVIEW20.09-Regular.woff2) format("woff2"),url(../assets/fonts/MAZIUSREVIEW20.09-Regular.woff) format("woff")
-}
+src:url(../assets/fonts/MAZIUSREVIEW20.09-Regular.woff2) format("woff2"),url(../assets/fonts/MAZIUSREVIEW20.09-Regular.woff) format("woff");
+font-display: swap;}
 
 @font-face {font-family:'maziusDisplay';font-weight:400;font-style:italic;
-src:url(../assets/fonts/MAZIUSREVIEW20.09-Italic.woff2) format("woff2"),url(../assets/fonts/MAZIUSREVIEW20.09-Italic.woff) format("woff")
-}
+src:url(../assets/fonts/MAZIUSREVIEW20.09-Italic.woff2) format("woff2"),url(../assets/fonts/MAZIUSREVIEW20.09-Italic.woff) format("woff");
+font-display: swap;}
 
 @font-face {font-family:'maziusDisplay';font-weight:300;font-style:italic;
-src:url(../assets/fonts/MAZIUSREVIEW20.09-Extraitalic.woff2) format("woff2"),url(../assets/fonts/MAZIUSREVIEW20.09-Extraitalic.woff) format("woff")
-}
+src:url(../assets/fonts/MAZIUSREVIEW20.09-Extraitalic.woff2) format("woff2"),url(../assets/fonts/MAZIUSREVIEW20.09-Extraitalic.woff) format("woff");
+font-display: swap;}
 
 .default {cursor:url(../assets/images/cursor/defaultcursor.svg),default}
 
