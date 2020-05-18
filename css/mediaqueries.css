@@ -16,10 +16,9 @@
     text-align: center;
     /* margin-top:40px; */
     /* mix-blend-mode: exclusion; */
-    text-shadow: 1px 1px 0 #f1f1f1;;
     /* text-align: left; */
   }
-
+.shadow{text-shadow: 1px 1px 0 #f1f1f1;;}
 .margin-index-top{
   margin-top:50%;
   margin-bottom:50%;
