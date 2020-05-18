@@ -69,7 +69,7 @@ function setup() {
   p5Hover = select("#p05")
 
   // img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/contratempo-intro.gif");
-  img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/images/contratempo-1.png");
+  img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/contratempo-intro.png");
   p6Hover = select("#p06")
 
   img7 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/outforia_intro.gif");
