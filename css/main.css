@@ -767,6 +767,13 @@ top:0;
 width:100%;
 z-index:100
 }
+.non-fixed-posit-black {
+background-color:#000;
+position:absolute;
+top:0;
+width:100%;
+z-index:100
+}
 .bar-menu {
 padding-top:20px;
 text-align:left
