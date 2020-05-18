@@ -134,14 +134,14 @@
 		<article class="page">
 
 	<div class="row">
-			<img src="./assets/images/spleen-3.jpg"  class="image-project-3"  />
-				<img src="./assets/images/spleen-8.jpg" class="image-project-3"  />
-				<img src="./assets/images/spleen-4.jpg" class="image-project-3"  />
+			<img src="./assets/images/spleen-3.jpg"  class="image-project-3 lazyload"/>
+				<img src="./assets/images/spleen-8.jpg" class="image-project-3 lazyload"/>
+				<img src="./assets/images/spleen-4.jpg" class="image-project-3 lazyload"/>
 			</div>
 			<div class="row">
 
-				<img src="./assets/images/spleen-5.jpg" class="image-project-4"  />
-				<img src="./assets/images/spleen-7.jpg" class="image-project-4"  />
+				<img src="./assets/images/spleen-5.jpg" class="image-project-4 lazyload"/>
+				<img src="./assets/images/spleen-7.jpg" class="image-project-4 lazyload"/>
 			</div>
 
 		</article>
@@ -154,7 +154,7 @@
 
 			<div class="row">
 				<div class="col-xl-5 col-lg-5 col-md-5 col-sm-10 col-10">
-					<img src="./assets/images/spleen-2.png" class="image-project-2" alt="Fuso" id="fuso" >
+					<img src="./assets/images/spleen-2.png" class="image-project-2 lazyload" alt="Fuso" id="fuso" >
 					</div>
 					<div class="offset-xl-1 offset-lg-1 offset-md-1 offset-sm-2 offset-2 col-xl-5 col-lg-5 col-md-5 col-sm-10 col-10">
 						<p class="text-hover description description-down">
@@ -476,7 +476,7 @@
 							<div class="carousel-item active">
 									<div class="row">
 											<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 activitiycard " >
-													<img class="img-fluid carousel-image-about" src="./assets/images/spleen-experts.jpg" alt="Image not supported" >
+													<img class="img-fluid carousel-image-about lazyload" src="./assets/images/spleen-experts.jpg" alt="Image not supported" >
 											</div>
 											<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 about-rect-slideshow">
 													<div class="arrowabout-category" style="display: inline;">
@@ -492,7 +492,7 @@
 							<div class="carousel-item">
 									<div class="row">
 											<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 activitiycard">
-													<img class="img-fluid carousel-image-about" src="./assets/images/spleen-calendar.jpg" alt="Image not supported" >
+													<img class="img-fluid carousel-image-about lazyload" src="./assets/images/spleen-calendar.jpg" alt="Image not supported" >
 											</div>
 											<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 about-rect-slideshow">
 													<div style="display: inline;" class="arrowabout-category">
@@ -508,7 +508,7 @@
 								<div class="carousel-item">
 										<div class="row">
 												<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 activitiycard " >
-														<img class="img-fluid carousel-image-about" src="./assets/images/spleen-stories1.jpg" alt="Image not supported" >
+														<img class="img-fluid carousel-image-about lazyload" src="./assets/images/spleen-stories1.jpg" alt="Image not supported" >
 												</div>
 												<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 about-rect-slideshow">
 														<div class="arrowabout-category" style="display: inline;">
@@ -525,7 +525,7 @@
 								<div class="carousel-item">
 										<div class="row">
 												<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 activitiycard">
-														<img class="img-fluid carousel-image-about" src="./assets/images/spleen-experts3.jpg" alt="Image not supported" >
+														<img class="img-fluid carousel-image-about lazyload" src="./assets/images/spleen-experts3.jpg" alt="Image not supported" >
 												</div>
 												<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 about-rect-slideshow">
 														<div style="display: inline;" class="arrowabout-category">
@@ -542,7 +542,7 @@
 								<div class="carousel-item">
 										<div class="row">
 												<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 activitiycard">
-														<img class="img-fluid carousel-image-about" src="./assets/images/spleen-experts1.jpg" alt="Image not supported">
+														<img class="img-fluid carousel-image-about lazyload" src="./assets/images/spleen-experts1.jpg" alt="Image not supported">
 												</div>
 												<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 about-rect-slideshow">
 														<div style="display: inline;" class="arrowabout-category">
@@ -694,11 +694,14 @@
 	<script>
 		AOS.init();
 	</script>
+
+	<script src="./js/lazysizes.min.js" async=""></script>
+
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- 
+<!--
 	<canvas id="defaultCanvas0" class="p5Canvas" style="width: 1440px;height: 546px;position: absolute;left: 0px;top: 0px;pointer-events: none;z-index: 1;"> -->
 
 </body>
