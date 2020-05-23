@@ -428,6 +428,15 @@
     vertical-align: middle;
   }
 
+    /*macchieinarte*/
+    .image-project-4-2 {
+    width:98%;
+    height:98%;
+    display:inline-block;
+    padding-left:15px;
+    padding-top:15px
+    }
+
 }
 
 /*HOMEPAGE TABLET----------------------------------------------------------------------------*/
@@ -923,6 +932,12 @@ h2 {
 .margin-atavola {
     margin-top: 0%;
     margin-left: 5%;
+}
+/* outforia */
+.image-outforia-page {
+  margin-top: 0.6%;
+  height: auto;
+  width: 100%;
 }
 
 }
