@@ -95,7 +95,7 @@ function setup() {
   img12 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/thekingof-intro.gif");
   p12Hover = select("#p12")
 
-  img13 = loadImage("https://github.com/BazziBeatrice/portfolio/raw/master/assets/video/video-macchie-intro.gif");
+  img13 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/video-macchie-intro.gif");
   p13Hover = select("#p13")
 
 }
