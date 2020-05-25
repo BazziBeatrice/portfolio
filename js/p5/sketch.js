@@ -46,6 +46,10 @@ var p12Hover;
 var mouseIsOvering12 = false;
 let img12;
 
+var p13Hover;
+var mouseIsOvering13 = false;
+let img13;
+
 function preload() {}
 
 function setup() {
@@ -91,6 +95,9 @@ function setup() {
   img12 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/thekingof-intro.gif");
   p12Hover = select("#p12")
 
+  img13 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/video/macchieinarte.gif");
+  p13Hover = select("#p13")
+
 }
 
 function draw() {
@@ -106,6 +113,7 @@ function draw() {
   } else if (mouseIsOvering10 == true) {mostraImmagine10();
   } else if (mouseIsOvering11 == true) {mostraImmagine11();
   } else if (mouseIsOvering12 == true) {mostraImmagine12();
+  } else if (mouseIsOvering13 == true) {mostraImmagine13();
   } else {clear();}
   // console.log(mouseIsOvering);
 }
@@ -122,6 +130,7 @@ function mouseStatus9(status) {mouseIsOvering9 = status;}
 function mouseStatus10(status) {mouseIsOvering10 = status;}
 function mouseStatus11(status) {mouseIsOvering11 = status;}
 function mouseStatus12(status) {mouseIsOvering12 = status;}
+function mouseStatus13(status) {mouseIsOvering13 = status;}
 
 function mostraImmagine() {
   image(img, mouseX, mouseY + 20, (img.width / 4), (img.height / 4))}
@@ -147,3 +156,5 @@ function mostraImmagine11() {
   image(img11, mouseX, mouseY + 20, (img.width / 5), (img.height / 4))}
 function mostraImmagine12() {
   image(img12, mouseX, mouseY + 20, (img.width / 4), (img.height / 4.5))}
+function mostraImmagine13() {
+  image(img13, mouseX, mouseY - 100, (img.width / 4), (img.height / 4))}
