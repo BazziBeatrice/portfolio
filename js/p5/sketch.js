@@ -153,8 +153,8 @@ function mostraImmagine9() {
 function mostraImmagine10() {
   image(img10, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))}
 function mostraImmagine11() {
-  image(img11, mouseX, mouseY + 20, (img.width / 5), (img.height / 4))}
+  image(img11, mouseX, mouseY - 20, (img.width / 5), (img.height / 4))}
 function mostraImmagine12() {
-  image(img12, mouseX, mouseY + 20, (img.width / 4), (img.height / 4.5))}
+  image(img12, mouseX, mouseY - 40, (img.width / 4), (img.height / 4.5))}
 function mostraImmagine13() {
   image(img13, mouseX, mouseY - 100, (img.width / 5.5), (img.height / 4))}
