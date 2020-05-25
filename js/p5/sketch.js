@@ -95,7 +95,7 @@ function setup() {
   img12 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/thekingof-intro.gif");
   p12Hover = select("#p12")
 
-  img13 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/video/macchieinarte.gif");
+  img13 = loadImage("https://github.com/BazziBeatrice/portfolio/raw/master/assets/video/video-macchie-intro.gif");
   p13Hover = select("#p13")
 
 }
@@ -149,7 +149,7 @@ function mostraImmagine7() {
 function mostraImmagine8() {
   image(img8, mouseX, mouseY + 20, (img.width / 4.5), (img.height / 5))}
 function mostraImmagine9() {
-  image(img9, mouseX, mouseY + 20, (img.width / 3), (img.height / 4))}
+  image(img9, mouseX, mouseY - 20, (img.width / 3), (img.height / 4))}
 function mostraImmagine10() {
   image(img10, mouseX, mouseY + 20, (img.width / 6), (img.height / 4))}
 function mostraImmagine11() {
@@ -157,4 +157,4 @@ function mostraImmagine11() {
 function mostraImmagine12() {
   image(img12, mouseX, mouseY + 20, (img.width / 4), (img.height / 4.5))}
 function mostraImmagine13() {
-  image(img13, mouseX, mouseY - 100, (img.width / 4), (img.height / 4))}
+  image(img13, mouseX, mouseY - 100, (img.width / 5.5), (img.height / 4))}
