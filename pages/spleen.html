@@ -707,12 +707,6 @@
 	<script src="../js/custom-scripts-spleen.js"></script>
 	<script src="../js/main.js"></script>
 
-	<script rel="preload" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script rel="preload" src="../js/aos.js"></script>
-	<script rel="preload" src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
 
 	<script src="../js/lazysizes.min.js" async=""></script>
 
@@ -722,7 +716,31 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!--
 	<canvas id="defaultCanvas0" class="p5Canvas" style="width: 1440px;height: 546px;position: absolute;left: 0px;top: 0px;pointer-events: none;z-index: 1;"> -->
-
+	<script>
+	function isElementInViewport (el) {
+		if (typeof jQuery === "function" && el instanceof jQuery) {
+				el = el[0];
+		}
+		var position = el.getBoundingClientRect();
+		if(position.top >= 0 && position.bottom <= window.innerHeight) {
+			return true;
+		}
+		if(position.top < window.innerHeight && position.bottom >= 0) {
+			return true;
+		}
+		return false;
+	}
+	$("[data-aos]").each(function() {
+		if (isElementInViewport($(this))) {
+			$(this).removeAttr("data-aos");
+		}
+	});</script>
+	<script rel="preload" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script rel="preload" src="../js/aos.js"></script>
+	<script rel="preload" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>
