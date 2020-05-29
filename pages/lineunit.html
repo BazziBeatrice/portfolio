@@ -252,9 +252,8 @@
 	<script rel="preload" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script rel="preload" src="../js/aos.js"></script>
 	<script rel="preload" src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
+	<script>AOS.init();</script>
+	<script>setTimeout(function () { AOS.init(); }, 1000);</script>
 </body>
 
 </html>

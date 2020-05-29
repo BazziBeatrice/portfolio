@@ -340,9 +340,8 @@ After this, you will be able to take a picture with the crown that you had well 
 	<script rel="preload" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script rel="preload" src="../js/aos.js"></script>
 	<script rel="preload" src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
+	<script>AOS.init();</script>
+	<script>setTimeout(function () { AOS.init(); }, 1000);</script>
 </body>
 
 </html>
