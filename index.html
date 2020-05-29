@@ -113,8 +113,12 @@
 		<div id="p02" onmouseover="mouseStatus2(true);" onmouseout="mouseStatus2(false);">
 			<a href="pages/thelostgallery.html" id="project02" class="text-hover shadow-phone pointer">2. THE LOST GALLERY / poster design</a>
 		</div>
-		<div >
-			<img src="./assets/intro/thelostgallery-intro.jpg" id="image-phone-02" class="image-phone" alt="The Lost Gallery cover"/>
+		<div>
+			<picture>
+				<source type="image/webp" srcset="./assets/intro/thelostgallery-intro.webp">
+				<source type="image/jpeg" srcset="./assets/intro/thelostgallery-intro.jpg">
+				<img src="./assets/intro/thelostgallery-intro.jpg" id="image-phone-02" class="image-phone" alt="The Lost Gallery cover"/>
+			</picture>
 		</div>
 	</h1>
 	<h1 id="main-subtitle" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-hover margin-index-top">
@@ -122,7 +126,11 @@
 			<a href="pages/thephysicalinternet.html" id="project03" class="text-hover shadow-phone pointer">3. THE PHYSICAL INTERNET / data visualization</a>
 		</div>
 		<div>
-			<img src="./assets/intro/physicalinternet-intro.jpg" id="image-phone-03" class="image-phone2 lazyload" alt="The physical internet cover"/>
+			<picture>
+				<source type="image/webp" srcset="./assets/intro/physicalinternet-intro.webp">
+				<source type="image/jpeg" srcset="./assets/intro/physicalinternet-intro.jpg">
+			  <img src="./assets/intro/physicalinternet-intro.jpg" id="image-phone-03" class="image-phone2 lazyload" alt="The physical internet cover"/>
+		  </picture>
 		</div>
 	</h1>
 	<h1 id="main-subtitle" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-hover margin-index-top" >
@@ -130,7 +138,11 @@
 			<a href="pages/placemaking.html" id="project04" class="text-hover shadow-phone pointer">4. DIGITAL WORLD PLACE MAKING / data visualization</a>
 		</div>
 		<div>
-			<img src="./assets/intro/placemaking-intro.jpg" id="image-phone-04" class="image-phone2 lazyload" alt="Digital placemaking cover"/>
+			<picture>
+				<source type="image/webp" srcset="./assets/intro/placemaking-intro.webp">
+				<source type="image/jpeg" srcset="./assets/intro/placemaking-intro.jpg">
+			  <img src="./assets/intro/placemaking-intro.jpg" id="image-phone-04" class="image-phone2 lazyload" alt="Digital placemaking cover"/>
+		</picture>
 		</div>
 	</h1>
 	<h1 id="main-subtitle" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-hover margin-index-top" >
@@ -150,7 +162,11 @@
 			<a href="pages/contratempo.html" id="project06" class="text-hover shadow-phone pointer">6. CONTRATEMPO / event design</a>
 		</div>
 		<div>
-			<img src="./assets/intro/contratempo-intro.png" id="image-phone-06" class="image-phone2 lazyload" alt="Contratempo cover"/>
+			<picture>
+				<source type="image/webp" srcset="./assets/intro/contratempo-intro.webp">
+				<source type="image/png" srcset="./assets/intro/contratempo-intro.png">
+				<img src="./assets/intro/contratempo-intro.png" id="image-phone-06" class="image-phone2 lazyload" alt="Contratempo cover"/>
+			</picture>
 		</div>
 	</h1>
 	<h1 id="main-subtitle" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-hover margin-index-top">
@@ -160,10 +176,10 @@
 		<div>
 			<picture>
 				<source type="image/webp" srcset="./assets/intro/outforia_intro2.webp">
-				<source type="image/svg+xml" srcset="./assets/intro/outforia_intro2.svg">
 				<source type="image/png" srcset="./assets/intro/outforia_intro2.png">
 				<img src="./assets/intro/outforia_intro2.png" id="image-phone-07" class="image-phone3 lazyload" alt="Outforia cover">
 			</picture>
+			<!-- <source type="image/svg+xml" srcset="./assets/intro/outforia_intro2.svg"> -->
 		</div>
 	</h1>
 </div>
@@ -223,14 +239,6 @@
 				</h2> -->
 		</div>
 
-		<!-- <div class="row" >
-	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-	<a href="#section1">
-		<img src="./assets/images/arrow-down.png" class="icon-arrow-up" alt="Icon Arrow Up">
-	</a>
-	</div>
-</div> -->
-
 	</article>
 </section>
 	</main>
@@ -244,7 +252,6 @@
 <script media="(min-width: 768px)" src="./js/p5/p5.min.js" async></script>
 
 <script rel="preconnect" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 <!-- <script src="./js/bootstrap.min.js"></script> -->
 <script src="./js/main.js"></script>
 <script media="(max-width: 768px)" src="./js/main-phone.js"></script>
