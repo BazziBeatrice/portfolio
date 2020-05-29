@@ -69,7 +69,7 @@ function setup() {
   img4 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/placemaking-intro.jpg");
   p4Hover = select("#p04")
 
-  img5 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/setjettersunited-intro.png");
+  img5 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/setjettersunited-intro.jpg");
   p5Hover = select("#p05")
 
   // img6 = loadImage("https://raw.githubusercontent.com/BazziBeatrice/Portfolio/master/assets/intro/contratempo-intro.gif");
