@@ -4,38 +4,71 @@
 /*VIDEO TOUR X TUTTO-------------------------------------------------------------------------------*/
 @media (min-width: 300px) and (max-width: 3840px) {}
 
-
 /*HOMEPAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
-  .marginten {  margin-top: 2900px;}
+  .marginten {
+    margin-top: 2900px;
+  }
 
-/* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
-.one {background-image: url("../assets/intro/spleen-intro2.jpg")}
-.two {background-image: url("../assets/intro/thelostgallery-intro.jpg")}
-.three {background-image: url("../assets/intro/physicalinternet-intro.jpg")}
-.four {background-image: url("../assets/intro/placemaking-intro.jpg")}
-.five {background-image: url("../assets/intro/setjettersunited-intro.jpg")}
-.six {background-image: url("../assets/intro/contratempo-intro.png")}
-.seven {background-image: url("../assets/intro/outforia_intro2.png")}
+  /* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
+  .one {
+    background-image: url("../assets/intro/spleen-intro2.jpg")
+  }
 
-.fixed-phone {background-attachment: fixed;background-repeat: no-repeat;background-size: 60%;
+  .two {
+    background-image: url("../assets/intro/thelostgallery-intro.jpg")
+  }
+
+  .three {
+    background-image: url("../assets/intro/physicalinternet-intro.jpg")
+  }
+
+  .four {
+    background-image: url("../assets/intro/placemaking-intro.jpg")
+  }
+
+  .five {
+    background-image: url("../assets/intro/setjettersunited-intro.jpg")
+  }
+
+  .six {
+    background-image: url("../assets/intro/contratempo-intro.png")
+  }
+
+  .seven {
+    background-image: url("../assets/intro/outforia_intro2.png")
+  }
+
+  .fixed-phone {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 60%;
     background-position: center center;
     /* height: 100%; */
     width: 100%;
-    z-index:50;text-align: center;
+    z-index: 50;
+    text-align: center;
     /* display: table; */
     display: flex;
   }
-.fixed-phone2 {background-attachment: fixed;background-repeat: no-repeat;background-size: 70%;
-      background-position: center center;
-       /* height: 100%; */
-       width: 100%;
-      /* z-index:50;
-      text-align: center; */
-      /* display: table; */
-    display: flex;}
-.fixed h2 {display: table-cell;vertical-align: middle;}
 
+  .fixed-phone2 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    /* height: 100%; */
+    width: 100%;
+    /* z-index:50;
+      text-align: center; */
+    /* display: table; */
+    display: flex;
+  }
+
+  .fixed h2 {
+    display: table-cell;
+    vertical-align: middle;
+  }
 
   h1 {
     font-family: "maziusDisplay", serif;
@@ -47,10 +80,20 @@
     /* mix-blend-mode: exclusion; */
     /* text-align: left; */
   }
-.shadow-phone{text-shadow: 1px 1px 0 #f1f1f1;;}
-.margin-index-top{margin-top:50%;margin-bottom:50%;}
 
-.margin-index-top2{margin-top:2800px;}
+  .shadow-phone {
+    text-shadow: 1px 1px 0 #f1f1f1;
+    ;
+  }
+
+  .margin-index-top {
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+
+  .margin-index-top2 {
+    margin-top: 2800px;
+  }
 
   h2 {
     font-family: "maziusDisplay", serif;
@@ -58,13 +101,14 @@
     line-height: 3.50rem;
     font-weight: 400;
     text-align: center;
-    }
+  }
 
   /* #main-title {font-size: 38px;} */
+  #main-subtitle {
+    font-size: 28px;
+  }
 
-  #main-subtitle {font-size: 28px;}
-
-  .image-phone{
+  .image-phone {
     z-index: -10;
     display: flex;
     position: fixed;
@@ -74,7 +118,8 @@
     width: 60%;
     height: auto;
   }
-  .image-phone2{
+
+  .image-phone2 {
     z-index: -10;
     display: flex;
     position: fixed;
@@ -84,7 +129,8 @@
     width: 90%;
     height: auto;
   }
-  .image-phone3{
+
+  .image-phone3 {
     z-index: -10;
     display: flex;
     position: fixed;
@@ -448,25 +494,27 @@
     vertical-align: middle;
   }
 
-    /*macchieinarte*/
-    .image-project-4-2 {
-    width:98%;
-    height:98%;
-    display:inline-block;
-    padding-left:15px;
-    padding-top:15px
-    }
-
+  /*macchieinarte*/
+  .image-project-4-2 {
+    width: 98%;
+    height: 98%;
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 15px
+  }
 }
 
 /*HOMEPAGE TABLET----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px) {
+  .marginten {
+    margin-top: 30%;
+    margin-bottom: 40%;
+  }
 
-  .marginten {margin-top: 30%;  margin-bottom: 40%;}
   .description-main {
-      font-family: "neue-haas-grotesk-display";
-      font-size: 1.3rem;
-      line-height: 2.3rem;
+    font-family: "neue-haas-grotesk-display";
+    font-size: 1.3rem;
+    line-height: 2.3rem;
   }
 
   h1 {
@@ -529,6 +577,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .margin-top-phone {
     margin-top: 40%
   }
@@ -540,7 +589,6 @@
   .margin-top-phone {
     margin-top: 50%
   } */
-
   /* #main-title {
     font-size: 44px;
   }
@@ -548,374 +596,381 @@
   #main-subtitle {
     font-size: 34px;
   } */
-
-  .image-phone{
-    display:none;
+  .image-phone {
+    display: none;
   }
 
-  .image-phone2{
-    display:none;
+  .image-phone2 {
+    display: none;
   }
 
-  .image-phone3{
-    display:none;
+  .image-phone3 {
+    display: none;
   }
 
   .icon-arrow-down {
-      margin-top: 3.3rem;
-      height: 2.3%;
-      width: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 3.3rem;
+    height: 2.3%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .driveyourcart-position {
     left: 0%;
   }
 
   .anything-position {
     top: 80px;
-      left: 10%;
+    left: 10%;
   }
+
   .description-setjettersunited {
     position: absolute;
     top: 230px;
     left: 10%;
   }
+
   .row-arrow-about-setjettersunited {
     position: absolute;
     top: 91.4%;
     left: 88%;
-}
-
+  }
 }
 
 /*HOMEPAGE TABLET IPAD-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px) {
+  .marginten {
+    margin-top: 30%;
+    margin-bottom: 0%;
+  }
 
-  .marginten {margin-top: 30%;margin-bottom: 0%;}
   .icon-arrow-down {
-      margin-top: 3.3rem;
-      height: 2.3%;
-      width: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 3.3rem;
+    height: 2.3%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .image-phone{
-    display:none;
+  .image-phone {
+    display: none;
   }
 
-  .image-phone2{
-    display:none;
+  .image-phone2 {
+    display: none;
   }
 
-  .image-phone3{
-    display:none;
+  .image-phone3 {
+    display: none;
   }
 
-/* index */
+  /* index */
   .description-main {
-      font-family: "neue-haas-grotesk-display";
-      font-size: 1.3rem;
-      line-height: 2.3rem;
+    font-family: "neue-haas-grotesk-display";
+    font-size: 1.3rem;
+    line-height: 2.3rem;
   }
 
   #section2 {
-      height: 800px;
+    height: 800px;
   }
 
-    h1 {
-      font-family: "maziusDisplay", serif;
-      font-size: 3.1rem;
-      line-height: 4.1rem;
-      font-weight: 400;
-      text-align: center;
-      margin-top: 3%;
-    }
+  h1 {
+    font-family: "maziusDisplay", serif;
+    font-size: 3.1rem;
+    line-height: 4.1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 3%;
+  }
 
-    h2 {
-      font-family: "maziusDisplay", serif;
-      font-size: 2.8rem;
-  line-height: 4.7rem;
-      font-weight: 400;
-      text-align: center;
-    }
+  h2 {
+    font-family: "maziusDisplay", serif;
+    font-size: 2.8rem;
+    line-height: 4.7rem;
+    font-weight: 400;
+    text-align: center;
+  }
 
-    /* #main-subtitle {
+  /* #main-subtitle {
       font-size: 34px;
       line-height: 50px;
     } */
+  .margin-fifty {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-    .margin-fifty {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
+  .margin-hundred {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-    .margin-hundred {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
+  canvas {
+    pointer-events: none;
+    display: none;
+  }
 
-    canvas {
-      pointer-events: none;
-      display: none;
-    }
+  .paddingnavbar {
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 
-    .paddingnavbar {
-      margin-right: -10px;
-      margin-left: -10px;
-      padding-right: 0px;
-      padding-left: 0px;
-    }
+  #set-jetters-logo {
+    width: 100px;
+  }
 
-    #set-jetters-logo {
-      width: 100px;
-    }
+  .textbar {
+    display: none;
+  }
 
-    .textbar {
-      display: none;
-    }
+  .cover {
+    padding-top: 0.7rem;
+  }
 
-    .cover {
-      padding-top: 0.7rem;
-    }
+  .margintwohundred {
+    margin-top: 50px;
+  }
 
-    .margintwohundred {
-      margin-top: 50px;
-    }
+  .image-carousel {
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .image-carousel {
-      height: auto;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  /* spleen */
+  .image-spleen-page {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
 
-      /* spleen */
-      .image-spleen-page {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-      }
+  /* the lost gallery */
+  .image-thelost-home {
+    margin-top: 0.6%;
+    width: 72%;
+    height: auto;
+  }
 
-      /* the lost gallery */
-      .image-thelost-home {
-        margin-top: 0.6%;
-        width: 72%;
-        height: auto;
-      }
+  .image-outforia {
+    margin-top: 0.6%;
+    height: auto;
+    width: 70%;
+  }
 
-      .image-outforia {
-        margin-top: 0.6%;
-        height: auto;
-        width: 70%;
-      }
+  .image-thelost22 {
+    margin-top: 0.6%;
+    width: 120%;
+    height: auto;
+  }
 
-      .image-thelost22 {
-        margin-top: 0.6%;
-        width: 120%;
-        height: auto;
-      }
+  .image-thelost-1 {
+    display: none;
+  }
 
-      .image-thelost-1 {
-        display: none;
-      }
+  /* the physical internet */
+  .image-project-5 {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
 
-      /* the physical internet */
-      .image-project-5 {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-      }
+  .image-physicalinternet {
+    margin-top: 0.6%;
+    margin-right: 0.6%;
+    height: auto;
+    width: 55%;
+  }
 
-      .image-physicalinternet {
-        margin-top: 0.6%;
-        margin-right: 0.6%;
-        height: auto;
-        width: 55%;
-      }
-
-      /* digital place making */
-      .image-project-protocol2 {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-        display: block;
-        margin-left: 0%;
-      }
-
-      .image-placemaking {
-        margin-top: 0.6%;
-        height: auto%;
-        width: 100%;
-      }
-
-      /* setjetters united */
-      .image-setjettersunited3 {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-      }
-
-      .margineighty {
-        margin-top: 200%;
-      }
-
-      .row-arrow-about-setjettersunited {
-        position: absolute;
-        top: 91.4%;
-        left: 88%;
-    }
-
-      .arrowabout-setjettersunited {
-        font-size: 29.2px;
-      }
-
-      /* contratempo */
-      .image-contratempo {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-      }
-
-      .image-project-11 {
-          margin-top: -45%;
-          height: auto;
-          width: 200%;
-          display: block;
-      }
-
-      .image-project-10 {
-        margin-top: 1.6%;
-        margin-left: -100%;
-        height: auto;
-        width: 200%;
-        display: block;
-      }
-
-      /* outforia */
-      .image-outforia-page {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-      }
-
-      .image-outforia-screen {
-        margin-top: 0.6%;
-        margin-left: 0px;
-        padding-left: 0px;
-      }
-
-      .image-outforia-screen1 {
-        margin-top: 0.6%;
-        margin-left: 60px;
-        padding-left: 10px;
-      }
-
-      /* fuso */
-      .image-fuso {
-        margin-top: 0.6%;
-        height: auto;
-        width: 70%;
-      }
-
-      .image-fuso-book {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-      }
-
-      .image-fuso-book1 {
-        margin-top: 0.6%;
-        height: auto;
-        width: 90%;
-      }
-
-      /* ihavegotnothingtowear */
-      .image-ihavegotnothingtowear-home {
-        margin-top: 0.6%;
-        height: auto;
-        width: 100%;
-      }
-      .image-project-2 {
+  /* digital place making */
+  .image-project-protocol2 {
     margin-top: 0.6%;
     height: auto;
     width: 100%;
     display: block;
-}
-.marginonehundredhalf-top {
+    margin-left: 0%;
+  }
+
+  .image-placemaking {
+    margin-top: 0.6%;
+    height: auto%;
+    width: 100%;
+  }
+
+  /* setjetters united */
+  .image-setjettersunited3 {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
+
+  .margineighty {
+    margin-top: 200%;
+  }
+
+  .row-arrow-about-setjettersunited {
+    position: absolute;
+    top: 91.4%;
+    left: 88%;
+  }
+
+  .arrowabout-setjettersunited {
+    font-size: 29.2px;
+  }
+
+  /* contratempo */
+  .image-contratempo {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
+
+  .image-project-11 {
+    margin-top: -45%;
+    height: auto;
+    width: 200%;
+    display: block;
+  }
+
+  .image-project-10 {
+    margin-top: 1.6%;
+    margin-left: -100%;
+    height: auto;
+    width: 200%;
+    display: block;
+  }
+
+  /* outforia */
+  .image-outforia-page {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
+
+  .image-outforia-screen {
+    margin-top: 0.6%;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-outforia-screen1 {
+    margin-top: 0.6%;
+    margin-left: 60px;
+    padding-left: 10px;
+  }
+
+  /* fuso */
+  .image-fuso {
+    margin-top: 0.6%;
+    height: auto;
+    width: 70%;
+  }
+
+  .image-fuso-book {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
+
+  .image-fuso-book1 {
+    margin-top: 0.6%;
+    height: auto;
+    width: 90%;
+  }
+
+  /* ihavegotnothingtowear */
+  .image-ihavegotnothingtowear-home {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
+
+  .image-project-2 {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .marginonehundredhalf-top {
     margin-top: 0px;
-}
+  }
 
-      #seek-bar {
-        width: 60%;
-      }
+  #seek-bar {
+    width: 60%;
+  }
 
-      #full-screen {
-        bottom: 90%;
-        right: 5%;
-      }
+  #full-screen {
+    bottom: 90%;
+    right: 5%;
+  }
 
-      /* atavola */
-      .image-first-page {
-        margin-top: 0.6%;
-        width: 80%;
-        height: auto;
-      }
+  /* atavola */
+  .image-first-page {
+    margin-top: 0.6%;
+    width: 80%;
+    height: auto;
+  }
 
-      .image-carousel2 {
-        height: auto;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-      }
+  .image-carousel2 {
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-      .image-atavola-page {
-        margin-top: 0.6%;
-        width: 60%;
-        height: auto;
-      }
+  .image-atavola-page {
+    margin-top: 0.6%;
+    width: 60%;
+    height: auto;
+  }
 
-      .margin-atavola {
-        margin-top: 0%;
-        margin-left: -5%;
-      }
+  .margin-atavola {
+    margin-top: 0%;
+    margin-left: -5%;
+  }
 
-      /* lineunit */
-      .image-lineunit {
-        margin-top: 0.6%;
-        width: 80%;
-        height: auto;
-      }
+  /* lineunit */
+  .image-lineunit {
+    margin-top: 0.6%;
+    width: 80%;
+    height: auto;
+  }
 
-      /* thekingofmiami */
-      .image-thekingof-home {
-        margin-top: 0.6%;
-        width: 70%;
-        height: auto;
-      }
+  /* thekingofmiami */
+  .image-thekingof-home {
+    margin-top: 0.6%;
+    width: 70%;
+    height: auto;
+  }
 
-      .image-outforia-screen2 {
-        margin-top: 0.6%;
-        margin-left: 60px;
-        padding-left: 0px;
-      }
+  .image-outforia-screen2 {
+    margin-top: 0.6%;
+    margin-left: 60px;
+    padding-left: 0px;
+  }
 
+  /* spleen */
+  .row-arrow-about-spleen {
+    position: absolute;
+    top: 95.5%;
+    left: 86.6%;
+  }
 
-/* spleen */
-      .row-arrow-about-spleen {
-          position: absolute;
-          top: 95.5%;
-          left: 86.6%;
-      }
-      .arrowabout-category {font-size: 26px;}
+  .arrowabout-category {
+    font-size: 26px;
+  }
 
-      .description-down {
-          margin-top: 0rem;
-          vertical-align: bottom;
-      }
+  .description-down {
+    margin-top: 0rem;
+    vertical-align: bottom;
+  }
 }
 
 /*VIDEO HOME PAGE PHONE----------------------------------------------------------------------------*/
@@ -924,75 +979,81 @@
 /*HOME PAGE TABLET ipad pro----------------------------------------------------------------------------*/
 @media (min-width: 992px) and (max-width: 1024px) {
   h1 {
-      font-family: "maziusDisplay", serif;
-      font-size: 3.5rem;
-      line-height: 4.9rem;
-      font-weight: 400;
-      text-align: center;
-      margin-top: 5%;
+    font-family: "maziusDisplay", serif;
+    font-size: 3.5rem;
+    line-height: 4.9rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5%;
   }
-h2 {
+
+  h2 {
     font-family: "maziusDisplay", serif;
     font-size: 2.7rem;
     line-height: 4.50rem;
     font-weight: 400;
     text-align: center;
     margin-top: 2%;
-}
-.icon-arrow-down {
-  height: 3%;
-}
-/* setjettersunited */
-.row-arrow-about-setjettersunited {
+  }
+
+  .icon-arrow-down {
+    height: 3%;
+  }
+
+  /* setjettersunited */
+  .row-arrow-about-setjettersunited {
     position: absolute;
     top: 90.4%;
     left: 52%;
-}
+  }
 
-#seek-bar {
+  #seek-bar {
     width: 70%;
-}
-.margin-atavola {
+  }
+
+  .margin-atavola {
     margin-top: 0%;
     margin-left: 5%;
-}
-/* outforia */
-.image-outforia-page {
-  margin-top: 0.6%;
-  height: auto;
-  width: 100%;
+  }
+
+  /* outforia */
+  .image-outforia-page {
+    margin-top: 0.6%;
+    height: auto;
+    width: 100%;
+  }
 }
 
-}
 /*VIDEO HOME PAGE TABLET IPAD----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px) {}
 
 /*HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1400px) {
-  .image-phone{
-    display:none;
+  .image-phone {
+    display: none;
   }
 
-  .image-phone2{
-    display:none;
+  .image-phone2 {
+    display: none;
   }
 
-  .image-phone3{
-    display:none;
+  .image-phone3 {
+    display: none;
   }
 }
+
 /*HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
 @media (min-width: 1400px) and (max-width: 3800px) {
-  .image-phone{
-    display:none;
+  .image-phone {
+    display: none;
   }
 
-  .image-phone2{
-    display:none;
+  .image-phone2 {
+    display: none;
   }
 
-  .image-phone3{
-    display:none;
+  .image-phone3 {
+    display: none;
   }
 }
 
@@ -1011,8 +1072,6 @@ h2 {
   #full-img-desktop {
     display: none;
   }
-
-
 }
 
 /*CATEGORY TABLET----------------------------------------------------------------------------*/
@@ -1030,7 +1089,6 @@ h2 {
   #full-img-desktop {
     display: none;
   }
-
 }
 
 /*CATEGORY PROIETTORE----------------------------------------------------------------------------*/
@@ -1058,11 +1116,17 @@ h2 {
 @media (max-width: 576px) {
 
   /*Change category btn*/
-  .menucategory {padding: 3px 7px;}
+  .menucategory {
+    padding: 3px 7px;
+  }
 
-  .currentcategory {padding: 3px 7px;}
+  .currentcategory {
+    padding: 3px 7px;
+  }
 
-  p:hover .extra {display: none;}
+  p:hover .extra {
+    display: none;
+  }
 
   /*Carousel*/
   .carousel {
@@ -1097,7 +1161,9 @@ h2 {
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /*Carousel*/
-  .carousel {margin-bottom: 50px;}
+  .carousel {
+    margin-bottom: 50px;
+  }
 
   /* .freccia {margin-top: 120px;} */
 }
@@ -1107,11 +1173,11 @@ h2 {
 
   /*Carousel*/
   /* .freccia {  margin-top: 430px;} */
-
   /*Reviews*/
-  .marginbottom-review {margin-bottom: 2rem;}
+  .marginbottom-review {
+    margin-bottom: 2rem;
+  }
 }
-
 
 /*ABOUT PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
@@ -1119,14 +1185,17 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .margin-hundred {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .fixed {
     position: relative;
   }
-/* placemaking - setjettersunited */
+
+  /* placemaking - setjettersunited */
   .carousel-margin-about {
     margin-left: 0px;
     margin-right: 0px;
@@ -1144,11 +1213,19 @@ h2 {
     padding-right: 0.3rem;
     padding-top: 3rem;
   } */
-
   /*Footer Area*/
-  .lists {margin-bottom: 3rem;}
-  ul {list-style: none;  font-size: 15px;}
-  .ul-b {font-weight: 800;}
+  .lists {
+    margin-bottom: 3rem;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 15px;
+  }
+
+  .ul-b {
+    font-weight: 800;
+  }
 }
 
 /*ABOUT TABLET-----------------------------------------------------------------------------*/
@@ -1157,19 +1234,23 @@ h2 {
     margin-left: 25px;
     margin-right: 25px;
   }
+
   .fixed {
     position: relative;
   }
+
   .carousel-margin-about {
     margin-left: 50px;
     margin-right: 0px;
     margin-top: 50px;
   }
+
   .row-arrow-about {
     position: absolute;
     top: 92.5%;
     left: 85.5%;
   }
+
   ul {
     list-style: none;
     font-size: 20px;
@@ -1177,6 +1258,7 @@ h2 {
     margin-right: 0rem;
     margin-left: 0rem;
   }
+
   .ul-b {
     font-weight: 800;
   }
@@ -1189,6 +1271,7 @@ h2 {
     margin-right: 0px;
     margin-top: 50px;
   }
+
   .row-arrow-about {
     position: absolute;
     top: 92.5%;
@@ -1627,7 +1710,8 @@ h2 {
   .arrowabout {
     font-size: 45px;
   }
-/*placemaking - setjetters united - spleen*/
+
+  /*placemaking - setjetters united - spleen*/
   .about-rect-slideshow {
     padding-top: 40px;
   }
@@ -1637,6 +1721,7 @@ h2 {
     top: 93%;
     left: 84.8%;
   }
+
   /*atavola - setjetters united - the lost gallery - spleen*/
   .rect-arrow-about {
     padding-top: 1px;
@@ -1646,7 +1731,16 @@ h2 {
   }
 
   /*about footer*/
-  .lists {margin-top: 6rem;margin-bottom: 4rem;  }
-  ul {font-size: 40px;}
-  li.ul-b {  margin-bottom: 2rem;  }
+  .lists {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
+
+  ul {
+    font-size: 40px;
+  }
+
+  li.ul-b {
+    margin-bottom: 2rem;
+  }
 }

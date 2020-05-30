@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+
+/*HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .image-phone {
+    display: none;
+  }
+
+  .image-phone2 {
+    display: none;
+  }
+
+  .image-phone3 {
+    display: none;
+  }
+}
+
+/*HOME PAGE PROIETTORE----------------------------------------------------------------------------*/
+@media (min-width: 1400px) and (max-width: 3800px) {
+  .image-phone {
+    display: none;
+  }
+
+  .image-phone2 {
+    display: none;
+  }
+
+  .image-phone3 {
+    display: none;
+  }
+}
+
+/*CATEGORY PROIETTORE----------------------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+  p.price {
+    float: left;
+    display: block;
+    text-align: right;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+  }
+
+  .serietitle {
+    display: block;
+    margin-bottom: 7px;
+  }
+
+  h5 {
+    font-size: 17px;
+  }
+}
+
+/*ABOUT PROIETTORE-----------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .row-arrow-about {
+    position: absolute;
+    top: 92.5%;
+    left: 82.4%;
+  }
+}
