@@ -10,7 +10,8 @@
   .marginten {  margin-top: 2900px;}
   .marginten {  margin-top: 2900px;}
 
-.one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")}
+/* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
+.one {background-image: url("../assets/intro/spleen-intro2.jpg")}
 .two {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/thelostgallery-intro.jpg")}
 .three {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/physicalinternet-intro.jpg")}
 .four {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/placemaking-intro.jpg")}
