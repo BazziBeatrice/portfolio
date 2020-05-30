@@ -1,4 +1,4 @@
-JavaScript Document
+// JavaScript Document
 
 if ($(window).width() < 768) {
   $("#image-phone-01").show();
