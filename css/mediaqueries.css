@@ -8,6 +8,25 @@
 /*HOMEPAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
   .marginten {  margin-top: 2900px;}
+  .marginten {  margin-top: 2900px;}
+
+.one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")}
+.two {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/thelostgallery-intro.jpg")}
+.three {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/physicalinternet-intro.jpg")}
+.four {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/placemaking-intro.jpg")}
+.five {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/setjettersunited-intro.jpg")}
+.six {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/contratempo-intro.png")}
+.seven {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/outforia_intro2.png")}
+
+.fixed-phone {background-attachment: fixed;background-repeat: no-repeat;background-size: 60%;
+    background-position: center center;height: 100%;width: 100%;
+    z-index:50;text-align: center;display: table;}
+.fixed-phone2 {background-attachment: fixed;background-repeat: no-repeat;background-size: 70%;
+      background-position: center center;  height: 100%;width: 100%;
+      z-index:50;text-align: center;display: table;}
+.fixed h2 {display: table-cell;vertical-align: middle;}
+.scroll {background-color: #ffe0f6;padding: 10px 70px;color: #666666;}
+
 
   h1 {
     font-family: "maziusDisplay", serif;
