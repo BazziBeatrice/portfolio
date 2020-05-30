@@ -88,11 +88,11 @@ if ($(window).width() < 768) {
 // window.setTimeout(function(){loader.style.height="500px";loader.style.width="500px";loader.style.visibility ="hidden";}, 2000);
 
 /* Open */
-function openNav() {
-  document.getElementById("myNav").style.display = "block";
-}
+// function openNav() {
+//   document.getElementById("myNav").style.display = "block";
+// }
 
 /* Close */
-function closeNav() {
-  document.getElementById("myNav").style.display = "none";
-}
+// function closeNav() {
+//   document.getElementById("myNav").style.display = "none";
+// }
