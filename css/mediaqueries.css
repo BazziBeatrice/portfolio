@@ -47,33 +47,33 @@
 
   .image-phone{
     z-index: -10;
-      display: flex;
-      position: fixed;
-      overflow-x: scroll;
-      top: 25%;
-      left: 20%;
-      width: 60%;
-      height: auto;
+    display: flex;
+    position: fixed;
+    overflow-x: scroll;
+    top: 25%;
+    left: 20%;
+    width: 60%;
+    height: auto;
   }
   .image-phone2{
     z-index: -10;
-      display: flex;
-      position: fixed;
-      overflow-x: scroll;
-      top: 35%;
-      left: 3%;
-      width: 90%;
-      height: auto;
+    display: flex;
+    position: fixed;
+    overflow-x: scroll;
+    top: 35%;
+    left: 3%;
+    width: 90%;
+    height: auto;
   }
   .image-phone3{
     z-index: -10;
-      display: flex;
-      position: fixed;
-      overflow-x: scroll;
-      top: 30%;
-      left: 20%;
-      width: 60%;
-      height: auto;
+    display: flex;
+    position: fixed;
+    overflow-x: scroll;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    height: auto;
   }
 
   .margin-fifty {
