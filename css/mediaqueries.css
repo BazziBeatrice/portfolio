@@ -38,14 +38,9 @@
     /* text-align: left; */
   }
 .shadow-phone{text-shadow: 1px 1px 0 #f1f1f1;;}
-.margin-index-top{
-  margin-top:50%;
-  margin-bottom:50%;
-}
+.margin-index-top{margin-top:50%;margin-bottom:50%;}
 
-.margin-index-top2{
-  margin-top:2800px;
-}
+.margin-index-top2{margin-top:2800px;}
 
   h2 {
     font-family: "maziusDisplay", serif;
@@ -55,13 +50,9 @@
     text-align: center;
     }
 
-  /* #main-title {
-    font-size: 38px;
-  } */
+  /* #main-title {font-size: 38px;} */
 
-  #main-subtitle {
-    font-size: 28px;
-  }
+  #main-subtitle {font-size: 28px;}
 
   .image-phone{
     z-index: -10;
