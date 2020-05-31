@@ -130,13 +130,10 @@
   }
 
   /* #main-title {font-size: 38px;} */
-  #main-subtitle {
-    font-size: 28px;
-  }
-  .curriculum-description {
-   font-size: 1.3rem;
-   line-height: 2.2rem;
-}
+#main-subtitle,#main-subtitle-1,#main-subtitle-2,#main-subtitle-3,#main-subtitle-4,#main-subtitle-5,#main-subtitle-6,#main-subtitle-7,#main-subtitle-8,#main-subtitle-9,#main-subtitle-10,#main-subtitle-11,#main-subtitle-12 {
+    font-size: 28px;}
+
+.curriculum-description {font-size: 1.3rem;line-height: 2.2rem;}
 
   /* .image-phone {
     z-index: -10;
@@ -182,6 +179,10 @@
   }
 
   canvas {
+    pointer-events: none;
+    display: none;
+  }
+  .canvas {
     pointer-events: none;
     display: none;
   }
@@ -1531,11 +1532,8 @@
     line-height: 15rem;
   }
 
-  #main-subtitle {
-    font-size: 100px;
-    font-weight: 800;
-    color: #F39200;
-  }
+  #main-subtitle,#main-subtitle-1,#main-subtitle-2,#main-subtitle-3,#main-subtitle-4,#main-subtitle-5,#main-subtitle-6,#main-subtitle-7,#main-subtitle-8,#main-subtitle-9,#main-subtitle-10,#main-subtitle-11,#main-subtitle-12 {
+    font-size: 100px;font-weight: 800;color: #F39200;}
 
   .cover {
     padding-top: 47rem;
