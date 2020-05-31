@@ -9,34 +9,33 @@
   .marginten {
     margin-top: 2900px;
   }
-
   /* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
   .one {
-    background-image: url("../assets/intro/spleen-intro2.jpg")
+    background-image: url(../assets/intro/spleen-intro2.jpg)
   }
 
   .two {
-    background-image: url("../assets/intro/thelostgallery-intro.jpg")
+    background-image: url(../assets/intro/thelostgallery-intro.jpg)
   }
 
   .three {
-    background-image: url("../assets/intro/physicalinternet-intro.jpg")
+    background-image: url(../assets/intro/physicalinternet-intro.jpg)
   }
 
   .four {
-    background-image: url("../assets/intro/placemaking-intro.jpg")
+    background-image: url(../assets/intro/placemaking-intro.jpg)
   }
 
   .five {
-    background-image: url("../assets/intro/setjettersunited-intro.jpg")
+    background-image: url(../assets/intro/setjettersunited-intro.jpg)
   }
 
   .six {
-    background-image: url("../assets/intro/contratempo-intro.png")
+    background-image: url(../assets/intro/contratempo-intro.png)
   }
 
   .seven {
-    background-image: url("../assets/intro/outforia_intro2.png")
+    background-image: url(../assets/intro/outforia_intro2.png)
   }
 
   .fixed-phone {
