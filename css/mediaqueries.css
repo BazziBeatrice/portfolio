@@ -33,6 +33,7 @@
   .one {
     background-image: url(../assets/intro/spleen-intro2.jpg);
     visibility: visible;
+    background-color: #cccccc;
   }
 
   .two {
