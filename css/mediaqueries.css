@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 /* CSS Document */
-/*VIDEO TOUR X TUTTO-------------------------------------------------------------------------------*/
-@media (min-width: 300px) and (max-width: 3840px) {}
 
 /*HOMEPAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
@@ -116,7 +114,7 @@
     font-size: 28px;
   }
 
-  .image-phone {
+  /* .image-phone {
     z-index: -10;
     display: flex;
     position: fixed;
@@ -147,7 +145,7 @@
     left: 20%;
     width: 60%;
     height: auto;
-  }
+  } */
 
   .margin-fifty {
     margin-left: 10px;
@@ -981,8 +979,6 @@
   }
 }
 
-/*VIDEO HOME PAGE PHONE----------------------------------------------------------------------------*/
-@media (max-width: 576px) {}
 
 /*HOME PAGE TABLET ipad pro----------------------------------------------------------------------------*/
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1067,19 +1063,9 @@
 
 /*CATEGORY PAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
-  .full-img {
-    object-fit: cover;
-    overflow: hidden;
-    object-position: 30%;
-  }
-
-  #full-img-phone {
-    display: block;
-  }
-
-  #full-img-desktop {
-    display: none;
-  }
+  .full-img {object-fit: cover;overflow: hidden;object-position: 30%;}
+  #full-img-phone {display: block;}
+  #full-img-desktop {display: none;}
 }
 
 /*CATEGORY TABLET----------------------------------------------------------------------------*/
