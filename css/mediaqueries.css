@@ -9,7 +9,15 @@
   .marginten {
     margin-top: 2900px;
   }
-  body {padding:0;margin:0;color:#000;background-color:#fff;font-size:0.8rem;}
+
+  body {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+    font-size: 0.8rem;
+  }
+
   /* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
   .one {
     background-image: url(../assets/intro/spleen-intro2.jpg)
