@@ -14,7 +14,6 @@
     color: #000;
     background-color: #fff;
     font-size: 0.8rem;
-    min-height:100%;
   }
 
   .hover-nav:after{
@@ -31,9 +30,7 @@
   }
 
   /* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
-  .one {background-image: url(../assets/intro/spleen-intro2.jpg)no-repeat center center;
-min-height:100%;
-background-size:cover;}
+  .one {background-image: url(../assets/intro/spleen-intro2.jpg)}
   .two {background-image: url(../assets/intro/thelostgallery-intro.jpg);}
   .three {background-image: url(../assets/intro/physicalinternet-intro.jpg);}
   .four {background-image: url(../assets/intro/placemaking-intro.jpg);}
@@ -42,7 +39,7 @@ background-size:cover;}
   .seven {background-image: url(../assets/intro/outforia_intro2.png);}
 
   .fixed-phone {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center center;
@@ -54,7 +51,7 @@ background-size:cover;}
   }
 
   .fixed-phone2 {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center center;

@@ -87,10 +87,4 @@ $("#pers-hover").hide();$("#cal-hover").hide();$("#adv-hover").hide();$("#col-ho
     $("#categories-spleen #col").css("opacity", 1);
     $("#categories-spleen #col-hover").hide();
   });
-
-// $(".p01").hover(function() {
-//   $(".text-over").show();
-// }, function() {
-//   $(".text-over").hide();
-// });
 });
