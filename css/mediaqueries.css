@@ -16,33 +16,53 @@
     font-size: 0.8rem;
   }
 
+  .hover-nav:after{
+      display:none;
+    }
+.hover-nav2:after{
+    display:none;
+  }
+  .hover-nav3:after{
+      display:none;
+    }
+.hover-nav4:after{
+    display:none;
+  }
+
   /* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
   .one {
-    background-image: url(../assets/intro/spleen-intro2.jpg)
+    background-image: url(../assets/intro/spleen-intro2.jpg);
+    visibility: visible;
   }
 
   .two {
-    background-image: url(../assets/intro/thelostgallery-intro.jpg)
+    background-image: url(../assets/intro/thelostgallery-intro.jpg);
+    visibility: visible;
   }
 
   .three {
-    background-image: url(../assets/intro/physicalinternet-intro.jpg)
+    background-image: url(../assets/intro/physicalinternet-intro.jpg);
+    visibility: visible;
   }
 
   .four {
-    background-image: url(../assets/intro/placemaking-intro.jpg)
+    background-image: url(../assets/intro/placemaking-intro.jpg);
+    visibility: visible;
   }
 
   .five {
-    background-image: url(../assets/intro/setjettersunited-intro.jpg)
+    background-image: url(../assets/intro/setjettersunited-intro.jpg);
+    visibility: visible;
   }
 
   .six {
-    background-image: url(../assets/intro/contratempo-intro.png)
+    background-image: url(../assets/intro/contratempo-intro.png);
+    visibility: visible;
   }
 
   .seven {
-    background-image: url(../assets/intro/outforia_intro2.png)
+    background-image: url(../assets/intro/outforia_intro2.png);
+    visibility: visible;
   }
 
   .fixed-phone {
@@ -113,6 +133,10 @@
   #main-subtitle {
     font-size: 28px;
   }
+  .curriculum-description {
+   font-size: 1.3rem;
+   line-height: 2.2rem;
+}
 
   /* .image-phone {
     z-index: -10;

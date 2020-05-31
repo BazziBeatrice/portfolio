@@ -710,7 +710,7 @@ position:relative
 }
 
 .hover-nav3:after {
-    margin-left: 20px;
+margin-left: 20px;
 content:'';
 position:absolute;
 width:0;
