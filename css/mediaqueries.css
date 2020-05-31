@@ -30,9 +30,9 @@
   }
 
   /* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
-  .one {background-image: url(../assets/intro/spleen-intro2.jpg)}
-  .two {background-image: url(../assets/intro/thelostgallery-intro.jpg);}
-  .three {background-image: url(../assets/intro/physicalinternet-intro.jpg);}
+  .one {background-image: url(../assets/intro/spleen-intro-phone.jpg)}
+  .two {background-image: url(../assets/intro/thelostgallery-intro-phone.jpg);}
+  .three {background-image: url(../assets/intro/physicalinternet-intro-phone.jpg);}
   .four {background-image: url(../assets/intro/placemaking-intro.jpg);}
   .five {background-image: url(../assets/intro/setjettersunited-intro.jpg);}
   .six {background-image: url(../assets/intro/contratempo-intro.png);}
