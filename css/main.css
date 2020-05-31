@@ -19,7 +19,7 @@ font-display: swap;}
 .default-wh {cursor:url(../assets/images/cursor/defaultcursorwh.svg),default}
 .pointerwh {cursor:url(../assets/images/cursor/pressingcursorwh.svg),pointer}
 
-$animate: all 0.2s ease-in-out;
+/* $animate: all 0.2s ease-in-out; */
 :root {
 --txt-normal:1.1rem;
 --txt-medium:1.875rem;
@@ -93,7 +93,7 @@ position:absolute;
 top:0
 }
 
-@media screen and (max-width: 50em) {
+/* @media screen and (max-width: 50em) {
   .one {background-image: url(../assets/intro/spleen-intro2.jpg);}
   .two {background-image: url(../assets/intro/thelostgallery-intro.jpg);}
   .three {background-image: url(../assets/intro/physicalinternet-intro.jpg);}
@@ -101,7 +101,7 @@ top:0
   .five {background-image: url(../assets/intro/setjettersunited-intro.jpg);}
   .six {background-image: url(../assets/intro/contratempo-intro.png);}
   .seven {background-image: url(../assets/intro/outforia_intro2.png);}
-}
+} */
 
 .description-down {margin-top:4rem;vertical-align:bottom}
 
@@ -137,15 +137,6 @@ bottom:0;
 left:0;
 width:100%
 }
-
-/* .icon-arrow-down {
-margin-top:3.3rem;
-height:2.3%;
-width:auto;
-display:block;
-margin-left:auto;
-margin-right:auto
-} */
 .icon-arrow-down {
 margin-top:3.3rem;
 height:13%;
@@ -1026,7 +1017,7 @@ border:1.5px solid #000
 padding-top:1px;
 width:45px;
 height:45px;
-border:1.5px solid #EFEFEF
+border:1.5px solid #EFEFEF;
 }
 
 .arrowabout {
@@ -1034,7 +1025,7 @@ font-size:30px;
 margin:auto;
 text-align:center;
 vertical-align:middle;
-color:#00000
+color:#000000;
 }
 
 .arrowabout-setjettersunited {
@@ -1042,7 +1033,7 @@ font-size:24px;
 margin:auto;
 text-align:center;
 vertical-align:middle;
-color:#00000
+color:#000000;
 }
 
 .arrowabout-white {
@@ -1050,14 +1041,14 @@ font-size:30px;
 margin:auto;
 text-align:center;
 vertical-align:middle;
-color:#EFEFEF
+color:#EFEFEF;
 }
 
 .arrowabout-white:hover {
 text-decoration:none;
 padding:0;
 margin:0;
-color:#EFEFEF
+color:#EFEFEF;
 }
 
 .arrowabout-category {
@@ -1065,7 +1056,7 @@ font-size:30px;
 line-height:32px;
 margin:auto;
 vertical-align:middle;
-color:#EFEFEF
+color:#EFEFEF;
 }
 
 .row-arrow-about {

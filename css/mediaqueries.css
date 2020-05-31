@@ -14,6 +14,7 @@
     color: #000;
     background-color: #fff;
     font-size: 0.8rem;
+    min-height:100%;
   }
 
   .hover-nav:after{
@@ -30,7 +31,9 @@
   }
 
   /* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
-  .one {background-image: url(../assets/intro/spleen-intro2.jpg);}
+  .one {background-image: url(../assets/intro/spleen-intro2.jpg)no-repeat center center;
+min-height:100%;
+background-size:cover;}
   .two {background-image: url(../assets/intro/thelostgallery-intro.jpg);}
   .three {background-image: url(../assets/intro/physicalinternet-intro.jpg);}
   .four {background-image: url(../assets/intro/placemaking-intro.jpg);}
@@ -45,9 +48,8 @@
     background-position: center center;
     /* height: 100%; */
     width: 100%;
-    z-index: 50;
-    text-align: center;
-    /* display: table; */
+    /* z-index: 50;
+    text-align: center; */
     display: flex;
   }
 
@@ -251,7 +253,7 @@
 
   .image-placemaking {
     margin-top: 0.6%;
-    height: auto%;
+    height: auto;
     width: 100%;
   }
 
@@ -803,7 +805,7 @@
 
   .image-placemaking {
     margin-top: 0.6%;
-    height: auto%;
+    height: auto;
     width: 100%;
   }
 
