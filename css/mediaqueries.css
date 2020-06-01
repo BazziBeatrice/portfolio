@@ -120,6 +120,7 @@
   }
 
   .p5Canvas {
+    pointer-events: none;
     display: none;
   }
 
