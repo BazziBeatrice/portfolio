@@ -38,10 +38,10 @@
   .six {background-image: url(../assets/intro/contratempo-intro-phone.png);}
   .seven {background-image: url(../assets/intro/outforia_intro-phone.png);}
 
-  /* .default {display:none}
+  .default {display:none}
   .pointer {display:none}
   .default-wh {display:none}
-  .pointerwh {display:none} */
+  .pointerwh {display:none}
 
   .fixed-phone {
     background-attachment: scroll;
@@ -110,6 +110,7 @@
     font-size: 28px;}
 
 .curriculum-description {font-size: 1.3rem;line-height: 2.2rem;}
+.p5Canvas{display:none;}
 
   /* .image-phone {
     z-index: -10;
