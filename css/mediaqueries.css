@@ -32,6 +32,14 @@
     display: none;
   }
 
+  .description {
+      font-size: 1.3rem;
+      line-height: 2.3rem;
+  }
+  .description-main {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
   /* .one {background-image: url("https://raw.githubusercontent.com/BazziBeatrice/portfolio/master/assets/intro/spleen-intro2.jpg")} */
   /* .one {background-image: url(../assets/intro/spleen-intro-phone.jpg)}
 
@@ -79,8 +87,10 @@
 
   h1 {
     font-family: "maziusDisplay", serif;
-    font-size: 3rem;
-    line-height: 3.5rem;
+    /* font-size: 3rem;
+    line-height: 3.5rem; */
+    font-size: 1.8rem;
+    line-height: 2.8rem;
     font-weight: 400;
     text-align: center;
     /* margin-top:40px; */
@@ -358,9 +368,10 @@
     height: auto;
     width: 100%;
   }
-
+  #video-controls2 {
+    bottom: 87%;}
   #seek-bar {
-    width: 70%;
+    width: 60%;
   }
 
   #full-screen {
@@ -440,15 +451,15 @@
 
   .description-physicalinternet {
     font-family: "neue-haas-grotesk-display", serif;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
     font-weight: 400;
   }
 
   .arrowabouttext-white {
     font-family: "neue-haas-grotesk-display", serif;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
     font-weight: 400;
     vertical-align: middle;
     margin: auto;
@@ -469,10 +480,14 @@
     margin-right: 0px;
   }
 
-  .arrowabouttext {
+  /* .arrowabouttext {
     font-size: 1.5rem;
     line-height: 1.5rem;
-  }
+  } */
+  .arrowabouttext {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
 
   .row-arrow-about {
     position: absolute;
@@ -482,15 +497,20 @@
 
   .row-arrow-about-digitalplacemaking {
     position: absolute;
-    top: 61%;
+    top: 56%;
     left: 67%;
   }
 
-  .row-arrow-about-spleen {
+  /* .row-arrow-about-spleen {
     position: absolute;
     top: 82%;
     left: 72.5%;
-  }
+  } */
+  .row-arrow-about-spleen {
+    position: absolute;
+    top: 89%;
+    left: 72.5%;
+}
 
   .nopadding {
     padding-right: 0px;
