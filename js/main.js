@@ -13,9 +13,3 @@ loader.style.visibility = "hidden"; }, 2000);
 /* Close */
 // function closeNav() {document.getElementById("myNav").style.display = "none";}
 });
-
-// $(window).scroll(function() {
-//   var scrolledY = $(window).scrollTop();
-//   $('#fixed-phone').css('background-position', 'center ' + ((scrolledY)) + 'px');
-//     $('#fixed-phone2').css('background-position', 'center ' + ((scrolledY)) + 'px');
-// });
