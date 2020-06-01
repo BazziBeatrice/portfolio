@@ -81,7 +81,7 @@ line-height:2.4rem;
 font-weight:400;
 color:#000;
 position:absolute;
-top:-200px
+top:-200px;
 }
 
 .description-physicalinternet {
@@ -90,18 +90,8 @@ font-size:1.4rem;
 line-height:2.4rem;
 font-weight:400;
 position:absolute;
-top:0
+top:0;
 }
-
-/* @media screen and (max-width: 50em) {
-  .one {background-image: url(../assets/intro/spleen-intro2.jpg);}
-  .two {background-image: url(../assets/intro/thelostgallery-intro.jpg);}
-  .three {background-image: url(../assets/intro/physicalinternet-intro.jpg);}
-  .four {background-image: url(../assets/intro/placemaking-intro.jpg);}
-  .five {background-image: url(../assets/intro/setjettersunited-intro.jpg);}
-  .six {background-image: url(../assets/intro/contratempo-intro.png);}
-  .seven {background-image: url(../assets/intro/outforia_intro2.png);}
-} */
 
 .description-down {margin-top:4rem;vertical-align:bottom}
 
