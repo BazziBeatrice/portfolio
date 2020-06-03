@@ -10,10 +10,6 @@ font-display: swap;}
 src:url(../assets/fonts/MAZIUSREVIEW20.09-Italic.woff2) format("woff2"),url(../assets/fonts/MAZIUSREVIEW20.09-Italic.woff) format("woff");
 font-display: swap;}
 
-@font-face {font-family:'maziusDisplay';font-weight:300;font-style:italic;
-src:url(../assets/fonts/MAZIUSREVIEW20.09-Extraitalic.woff2) format("woff2"),url(../assets/fonts/MAZIUSREVIEW20.09-Extraitalic.woff) format("woff");
-font-display: swap;}
-
 .default {cursor:url(../assets/images/cursor/defaultcursor.svg),default}
 .pointer {cursor:url(../assets/images/cursor/pressingcursor.svg),pointer}
 .default-wh {cursor:url(../assets/images/cursor/defaultcursorwh.svg),default}
